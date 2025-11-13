@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="C743AA4F-10CA-4F49-9DC6-E25F1DBD0E59_1725208224" name="BOR - Shipyard - 7.5.7" description="">
+    <patches>
+      <patch extension="ego_dlc_pirate" version="710" name="Tides of Avarice"/>
+      <patch extension="ego_dlc_boron" version="710" name="Kingdom End"/>
+    </patches>
+    <entry index="1" macro="storage_bor_l_container_01_macro">
+      <offset>
+        <position x="-2208.473" y="1396.015" z="2446.464"/>
+        <rotation yaw="180"/>
+      </offset>
+    </entry>
+    <entry index="2" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="1" connection="con_snap_04"/>
+      <offset>
+        <position x="-2208.474" y="-203.985" z="2446.465"/>
+        <rotation yaw="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="3" macro="hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="1" connection="con_snap_02"/>
+      <offset>
+        <position x="-2208.473" y="1396.014" z="1246.464"/>
+        <rotation yaw="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="4" macro="storage_bor_l_container_01_macro" connection="con_snap_01">
+      <predecessor index="3" connection="con_snap_02"/>
+      <offset>
+        <position x="-2208.472" y="1396.012" z="46.464"/>
+        <rotation yaw="179.99995"/>
+      </offset>
+    </entry>
+    <entry index="5" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="4" connection="con_snap_04"/>
+      <offset>
+        <position x="-2208.471" y="-203.988" z="46.465"/>
+        <rotation yaw="179.99994"/>
+      </offset>
+    </entry>
+    <entry index="6" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="5" connection="con_snap_01"/>
+      <offset>
+        <position x="-2208.473" y="-203.986" z="1246.465"/>
+        <rotation yaw="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="7" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="4" connection="con_snap_02"/>
+      <offset>
+        <position x="-2208.471" y="1396.011" z="-1153.536"/>
+      </offset>
+    </entry>
+    <entry index="8" macro="storage_bor_l_container_01_macro" connection="con_snap_01">
+      <predecessor index="7" connection="con_snap_04"/>
+      <offset>
+        <position x="-2208.471" y="1396.01" z="-2353.537"/>
+        <rotation yaw="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="9" macro="buildmodule_bor_ships_xl_macro" connection="con_snap_02">
+      <predecessor index="8" connection="con_snap_06"/>
+      <offset>
+        <position x="-8.471" y="1396.01" z="-2353.537"/>
+      </offset>
+    </entry>
+    <entry index="10" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="8" connection="con_snap_04"/>
+      <offset>
+        <position x="-2208.471" y="-203.99" z="-2353.535"/>
+        <rotation yaw="179.99998"/>
+      </offset>
+    </entry>
+    <entry index="11" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="10" connection="con_snap_01"/>
+      <offset>
+        <position x="-2208.471" y="-203.989" z="-1153.535"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="12" macro="storage_bor_l_container_01_macro" connection="con_snap_06">
+      <predecessor index="9" connection="con_snap_01"/>
+      <offset>
+        <position x="2191.529" y="1396.011" z="-2353.537"/>
+      </offset>
+    </entry>
+    <entry index="13" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="12" connection="con_snap_04"/>
+      <offset>
+        <position x="2191.529" y="-203.99" z="-2353.536"/>
+      </offset>
+    </entry>
+    <entry index="14" macro="hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="12" connection="con_snap_02"/>
+      <offset>
+        <position x="2191.528" y="1396.012" z="-1153.537"/>
+      </offset>
+    </entry>
+    <entry index="15" macro="storage_bor_l_container_01_macro" connection="con_snap_01">
+      <predecessor index="14" connection="con_snap_02"/>
+      <offset>
+        <position x="2191.528" y="1396.013" z="46.462"/>
+      </offset>
+    </entry>
+    <entry index="16" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="15" connection="con_snap_04"/>
+      <offset>
+        <position x="2191.527" y="-203.987" z="46.464"/>
+      </offset>
+    </entry>
+    <entry index="17" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="16" connection="con_snap_01"/>
+      <offset>
+        <position x="2191.528" y="-203.988" z="-1153.536"/>
+        <rotation yaw="-90.00003"/>
+      </offset>
+    </entry>
+    <entry index="18" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="15" connection="con_snap_02"/>
+      <offset>
+        <position x="2191.527" y="1396.014" z="1246.463"/>
+        <rotation yaw="179.99995"/>
+      </offset>
+    </entry>
+    <entry index="19" macro="storage_bor_l_container_01_macro" connection="con_snap_01">
+      <predecessor index="18" connection="con_snap_04"/>
+      <offset>
+        <position x="2191.526" y="1396.015" z="2446.463"/>
+      </offset>
+    </entry>
+    <entry index="20" macro="buildmodule_bor_ships_xl_macro" connection="con_snap_02">
+      <predecessor index="19" connection="con_snap_06"/>
+      <offset>
+        <position x="-8.473" y="1396.016" z="2446.463"/>
+        <rotation yaw="-179.99997" pitch="-0.00012248"/>
+      </offset>
+    </entry>
+    <entry index="21" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="19" connection="con_snap_04"/>
+      <offset>
+        <position x="2191.526" y="-203.985" z="2446.464"/>
+      </offset>
+    </entry>
+    <entry index="22" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="21" connection="con_snap_01"/>
+      <offset>
+        <position x="2191.526" y="-203.986" z="1246.464"/>
+        <rotation yaw="-89.99998"/>
+      </offset>
+    </entry>
+    <entry index="23" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="10" connection="con_snap_06"/>
+      <offset>
+        <position x="-1008.471" y="-203.991" z="-2353.535"/>
+        <rotation yaw="-89.99998"/>
+      </offset>
+    </entry>
+    <entry index="24" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="2" connection="con_snap_06"/>
+      <offset>
+        <position x="-1008.474" y="-203.986" z="2446.466"/>
+        <rotation yaw="-90" roll="-0.000232226"/>
+      </offset>
+    </entry>
+    <entry index="25" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="21" connection="con_snap_06"/>
+      <offset>
+        <position x="991.526" y="-203.985" z="2446.465"/>
+        <rotation yaw="90.00001" roll="0.000231763"/>
+      </offset>
+    </entry>
+    <entry index="26" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="13" connection="con_snap_06"/>
+      <offset>
+        <position x="991.529" y="-203.99" z="-2353.536"/>
+        <rotation yaw="89.99999" roll="0.000231763"/>
+      </offset>
+    </entry>
+    <entry index="27" macro="hab_bor_m_01_macro" connection="con_snap_02">
+      <predecessor index="5" connection="con_snap_06"/>
+      <offset>
+        <position x="-1208.471" y="-203.988" z="46.466"/>
+        <rotation yaw="-90.00003" roll="-0.000614717"/>
+      </offset>
+    </entry>
+    <entry index="28" macro="welfare_gen_casino_01_macro" connection="connectionsnap001">
+      <predecessor index="27" connection="con_snap_04"/>
+      <offset>
+        <position x="191.529" y="-203.988" z="46.466"/>
+        <rotation yaw="-89.99999" roll="0.000157094"/>
+      </offset>
+    </entry>
+    <entry index="29" macro="welfare_gen_gamblinghall_01_macro" connection="connectionsnap001">
+      <predecessor index="28" connection="connectionsnap002"/>
+      <offset>
+        <position x="1391.529" y="-203.988" z="46.466"/>
+        <rotation yaw="-89.99998" roll="-0.000614717"/>
+      </offset>
+    </entry>
+    <entry index="30" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="5" connection="con_snap_04"/>
+      <offset>
+        <position x="-2208.471" y="-1603.988" z="46.467"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="31" macro="struct_bor_cross_01_macro" connection="con_snap_01">
+      <predecessor index="30" connection="con_snap_01"/>
+      <offset>
+        <position x="-1408.471" y="-1603.988" z="46.467"/>
+        <rotation yaw="-89.99998"/>
+      </offset>
+    </entry>
+    <entry index="32" macro="pier_bor_harbor_03_macro" connection="con_snap_04">
+      <predecessor index="31" connection="con_snap_05"/>
+      <offset>
+        <position x="-1408.471" y="-2003.988" z="46.467"/>
+        <rotation yaw="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="33" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="16" connection="con_snap_04"/>
+      <offset>
+        <position x="2191.527" y="-1603.987" z="46.465"/>
+        <rotation yaw="-89.99998"/>
+      </offset>
+    </entry>
+    <entry index="34" macro="struct_bor_cross_01_macro" connection="con_snap_01">
+      <predecessor index="33" connection="con_snap_01"/>
+      <offset>
+        <position x="1391.527" y="-1603.987" z="46.465"/>
+        <rotation yaw="90.00001" roll="0.000107461"/>
+      </offset>
+    </entry>
+    <entry index="35" macro="pier_bor_harbor_03_macro" connection="con_snap_04">
+      <predecessor index="34" connection="con_snap_05"/>
+      <offset>
+        <position x="1391.527" y="-2003.987" z="46.465"/>
+        <rotation pitch="0.000163697"/>
+      </offset>
+    </entry>
+    <entry index="36" macro="buildmodule_bor_equip_m_dockarea_01_macro" connection="con_snap_02">
+      <predecessor index="34" connection="con_snap_03"/>
+      <offset>
+        <position x="841.527" y="-1603.987" z="999.093"/>
+        <rotation yaw="-90.00001"/>
+      </offset>
+    </entry>
+    <entry index="37" macro="buildmodule_bor_equip_m_dockarea_01_macro" connection="con_snap_01">
+      <predecessor index="34" connection="con_snap_02"/>
+      <offset>
+        <position x="841.527" y="-1603.99" z="-906.163"/>
+        <rotation yaw="-89.99998" roll="-0.000137712"/>
+      </offset>
+    </entry>
+    <entry index="38" macro="buildmodule_bor_equip_m_dockarea_01_macro" connection="con_snap_01">
+      <predecessor index="31" connection="con_snap_02"/>
+      <offset>
+        <position x="-858.471" y="-1603.989" z="999.095"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="39" macro="buildmodule_bor_equip_m_dockarea_01_macro" connection="con_snap_02">
+      <predecessor index="31" connection="con_snap_03"/>
+      <offset>
+        <position x="-858.471" y="-1603.989" z="-906.161"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+  </plan>
+</plans>

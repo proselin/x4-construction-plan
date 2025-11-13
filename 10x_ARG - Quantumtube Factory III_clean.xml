@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_967520908800" name="10X ARG - Quantumtube Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021"></position>
+        <rotation yaw="-89.01369" roll="0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.3826" y="421.421" z="0.05194"></position>
+        <rotation pitch="-0.000185166"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.3825" y="1221.421" z="0.05453"></position>
+        <rotation yaw="-179.99989" pitch="0.000191996"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="599.528" y="21.421" z="-10.277"></position>
+        <quaternion qx="0.70708" qy="0.00608611" qz="-0.00608602" qw="0.707081"></quaternion>
+      </offset>
+    </entry>
+    <entry index="5" macro="10x_modules_hab_arg_m_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04849"></position>
+        <rotation yaw="-179.99989" pitch="0.000215901"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="6.546" y="21.419" z="399.947"></position>
+        <rotation yaw="-89.01369" roll="0.000190202"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="dockarea_arg_m_station_02_macro" connection="connectionsnap003">
+      <predecessor index="2" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.383" y="421.421" z="0.05195"></position>
+        <rotation yaw="-89.99995" roll="0.000715422"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.3827" y="-1378.579" z="0.04548"></position>
+        <rotation pitch="-0.000209071" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="pier_arg_harbor_02_macro" connection="connectionsnap002">
+      <predecessor index="6" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="213.446" y="21.418" z="796.488"></position>
+        <rotation yaw="0.986267" pitch="-0.000195211"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="599.528" y="1021.421" z="-10.278"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_storage_arg_s_container_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="13.476" y="-578.582" z="799.929"></position>
+        <quaternion qx="-0.504283" qy="-0.495678" qz="-0.49568" qw="0.504285"></quaternion>
+      </offset>
+    </entry>
+    <entry index="12" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="413.417" y="21.418" z="793.046"></position>
+        <rotation yaw="-89.01369"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="13.476" y="821.418" z="799.933"></position>
+        <rotation pitch="-0.000188298"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="12" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="813.358" y="21.418" z="786.161"></position>
+        <rotation yaw="-179.01364"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-400.323" y="21.421" z="6.936"></position>
+        <rotation yaw="-89.01369"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="15" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-800.264" y="21.421" z="13.821"></position>
+        <rotation yaw="0.986278"></rotation>
+      </offset>
+    </entry>
+    <patches>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+    </patches>
+  </plan>
+</plans>

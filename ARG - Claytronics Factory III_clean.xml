@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736525116" name="ARG - Claytronics Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="-378.579" z="200.02" />
+        <rotation yaw="-89.01363" />
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="399.513" y="-378.579" z="-6.879" />
+        <rotation yaw="0.986363" />
+      </offset>
+    </entry>
+    <entry index="3" macro="hab_arg_l_01_macro">
+      <offset>
+        <position x="-0.3828" y="-1188.899" z="0.04956" />
+        <rotation roll="-179.99989" />
+      </offset>
+    </entry>
+    <entry index="4" macro="storage_arg_l_container_01_macro">
+      <offset>
+        <position x="30.603" y="-375.807" z="1799.783" />
+        <rotation yaw="-179.01363" />
+      </offset>
+      </entry>
+    <entry index="5" macro="prod_gen_claytronics_macro" connection="connectionsnap01">
+      <predecessor index="4" connection="connectionsnap002" />
+      <offset>
+        <position x="-769.278" y="-378.579" z="1813.554" />
+        <rotation yaw="0.986366" roll="-90" />
+      </offset>
+      </entry>
+    <entry index="6" macro="hab_arg_m_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap001" />
+      <offset>
+        <position x="9.945" y="-378.579" z="599.961" />
+        <quaternion qx="0.70708" qy="0.00608737" qz="-0.00608557" qw="0.707081" />
+      </offset>
+    </entry>
+    <entry index="7" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.367" y="-378.579" z="6.98" />
+        <rotation yaw="0.986378" />
+      </offset>
+    </entry>
+    <entry index="8" macro="pier_arg_harbor_04_macro">
+      <offset>
+        <position x="44.374" y="-378.579" z="2599.664" />
+        <rotation yaw="90.98634" />
+      </offset>
+    </entry>
+    <entry index="9" macro="hab_arg_l_01_macro">
+      <offset>
+        <position x="-0.3828" y="431.741" z="0.04956" />
+      </offset>
+    </entry>
+    <entry index="10" macro="prod_gen_claytronics_macro" connection="connectionsnap01">
+      <predecessor index="4" connection="connectionsnap003" />
+      <offset>
+        <position x="830.484" y="-378.579" z="1786.011" />
+        <rotation yaw="0.986366" pitch="-0.000134766" roll="90" />
+      </offset>
+      </entry>
+    <entry index="11" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="7" connection="connectionsnap004" />
+      <offset>
+        <position x="-800.263" y="-378.579" z="13.909" />
+        <rotation yaw="90.98634" roll="0.000582188" />
+      </offset>
+      </entry>
+    <entry index="12" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+      <predecessor index="11" connection="connectionsnap001" />
+      <offset>
+        <position x="-1200.204" y="-378.579" z="20.795" />
+        <rotation yaw="90.98634" roll="0.000582187" />
+      </offset>
+      </entry>
+    <entry index="13" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap003" />
+      <offset>
+        <position x="799.497" y="-378.579" z="-13.81" />
+        <rotation yaw="-89.01363" roll="0.000576881" />
+      </offset>
+      </entry>
+    <entry index="14" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+      <predecessor index="13" connection="connectionsnap001" />
+      <offset>
+        <position x="1199.438" y="-378.579" z="-20.695" />
+        <rotation yaw="-89.01363" roll="0.000576881" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

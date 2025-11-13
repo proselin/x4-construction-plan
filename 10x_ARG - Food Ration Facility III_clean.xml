@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_820222307905" name="10X ARG - Food Ration Facility III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021"></position>
+        <rotation yaw="-89.01369" roll="0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="10x_modules_hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.3827" y="621.421" z="0.05261"></position>
+        <rotation pitch="-0.000185166"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="399.558" y="21.421" z="-6.835"></position>
+        <rotation yaw="0.986329"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="3" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="389.231" y="221.421" z="-606.746"></position>
+        <rotation yaw="-89.01363" pitch="0.000297771"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="struct_arg_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-400.323" y="21.421" z="6.936"></position>
+        <rotation yaw="0.986307"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-389.995" y="221.421" z="606.847"></position>
+        <rotation yaw="90.98629" pitch="-0.000150264"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="5" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1000.235" y="21.421" z="17.264"></position>
+        <rotation yaw="-179.01364"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="999.469" y="21.421" z="-17.163"></position>
+        <rotation yaw="0.986343"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="8" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1009.841" y="21.421" z="582.703"></position>
+        <rotation yaw="-89.01363" pitch="-0.000581861"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="7" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1010.607" y="21.421" z="-582.69"></position>
+        <rotation yaw="-89.01363"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04875"></position>
+        <rotation yaw="-179.96637" pitch="0.000185167" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="3" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="409.887" y="221.421" z="593.076"></position>
+        <rotation yaw="90.98632" pitch="-0.000150264"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-410.65" y="221.421" z="-592.975"></position>
+        <rotation yaw="-89.01369" pitch="0.000297771"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="8" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="989.096" y="21.421" z="-617.118"></position>
+        <rotation yaw="-89.01362"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="7" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-989.863" y="21.421" z="617.13"></position>
+        <rotation yaw="-89.01363" pitch="-0.000581916"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="-3.828" y="21.421" z="-200.075"></position>
+        <rotation yaw="90.98631" roll="-0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="14" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="982.167" y="21.421" z="-1017.014"></position>
+        <rotation yaw="0.986375"></rotation>
+      </offset>
+    </entry>
+    <entry index="18" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-1017.536" y="21.42" z="-982.586"></position>
+        <rotation yaw="0.986331"></rotation>
+      </offset>
+    </entry>
+    <entry index="19" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="15" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-982.933" y="21.421" z="1017.114"></position>
+        <rotation yaw="0.986283"></rotation>
+      </offset>
+    </entry>
+    <entry index="20" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="1016.771" y="21.421" z="982.687"></position>
+        <rotation yaw="0.98631"></rotation>
+      </offset>
+    </entry>
+    <patches>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+    </patches>
+  </plan>
+</plans>

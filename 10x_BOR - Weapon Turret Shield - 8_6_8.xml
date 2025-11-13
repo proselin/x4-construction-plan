@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_335276737538" name="10X BOR - Weapon Turret Shield - 8.6.8" description="">
+    <patches>
+      <patch extension="ego_dlc_boron" version="710" name="Kingdom End"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_boron" version="101" name="z10x_modules_boron"></patch>
+    </patches>
+    <entry index="1" macro="pier_bor_tradestation_01_macro">
+      <offset>
+        <position x="-71.939" y="1861.382" z="-82.498"></position>
+      </offset>
+    </entry>
+    <entry index="2" macro="10x_modules_storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="1" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-71.937" y="861.382" z="-82.498"></position>
+        <rotation roll="-0.000236629"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="2" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-71.931" y="-538.618" z="-82.497"></position>
+        <rotation roll="-0.000272606"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="10x_modules_storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="3" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="-71.928" y="-1138.618" z="-82.497"></position>
+        <rotation roll="-0.000266155"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="dockarea_bor_m_station_01_standard_macro" connection="con_snap_02">
+      <predecessor index="3" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-71.931" y="-538.618" z="1317.503"></position>
+        <rotation yaw="-179.99989" roll="0.000262593"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_storage_bor_m_liquid_01_macro" connection="con_snap_03">
+      <predecessor index="5" connection="con_snap_08"></predecessor>
+      <offset>
+        <position x="-71.928" y="-1138.618" z="1317.503"></position>
+        <rotation roll="-0.000258947"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_storage_bor_s_solid_01_macro" connection="con_snap_02">
+      <predecessor index="5" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="-71.934" y="61.382" z="1317.503"></position>
+        <rotation roll="-0.000266239"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="4" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-71.921" y="-2538.618" z="-82.498"></position>
+        <rotation roll="-0.000302132"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="struct_bor_cross_02_macro" connection="con_snap_03">
+      <predecessor index="8" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="-1111.151" y="-2538.625" z="-682.498"></position>
+        <rotation yaw="-179.99989" roll="0.0004899"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="struct_bor_cross_01_macro" connection="con_snap_03">
+      <predecessor index="9" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-71.921" y="-2538.615" z="-1282.498"></position>
+        <rotation yaw="60.00002" roll="-0.000394825"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="10" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-71.921" y="-2538.61" z="-2482.498"></position>
+        <rotation yaw="-179.99989" pitch="0.000234103"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="11" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="662.793" y="-2538.609" z="-2885.908"></position>
+        <rotation yaw="60.00023" pitch="-0.000104895" roll="-0.000198372"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="11" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-806.636" y="-2538.609" z="-2885.906"></position>
+        <rotation yaw="-59.99986" roll="0.000184309"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="10x_modules_prod_gen_fieldcoils" connection="connectionsnap002">
+      <predecessor index="6" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-271.923" y="-2138.619" z="1517.503"></position>
+        <rotation yaw="179.99989" roll="-179.99963"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="14" connection="connectionsnap01"></predecessor>
+      <offset>
+        <position x="-471.927" y="-1338.62" z="1317.503"></position>
+        <rotation roll="-0.000272608"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="dockarea_bor_m_station_01_standard_macro" connection="con_snap_02">
+      <predecessor index="3" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="-1284.367" y="-538.625" z="-782.497"></position>
+        <rotation yaw="60" pitch="0.000309776"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="10x_modules_storage_bor_m_liquid_01_macro" connection="con_snap_03">
+      <predecessor index="16" connection="con_snap_08"></predecessor>
+      <offset>
+        <position x="-1284.364" y="-1138.625" z="-782.496"></position>
+        <rotation yaw="-120" pitch="-0.000296116"></rotation>
+      </offset>
+    </entry>
+    <entry index="18" macro="10x_modules_storage_bor_s_solid_01_macro" connection="con_snap_02">
+      <predecessor index="16" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="-1284.37" y="61.375" z="-782.499"></position>
+        <rotation yaw="-120" pitch="-0.000309776"></rotation>
+      </offset>
+    </entry>
+    <entry index="19" macro="10x_modules_prod_gen_fieldcoils" connection="connectionsnap002">
+      <predecessor index="17" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-1357.564" y="-2138.625" z="-1055.699"></position>
+        <rotation yaw="59.99998" pitch="0.000296116" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="20" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="19" connection="connectionsnap01"></predecessor>
+      <offset>
+        <position x="-1084.363" y="-1338.625" z="-1128.906"></position>
+        <rotation yaw="-120" pitch="-0.000296116"></rotation>
+      </offset>
+    </entry>
+    <entry index="21" macro="dockarea_bor_m_station_01_standard_macro" connection="con_snap_02">
+      <predecessor index="3" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="1140.505" y="-538.613" z="-782.497"></position>
+        <rotation yaw="-59.99998" pitch="-0.000176058" roll="-0.00170581"></rotation>
+      </offset>
+    </entry>
+    <entry index="22" macro="10x_modules_storage_bor_m_liquid_01_macro" connection="con_snap_03">
+      <predecessor index="21" connection="con_snap_08"></predecessor>
+      <offset>
+        <position x="1140.515" y="-1138.613" z="-782.483"></position>
+        <rotation yaw="119.99995" pitch="0.000189719" roll="0.00170945"></rotation>
+      </offset>
+    </entry>
+    <entry index="23" macro="10x_modules_storage_bor_s_solid_01_macro" connection="con_snap_02">
+      <predecessor index="21" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="1140.494" y="61.387" z="-782.512"></position>
+        <rotation yaw="119.99998" pitch="0.000176058" roll="0.00170216"></rotation>
+      </offset>
+    </entry>
+    <entry index="24" macro="10x_modules_prod_gen_fieldcoils" connection="connectionsnap002">
+      <predecessor index="22" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="1413.738" y="-2138.607" z="-709.254"></position>
+        <rotation yaw="-60" pitch="-0.000189719" roll="179.9982"></rotation>
+      </offset>
+    </entry>
+    <entry index="25" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="24" connection="connectionsnap01"></predecessor>
+      <offset>
+        <position x="1340.519" y="-1338.602" z="-436.068"></position>
+        <rotation yaw="119.99995" pitch="0.000189719" roll="0.00169579"></rotation>
+      </offset>
+    </entry>
+    <entry index="26" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="11" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="128.079" y="-2338.605" z="-3482.497"></position>
+        <rotation yaw="-89.99995" roll="-89.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="27" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="9" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-911.152" y="-1938.623" z="-1882.497"></position>
+        <quaternion qx="-0.707106" qw="0.707108"></quaternion>
+      </offset>
+    </entry>
+    <entry index="28" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="9" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-2250.389" y="-1938.637" z="-255.704"></position>
+        <quaternion qx="-0.353557" qy="0.612371" qz="0.612374" qw="0.353549"></quaternion>
+      </offset>
+    </entry>
+    <entry index="29" macro="10x_modules_hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="9" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="-2496.792" y="-2538.637" z="-1482.497"></position>
+        <rotation yaw="-119.99993" pitch="-0.000451594" roll="0.00120115"></rotation>
+      </offset>
+    </entry>
+    <entry index="30" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="29" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="-2478.799" y="-2538.625" z="-2320.483"></position>
+        <rotation yaw="120.00019" pitch="0.00127589" roll="-0.000203786"></rotation>
+      </offset>
+    </entry>
+    <entry index="31" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="29" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-3213.512" y="-2538.656" z="-1047.92"></position>
+        <rotation yaw="0.000138311" pitch="-0.000784802" roll="-0.00100878"></rotation>
+      </offset>
+    </entry>
+    <entry index="32" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="29" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-3262.822" y="-2338.64" z="-2155.7"></position>
+        <rotation yaw="-29.99998" pitch="-0.00120457" roll="-90.00045"></rotation>
+      </offset>
+    </entry>
+    <entry index="33" macro="struct_bor_cross_02_macro" connection="con_snap_06">
+      <predecessor index="10" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="967.31" y="-2538.613" z="-682.498"></position>
+        <rotation yaw="60.00005" roll="0.000326183"></rotation>
+      </offset>
+    </entry>
+    <entry index="34" macro="struct_bor_cross_01_macro" connection="con_snap_03">
+      <predecessor index="33" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="967.31" y="-2538.607" z="517.502"></position>
+        <rotation yaw="-59.99994" roll="-0.000282855"></rotation>
+      </offset>
+    </entry>
+    <entry index="35" macro="10x_modules_hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="34" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="2006.541" y="-2538.603" z="1117.501"></position>
+        <rotation yaw="60.00002" pitch="0.000199333" roll="-0.000161067"></rotation>
+      </offset>
+    </entry>
+    <entry index="36" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="35" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="1988.548" y="-2538.604" z="1955.487"></position>
+        <rotation yaw="-59.99974" pitch="-0.000229293"></rotation>
+      </offset>
+    </entry>
+    <entry index="37" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="35" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="2723.26" y="-2538.6" z="682.923"></position>
+        <rotation yaw="-179.99976" roll="0.000236056"></rotation>
+      </offset>
+    </entry>
+    <entry index="38" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="35" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="2772.566" y="-2338.6" z="1790.706"></position>
+        <rotation yaw="149.99995" pitch="0.000157653" roll="-89.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="39" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="33" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="1906.54" y="-1938.613" z="90.708"></position>
+        <quaternion qx="0.353553" qy="0.612372" qz="0.612373" qw="-0.353555"></quaternion>
+      </offset>
+    </entry>
+    <entry index="40" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="33" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="1167.313" y="-1938.623" z="-1882.502"></position>
+        <quaternion qx="-0.707109" qw="0.707104"></quaternion>
+      </offset>
+    </entry>
+    <entry index="41" macro="10x_modules_hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="33" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="2352.95" y="-2538.622" z="-1482.499"></position>
+        <rotation yaw="120.00001" pitch="-0.000327196" roll="0.00108918"></rotation>
+      </offset>
+    </entry>
+    <entry index="42" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="41" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="3069.67" y="-2538.611" z="-1047.924"></position>
+        <rotation yaw="0.000249302" pitch="0.00111672" roll="-0.000255534"></rotation>
+      </offset>
+    </entry>
+    <entry index="43" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="41" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="2334.954" y="-2538.639" z="-2320.485"></position>
+        <rotation yaw="-119.99981" pitch="-0.000750032" roll="-0.000845058"></rotation>
+      </offset>
+    </entry>
+    <entry index="44" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="41" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="3318.974" y="-2338.624" z="-1809.298"></position>
+        <rotation yaw="-149.99995" pitch="-0.0010926" roll="-90.00033"></rotation>
+      </offset>
+    </entry>
+    <entry index="45" macro="struct_bor_cross_02_macro" connection="con_snap_03">
+      <predecessor index="8" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-71.92" y="-2538.619" z="1117.502"></position>
+        <rotation yaw="-59.99994" pitch="-0.000525587" roll="-0.000188965"></rotation>
+      </offset>
+    </entry>
+    <entry index="46" macro="struct_bor_cross_01_macro" connection="con_snap_03">
+      <predecessor index="45" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-1111.151" y="-2538.628" z="517.503"></position>
+        <rotation yaw="-179.99989" pitch="-0.000196435" roll="0.000455765"></rotation>
+      </offset>
+    </entry>
+    <entry index="47" macro="10x_modules_hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="46" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-2150.382" y="-2538.635" z="1117.503"></position>
+        <rotation yaw="-59.99997" pitch="-0.000356131" roll="-0.000676214"></rotation>
+      </offset>
+    </entry>
+    <entry index="48" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="47" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="-2867.102" y="-2538.646" z="682.928"></position>
+        <rotation yaw="-179.99974" pitch="-0.000397695" roll="0.000652217"></rotation>
+      </offset>
+    </entry>
+    <entry index="49" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="47" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-2132.385" y="-2538.629" z="1955.489"></position>
+        <rotation yaw="60.00016" pitch="0.000793311"></rotation>
+      </offset>
+    </entry>
+    <entry index="50" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="47" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-3116.409" y="-2338.643" z="1444.297"></position>
+        <rotation yaw="30.00003" pitch="0.0006728" roll="-90.00034"></rotation>
+      </offset>
+    </entry>
+    <entry index="51" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="45" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-1211.159" y="-1938.632" z="1544.295"></position>
+        <quaternion qx="-0.353558" qy="0.612372" qz="0.612373" qw="0.353548"></quaternion>
+      </offset>
+    </entry>
+    <entry index="52" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="45" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="867.304" y="-1938.614" z="1890.711"></position>
+        <quaternion qx="0.353549" qy="0.612372" qz="0.612372" qw="-0.353558"></quaternion>
+      </offset>
+    </entry>
+    <entry index="53" macro="10x_modules_hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="45" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="-71.92" y="-2538.623" z="2717.503"></position>
+        <rotation pitch="-0.000158798" roll="0.000350563"></rotation>
+      </offset>
+    </entry>
+    <entry index="54" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="53" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="-806.633" y="-2538.62" z="3120.913"></position>
+        <rotation yaw="-119.99974" pitch="0.000392856"></rotation>
+      </offset>
+    </entry>
+    <entry index="55" macro="10x_modules_hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="53" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="662.795" y="-2538.629" z="3120.91"></position>
+        <rotation yaw="120.00014" pitch="-0.00019457" roll="-0.00032991"></rotation>
+      </offset>
+    </entry>
+    <entry index="56" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="53" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-271.918" y="-2338.624" z="3717.503"></position>
+        <rotation yaw="90.00001" pitch="-0.000353977" roll="-90.00014"></rotation>
+      </offset>
+    </entry>
+    <entry index="57" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap003">
+      <predecessor index="22" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="1733.336" y="-1338.61" z="-1355.688"></position>
+        <quaternion qx="-0.612371" qy="-0.353554" qz="-0.353553" qw="0.612374"></quaternion>
+      </offset>
+    </entry>
+    <entry index="58" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="57" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="767.316" y="-1538.614" z="-1028.886"></position>
+        <quaternion qx="-0.353561" qy="0.612375" qz="0.612369" qw="0.353546"></quaternion>
+      </offset>
+    </entry>
+    <entry index="59" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap003">
+      <predecessor index="6" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="128.072" y="-1338.617" z="2117.503"></position>
+        <quaternion qy="0.707107" qz="0.707107" qw="-9.22115e-07"></quaternion>
+      </offset>
+    </entry>
+    <entry index="60" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="59" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="328.064" y="-1538.617" z="1117.503"></position>
+        <quaternion qx="-0.707107" qw="0.707106"></quaternion>
+      </offset>
+    </entry>
+    <entry index="61" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap003">
+      <predecessor index="17" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-2077.183" y="-1338.629" z="-1009.291"></position>
+        <quaternion qx="-0.612374" qy="0.353552" qz="0.353555" qw="0.612371"></quaternion>
+      </offset>
+    </entry>
+    <entry index="62" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="61" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1311.152" y="-1538.625" z="-336.093"></position>
+        <quaternion qx="0.353545" qy="0.61237" qz="0.612375" qw="-0.353562"></quaternion>
+      </offset>
+    </entry>
+    <entry index="63" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="10" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-71.925" y="-1738.613" z="-1682.494"></position>
+        <rotation pitch="-0.000264177" roll="-0.000275622"></rotation>
+      </offset>
+    </entry>
+    <entry index="64" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="46" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-1457.568" y="-1738.63" z="717.5"></position>
+        <rotation yaw="120" pitch="0.000326058" roll="0.000403242"></rotation>
+      </offset>
+    </entry>
+    <entry index="65" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="34" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="1313.718" y="-1738.606" z="717.498"></position>
+        <rotation yaw="-119.99993" pitch="-0.000229406" roll="-0.000111905"></rotation>
+      </offset>
+    </entry>
+    <entry index="66" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap002">
+      <predecessor index="16" connection="con_snap_07"></predecessor>
+      <offset>
+        <position x="-2596.801" y="-738.632" z="-1309.292"></position>
+        <quaternion qx="0.353555" qy="-0.612371" qz="0.612374" qw="0.353552"></quaternion>
+      </offset>
+    </entry>
+    <entry index="67" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap002">
+      <predecessor index="5" connection="con_snap_07"></predecessor>
+      <offset>
+        <position x="128.071" y="-738.617" z="2717.503"></position>
+        <quaternion qx="0.707107" qw="0.707106"></quaternion>
+      </offset>
+    </entry>
+    <entry index="68" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap002">
+      <predecessor index="21" connection="con_snap_07"></predecessor>
+      <offset>
+        <position x="2252.94" y="-738.609" z="-1655.703"></position>
+        <quaternion qx="0.353553" qy="0.612373" qz="-0.612372" qw="0.353554"></quaternion>
+      </offset>
+    </entry>
+    <entry index="69" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="2" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-71.937" y="861.382" z="1517.502"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="70" macro="10x_modules_prod_gen_siliconwafers" connection="connectionsnap001">
+      <predecessor index="69" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-71.936" y="861.382" z="2917.502"></position>
+        <rotation yaw="90.00001" roll="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="71" macro="10x_modules_prod_gen_advancedelectronics" connection="connectionsnap001">
+      <predecessor index="7" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-271.935" y="461.381" z="1117.503"></position>
+        <rotation roll="-0.000252578"></rotation>
+      </offset>
+    </entry>
+    <entry index="72" macro="struct_bor_cross_01_macro" connection="con_snap_01">
+      <predecessor index="2" connection="con_snap_06"></predecessor>
+      <offset>
+        <position x="-871.937" y="861.379" z="-82.498"></position>
+        <rotation yaw="90" pitch="0.0002298"></rotation>
+      </offset>
+    </entry>
+    <entry index="73" macro="10x_modules_prod_gen_superfluidcoolant" connection="connectionsnap01">
+      <predecessor index="18" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-1357.58" y="1061.375" z="-1055.706"></position>
+        <rotation yaw="149.99995" roll="0.000302946"></rotation>
+      </offset>
+    </entry>
+    <entry index="74" macro="10x_modules_prod_gen_superfluidcoolant" connection="connectionsnap01">
+      <predecessor index="23" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="1413.681" y="1061.394" z="-709.331"></position>
+        <rotation yaw="30.00001" pitch="0.00172265" roll="-0.000182888"></rotation>
+      </offset>
+    </entry>
+    <entry index="75" macro="10x_modules_prod_gen_microchips" connection="connectionsnap001">
+      <predecessor index="72" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="-1471.938" y="1061.377" z="-282.498"></position>
+        <rotation yaw="89.99995" pitch="0.00024346"></rotation>
+      </offset>
+    </entry>
+    <entry index="76" macro="struct_bor_cross_01_macro" connection="con_snap_01">
+      <predecessor index="2" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="728.063" y="861.385" z="-82.497"></position>
+        <rotation yaw="-90.00001" pitch="-0.000243459"></rotation>
+      </offset>
+    </entry>
+    <entry index="77" macro="10x_modules_prod_gen_microchips" connection="connectionsnap001">
+      <predecessor index="76" connection="con_snap_04"></predecessor>
+      <offset>
+        <position x="1328.062" y="1061.388" z="117.502"></position>
+        <rotation yaw="-90.00002" pitch="-0.000229799"></rotation>
+      </offset>
+    </entry>
+    <entry index="78" macro="10x_modules_prod_gen_graphene" connection="connectionsnap001">
+      <predecessor index="72" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="-871.936" y="461.379" z="-365.341"></position>
+        <rotation yaw="135" pitch="0.000136262" roll="-179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="79" macro="10x_modules_prod_gen_graphene" connection="connectionsnap002">
+      <predecessor index="76" connection="con_snap_05"></predecessor>
+      <offset>
+        <position x="728.065" y="461.385" z="-365.34"></position>
+        <rotation yaw="44.99998" pitch="0.000166321" roll="179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="80" macro="10x_modules_prod_gen_advancedelectronics" connection="connectionsnap001">
+      <predecessor index="76" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="1101.308" y="661.433" z="163.89"></position>
+        <quaternion qx="0.182933" qy="0.682992" qz="0.683034" qw="-0.183093"></quaternion>
+      </offset>
+    </entry>
+    <entry index="81" macro="10x_modules_prod_gen_advancedelectronics" connection="connectionsnap001">
+      <predecessor index="72" connection="con_snap_03"></predecessor>
+      <offset>
+        <position x="-898.732" y="661.379" z="363.911"></position>
+        <quaternion qx="-0.183013" qy="0.683012" qz="0.683014" qw="0.183012"></quaternion>
+      </offset>
+    </entry>
+    <entry index="82" macro="10x_modules_prod_gen_advancedelectronics" connection="connectionsnap001">
+      <predecessor index="4" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="-271.928" y="-1338.618" z="-482.497"></position>
+        <quaternion qx="-0.707107" qw="0.707106"></quaternion>
+      </offset>
+    </entry>
+  </plan>
+</plans>

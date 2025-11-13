@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_462789669031" name="10X sscaxczx" description="">
+    <patches>
+      <patch extension="ws_3304360652" version="106" name="100x Production Modules Base"></patch>
+      <patch extension="z10x_modules_boron" version="101" name="z10x_modules_boron"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+    </patches>
+    <entry index="1" macro="100x_modules_storage_25m_universal_macro">
+      <offset>
+        <position x="80.945" z="-372.859"></position>
+      </offset>
+    </entry>
+    <entry index="2" macro="10x_iseeu0_p2_b">
+      <offset>
+        <position x="-762.96" y="0.0009766" z="-3317.36"></position>
+      </offset>
+    </entry>
+  </plan>
+</plans>

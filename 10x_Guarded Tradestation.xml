@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_487289277696" name="10X Guarded Tradestation" description="">
+    <patches>
+      <patch extension="ego_dlc_split" version="510" name="Split Vendetta"></patch>
+      <patch extension="ego_dlc_terran" version="510" name="Wiege der Menschheit"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_split" version="104" name="z10x_modules_split"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="dockarea_ter_m_station_01_hightech_macro">
+      <offset>
+        <position x="-61.072" z="-64.38"></position>
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_arg_m_station_02_hightech_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-61.072" z="-864.38"></position>
+      </offset>
+    </entry>
+    <entry index="3" macro="dockarea_arg_m_station_02_hightech_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-61.071" z="735.62"></position>
+      </offset>
+    </entry>
+    <entry index="4" macro="dockarea_arg_m_station_02_hightech_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-861.072" z="-64.379"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="dockarea_arg_m_station_02_hightech_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap007"></predecessor>
+      <offset>
+        <position x="738.928" z="-64.38"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap004">
+      <predecessor index="4" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1461.072" z="-64.379"></position>
+        <rotation yaw="90.00001" roll="-0.000285155"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap004">
+      <predecessor index="2" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-61.072" z="-1464.38"></position>
+      </offset>
+    </entry>
+    <entry index="8" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap003">
+      <predecessor index="5" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1338.928" z="-64.38"></position>
+        <rotation yaw="90.00001" roll="0.000114292"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-61.071" z="1335.62"></position>
+      </offset>
+    </entry>
+    <entry index="10" macro="10x_modules_storage_arg_s_container_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-768.179" z="-771.486"></position>
+        <rotation yaw="45.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_storage_arg_s_container_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="646.036" z="642.727"></position>
+        <rotation yaw="45.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="10x_modules_storage_arg_s_container_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-768.178" z="642.727"></position>
+        <rotation yaw="-44.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_storage_arg_s_container_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="646.035" z="-771.487"></position>
+        <rotation yaw="135"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="12" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1333.864" y="-0.0001065" z="1208.413"></position>
+        <rotation yaw="-134.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="10" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1333.865" y="-0.0001065" z="-1337.171"></position>
+        <rotation yaw="135"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="13" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1211.72" y="-0.0001065" z="-1337.172"></position>
+        <rotation yaw="45.00004"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="11" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1211.722" y="-0.0001065" z="1208.411"></position>
+        <rotation yaw="-44.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="18" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1061.071" z="1335.62"></position>
+        <rotation yaw="90" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="19" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap002">
+      <predecessor index="9" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="938.929" z="1335.621"></position>
+        <rotation yaw="89.99995" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="20" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap002">
+      <predecessor index="7" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1061.072" y="-0.0001102" z="-1464.379"></position>
+        <rotation yaw="-89.99995" roll="179.43875"></rotation>
+      </offset>
+    </entry>
+    <entry index="21" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="938.928" y="-0.0001447" z="-1464.38"></position>
+        <rotation yaw="-90.00002" roll="179.43875"></rotation>
+      </offset>
+    </entry>
+    <entry index="22" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap002">
+      <predecessor index="6" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1461.071" y="0.004947" z="-1064.379"></position>
+        <rotation yaw="179.99989" pitch="0.000285155"></rotation>
+      </offset>
+    </entry>
+    <entry index="23" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="6" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1461.071" y="-0.004972" z="935.621"></position>
+        <rotation yaw="-179.99989" pitch="0.000285155"></rotation>
+      </offset>
+    </entry>
+    <entry index="24" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap002">
+      <predecessor index="8" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1338.929" y="0.001964" z="935.62"></position>
+        <rotation pitch="0.000114292"></rotation>
+      </offset>
+    </entry>
+    <entry index="25" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="8" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1338.928" y="-0.00199" z="-1064.38"></position>
+        <rotation pitch="0.000114292"></rotation>
+      </offset>
+    </entry>
+    <entry index="26" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="1938.927" y="-0.02171" z="-2064.382"></position>
+        <rotation pitch="-0.000599136" roll="0.000618302"></rotation>
+      </offset>
+    </entry>
+    <entry index="27" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="1938.931" y="-0.06353" z="1935.618"></position>
+        <rotation pitch="-0.000599136" roll="-0.0013834"></rotation>
+      </offset>
+    </entry>
+    <entry index="28" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2061.069" y="-0.1601" z="1935.618"></position>
+        <rotation roll="-0.00138328"></rotation>
+      </offset>
+    </entry>
+    <entry index="29" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2061.069" y="-0.1605" z="-2064.382"></position>
+      </offset>
+    </entry>
+    <entry index="30" macro="defence_ter_disc_01_macro" connection="connectionsnap006">
+      <predecessor index="26" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="1938.923" y="-400.022" z="-2064.386"></position>
+        <rotation pitch="-0.000599136" roll="0.000618302"></rotation>
+      </offset>
+    </entry>
+    <entry index="31" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="1938.927" y="-400.064" z="1935.613"></position>
+        <rotation pitch="-0.000599136" roll="-0.0013834"></rotation>
+      </offset>
+    </entry>
+    <entry index="32" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2061.073" y="-400.16" z="1935.614"></position>
+        <rotation roll="-0.00138328"></rotation>
+      </offset>
+    </entry>
+    <entry index="33" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2061.073" y="-400.161" z="-2064.386"></position>
+      </offset>
+    </entry>
+    <entry index="34" macro="defence_ter_disc_01_macro" connection="connectionsnap005">
+      <predecessor index="26" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1938.932" y="399.978" z="-2064.378"></position>
+        <rotation pitch="-0.000599136" roll="0.000618302"></rotation>
+      </offset>
+    </entry>
+    <entry index="35" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="1938.935" y="399.936" z="1935.622"></position>
+        <rotation pitch="-0.000599136" roll="-0.0013834"></rotation>
+      </offset>
+    </entry>
+    <entry index="36" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2061.064" y="399.84" z="1935.622"></position>
+        <rotation roll="-0.00138328"></rotation>
+      </offset>
+    </entry>
+    <entry index="37" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2061.064" y="399.839" z="-2064.377"></position>
+      </offset>
+    </entry>
+    <entry index="38" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="33" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-1461.073" y="-400.161" z="-2064.386"></position>
+        <rotation yaw="90.00004" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="39" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="38" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1061.073" y="-400.161" z="-2064.387"></position>
+        <rotation yaw="90.00004" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="40" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="39" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-661.073" y="-400.161" z="-2064.387"></position>
+        <rotation yaw="90.00004" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="41" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="40" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-261.073" y="-400.161" z="-2064.388"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="42" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="41" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="138.927" y="-400.161" z="-2064.388"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="43" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="42" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="538.927" y="-400.161" z="-2064.389"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="44" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="43" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="938.927" y="-400.161" z="-2064.39"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="45" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="44" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1338.927" y="-400.161" z="-2064.39"></position>
+        <rotation yaw="90.00009" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="46" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="37" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-1461.064" y="399.839" z="-2064.378"></position>
+        <rotation yaw="90.00001" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="47" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="46" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1061.064" y="399.839" z="-2064.378"></position>
+        <rotation yaw="90.00004" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="48" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="47" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-661.064" y="399.839" z="-2064.379"></position>
+        <rotation yaw="90.00004" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="49" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="48" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-261.064" y="399.839" z="-2064.379"></position>
+        <rotation yaw="90.00004" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="50" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="49" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="138.936" y="399.839" z="-2064.38"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="51" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="50" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="538.936" y="399.839" z="-2064.38"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="52" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="51" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="938.936" y="399.839" z="-2064.381"></position>
+        <rotation yaw="90.00007" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="53" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="52" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1338.936" y="399.839" z="-2064.382"></position>
+        <rotation yaw="90.00009" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="54" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="26" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="738.927" y="-0.008615" z="-2064.381"></position>
+        <rotation yaw="0.00916363" pitch="86.04784" roll="90.00911"></rotation>
+      </offset>
+    </entry>
+    <entry index="55" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="54" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-861.073" y="0.008985" z="-2064.379"></position>
+        <rotation yaw="0.00921314" pitch="86.04784" roll="90.00916"></rotation>
+      </offset>
+    </entry>
+    <entry index="56" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="32" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-1461.073" y="-400.146" z="1935.614"></position>
+        <rotation yaw="90" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="57" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="56" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1061.073" y="-400.136" z="1935.614"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="58" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="57" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-661.073" y="-400.126" z="1935.614"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="59" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="58" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-261.073" y="-400.117" z="1935.614"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="60" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="59" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="138.928" y="-400.107" z="1935.613"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="61" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="60" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="538.928" y="-400.097" z="1935.613"></position>
+        <rotation yaw="90.00004" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="62" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="61" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="938.928" y="-400.088" z="1935.613"></position>
+        <rotation yaw="90.00004" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="63" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="62" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1338.928" y="-400.078" z="1935.612"></position>
+        <rotation yaw="90.00004" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="64" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="36" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-1461.064" y="399.854" z="1935.622"></position>
+        <rotation yaw="89.99995" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="65" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="64" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1061.064" y="399.864" z="1935.622"></position>
+        <rotation yaw="90" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="66" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="65" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-661.064" y="399.874" z="1935.622"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="67" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="66" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-261.064" y="399.883" z="1935.622"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="68" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="67" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="138.937" y="399.893" z="1935.622"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="69" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="68" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="538.937" y="399.903" z="1935.621"></position>
+        <rotation yaw="90.00001" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="70" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="69" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="938.937" y="399.912" z="1935.621"></position>
+        <rotation yaw="90.00004" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="71" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="70" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1338.937" y="399.922" z="1935.62"></position>
+        <rotation yaw="90.00004" pitch="0.00138328" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="72" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="27" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="738.931" y="-0.09237" z="1935.619"></position>
+        <rotation yaw="-0.0198535" pitch="86.04794" roll="89.98006"></rotation>
+      </offset>
+    </entry>
+    <entry index="73" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="72" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-861.069" y="-0.1307" z="1935.619"></position>
+        <rotation yaw="-0.0198039" pitch="86.04784" roll="89.98013"></rotation>
+      </offset>
+    </entry>
+    <entry index="74" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="27" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.93" y="-0.05084" z="735.618"></position>
+        <rotation yaw="-89.99114" pitch="86.0462" roll="90.00881"></rotation>
+      </offset>
+    </entry>
+    <entry index="75" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="74" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1938.929" y="-0.03378" z="-864.382"></position>
+        <rotation yaw="-89.99107" pitch="86.0462" roll="90.00888"></rotation>
+      </offset>
+    </entry>
+    <entry index="76" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="28" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.068" y="-0.1601" z="735.618"></position>
+        <rotation yaw="-89.99994" pitch="86.0462" roll="90.00004"></rotation>
+      </offset>
+    </entry>
+    <entry index="77" macro="10x_modules_hab_spl_l_01_macro" connection="connectionsnap002">
+      <predecessor index="76" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2061.068" y="-0.1599" z="-864.382"></position>
+        <rotation yaw="-89.99989" pitch="86.0462" roll="90.00009"></rotation>
+      </offset>
+    </entry>
+    <entry index="78" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="30" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1938.924" y="-400.028" z="-1464.386"></position>
+        <rotation pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="79" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="78" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.924" y="-400.032" z="-1064.386"></position>
+        <rotation pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="80" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="79" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.925" y="-400.036" z="-664.386"></position>
+        <rotation yaw="0.000101521" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="81" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="80" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.926" y="-400.041" z="-264.386"></position>
+        <rotation yaw="0.000110173" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="82" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="81" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.927" y="-400.045" z="135.614"></position>
+        <rotation yaw="0.000118824" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="83" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="82" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.928" y="-400.049" z="535.614"></position>
+        <rotation yaw="0.000127476" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="84" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="83" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.929" y="-400.053" z="935.614"></position>
+        <rotation yaw="0.000136127" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="85" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="84" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.93" y="-400.057" z="1335.614"></position>
+        <rotation yaw="0.000144779" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="86" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="34" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1938.932" y="399.972" z="-1464.378"></position>
+        <rotation pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="87" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="86" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.933" y="399.968" z="-1064.378"></position>
+        <rotation pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="88" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="87" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.934" y="399.964" z="-664.378"></position>
+        <rotation pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="89" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="88" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.935" y="399.959" z="-264.378"></position>
+        <rotation yaw="0.000103369" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="90" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="89" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.935" y="399.955" z="135.622"></position>
+        <rotation yaw="0.00011202" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="91" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="90" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.936" y="399.951" z="535.622"></position>
+        <rotation yaw="0.000120671" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="92" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="91" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.937" y="399.947" z="935.622"></position>
+        <rotation yaw="0.000129323" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="93" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="92" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1938.938" y="399.943" z="1335.622"></position>
+        <rotation yaw="0.000137974" pitch="-0.000599136" roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="94" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="33" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2061.073" y="-400.16" z="-1464.386"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="95" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="94" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.072" y="-400.16" z="-1064.386"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="96" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="95" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.072" y="-400.16" z="-664.386"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="97" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="96" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.072" y="-400.16" z="-264.386"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="98" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="97" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.071" y="-400.16" z="135.614"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="99" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="98" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.07" y="-400.16" z="535.614"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="100" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="99" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.07" y="-400.16" z="935.614"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="101" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="100" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.069" y="-400.16" z="1335.614"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="102" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="37" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2061.064" y="399.84" z="-1464.377"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="103" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="102" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.063" y="399.84" z="-1064.377"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="104" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="103" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.063" y="399.84" z="-664.377"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="105" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="104" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.063" y="399.84" z="-264.377"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="106" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="105" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.062" y="399.84" z="135.623"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="107" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="106" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.062" y="399.84" z="535.623"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="108" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="107" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.061" y="399.84" z="935.623"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="109" macro="defence_par_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="108" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2061.06" y="399.84" z="1335.623"></position>
+        <rotation roll="179.99976"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group02"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group03"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group01"></shields>
+          <shields macro="shield_par_m_standard_02_mk2_macro" group="group04"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"></shields>
+          <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"></shields>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_par_m_plasmacannon_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group05" exact="4"></turrets>
+          <turrets macro="turret_par_l_plasmacannon_01_mk1_macro" group="group06" exact="4"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="110" macro="welfare_gen_gamblinghall_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap009"></predecessor>
+      <offset>
+        <position x="-61.072" y="600" z="-64.38"></position>
+        <rotation yaw="-179.99989" pitch="89.92339" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="111" macro="10x_modules_hab_tel_s_01_macro" connection="connectionsnap001">
+      <predecessor index="110" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-61.072" y="1200" z="-64.38"></position>
+      </offset>
+    </entry>
+    <entry index="112" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-861.071" y="0.0007514" z="-664.379"></position>
+      </offset>
+    </entry>
+    <entry index="113" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-661.072" z="-864.379"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="114" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="538.928" z="-864.38"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="115" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-861.071" y="-0.0007863" z="535.621"></position>
+      </offset>
+    </entry>
+    <entry index="116" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="738.929" y="0.0007168" z="-664.38"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="117" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="738.929" y="-0.0007518" z="535.62"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="118" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-661.071" z="735.62"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="119" macro="10x_modules_storage_arg_s_solid_01_macro" connection="connectionsnap002">
+      <predecessor index="3" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="538.929" z="735.621"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="120" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="22" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1461.071" y="0.008852" z="-1864.379"></position>
+        <rotation yaw="89.99995" pitch="-0.00890366" roll="-0.000285156"></rotation>
+      </offset>
+    </entry>
+    <entry index="121" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="25" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1338.929" y="-0.003627" z="-1864.38"></position>
+        <rotation yaw="89.99995" pitch="-0.00889974" roll="0.000114291"></rotation>
+      </offset>
+    </entry>
+    <entry index="122" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="24" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1338.929" y="0.003487" z="1735.62"></position>
+        <rotation yaw="90.00001" pitch="0.00187511" roll="-179.99988"></rotation>
+      </offset>
+    </entry>
+    <entry index="123" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="23" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1461.071" y="-0.008992" z="1735.621"></position>
+        <rotation yaw="90.00001" pitch="0.00188012" roll="179.99963"></rotation>
+      </offset>
+    </entry>
+    <entry index="124" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="21" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1738.928" y="-0.0001048" z="-1464.379"></position>
+        <rotation pitch="-0.00576681"></rotation>
+      </offset>
+    </entry>
+    <entry index="125" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="19" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1738.929" z="1335.621"></position>
+        <rotation pitch="-0.00577196"></rotation>
+      </offset>
+    </entry>
+    <entry index="126" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="18" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1861.071" z="1335.62"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="127" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="20" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1861.072" z="-1464.379"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="128" macro="pier_spl_harbor_02_macro" connection="connectionsnap001">
+      <predecessor index="6" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-2061.072" z="-64.379"></position>
+      </offset>
+    </entry>
+    <entry index="129" macro="pier_spl_harbor_02_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-61.073" z="-2064.38"></position>
+        <rotation yaw="90.00004" pitch="0.000126586" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="130" macro="pier_spl_harbor_02_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-61.071" z="1935.62"></position>
+        <rotation yaw="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="131" macro="pier_spl_harbor_02_macro" connection="connectionsnap001">
+      <predecessor index="8" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1938.928" z="-64.381"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+  </plan>
+</plans>

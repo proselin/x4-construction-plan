@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_852573154497" name="10X Перспектива Очищения" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="620" name="Cradle of Humanity"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="proc_gen_scrapworks_macro">
+      <offset>
+        <position x="6.973" y="-1409.139" z="-1366.183"></position>
+        <rotation yaw="179.96735" pitch="-14.99913" roll="0.442338"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="proc_gen_scrapworks_macro">
+      <offset>
+        <position x="-1292.416" y="-1409.139" z="-435.11"></position>
+        <rotation yaw="-108.42191" pitch="-14.99912" roll="0.442331"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="proc_gen_scrapworks_macro">
+      <offset>
+        <position x="1300.283" y="-1409.139" z="-427.3"></position>
+        <rotation yaw="108.37541" pitch="-14.99912" roll="0.442344"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="proc_gen_scrapworks_macro">
+      <offset>
+        <position x="810.19" y="-1409.139" z="1101.967"></position>
+        <rotation yaw="36.38445" pitch="-14.99912" roll="0.442342"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="proc_gen_scrapworks_macro">
+      <offset>
+        <position x="-806.754" y="-1409.138" z="1100.622"></position>
+        <rotation yaw="-36.18114" pitch="-14.99911" roll="0.442335"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.0004673"></position>
+        <rotation yaw="90.00064" roll="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.0005122"></position>
+        <rotation yaw="53.7582" roll="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.0004613"></position>
+        <rotation yaw="17.85218" roll="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.0003365"></position>
+        <rotation yaw="-17.62768" roll="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.0001813"></position>
+        <rotation yaw="-53.79461" roll="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.0003449"></position>
+        <rotation yaw="125.78333" roll="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156" z="-0.00019"></position>
+        <rotation yaw="161.8903" roll="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156"></position>
+        <rotation yaw="-161.99213" roll="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156"></position>
+        <rotation yaw="-126.2055" roll="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.635" y="74.156"></position>
+        <rotation yaw="-89.76547" roll="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="10x_modules_prod_ter_scrap_recycler">
+      <offset>
+        <position x="2.635" y="-1867.29" z="0.000545"></position>
+        <rotation yaw="179.99992" roll="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="10x_modules_prod_gen_scrap_recycler">
+      <offset>
+        <position x="2.635" y="-1867.29"></position>
+        <rotation yaw="0.148096" roll="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="18" macro="10x_modules_prod_gen_scrap_recycler">
+      <offset>
+        <position x="2.635" y="-1867.29" z="0.0005858"></position>
+        <rotation yaw="-120.03617" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="19" macro="10x_modules_prod_gen_scrap_recycler">
+      <offset>
+        <position x="2.634" y="-1867.29" z="0.0006777"></position>
+        <rotation yaw="120.41841" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="20" macro="10x_modules_prod_ter_scrap_recycler">
+      <offset>
+        <position x="2.635" y="-1867.29"></position>
+        <rotation yaw="-59.86327" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="21" macro="10x_modules_prod_ter_scrap_recycler">
+      <offset>
+        <position x="2.634" y="-1867.29"></position>
+        <rotation yaw="59.8827" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="22" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="-690.305" y="-726.105" z="6.675"></position>
+        <rotation yaw="90.55186" pitch="-29.9784" roll="-90.78018"></rotation>
+      </offset>
+    </entry>
+    <entry index="23" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="695.338" y="-725.692" z="6.541"></position>
+        <rotation yaw="-90.54107" pitch="-30.01252" roll="-89.03238"></rotation>
+      </offset>
+    </entry>
+    <entry index="24" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="-212.002" y="-725.844" z="658.736"></position>
+        <rotation yaw="161.9527" pitch="-29.99998" roll="-89.68736"></rotation>
+      </offset>
+    </entry>
+    <entry index="25" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="217.272" y="-725.844" z="-658.735"></position>
+        <rotation yaw="-18.04728" pitch="-29.99997" roll="-90.12558"></rotation>
+      </offset>
+    </entry>
+    <entry index="26" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="564.367" y="-725.844" z="405.535"></position>
+        <rotation yaw="-125.82691" pitch="-29.99997" roll="-89.68738"></rotation>
+      </offset>
+    </entry>
+    <entry index="27" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="-559.097" y="-725.844" z="-405.535"></position>
+        <rotation yaw="54.17306" pitch="-29.99996" roll="-90.12556"></rotation>
+      </offset>
+    </entry>
+    <entry index="28" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="-210.127" y="-725.844" z="-659.343"></position>
+        <rotation yaw="17.88424" pitch="-29.99997" roll="-89.68736"></rotation>
+      </offset>
+    </entry>
+    <entry index="29" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="215.397" y="-725.843" z="659.344"></position>
+        <rotation yaw="-162.11575" pitch="-29.99998" roll="-90.12558"></rotation>
+      </offset>
+    </entry>
+    <entry index="30" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="563.35" y="-725.844" z="-406.94"></position>
+        <rotation yaw="-54.02965" pitch="-29.99996" roll="-89.68738"></rotation>
+      </offset>
+    </entry>
+    <entry index="31" macro="10x_modules_storage_arg_s_solid_01_macro">
+      <offset>
+        <position x="-558.08" y="-725.843" z="406.941"></position>
+        <rotation yaw="125.97032" pitch="-29.99997" roll="-90.12556"></rotation>
+      </offset>
+    </entry>
+    <entry index="32" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-5.382" y="-928.245" z="1040.586"></position>
+        <rotation yaw="179.55812" pitch="-30.00001" roll="-179.84604"></rotation>
+      </offset>
+    </entry>
+    <entry index="33" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="989.21" y="-928.245" z="330.984"></position>
+        <rotation yaw="-108.54638" pitch="-30" roll="-179.84607"></rotation>
+      </offset>
+    </entry>
+    <entry index="34" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="616.164" y="-928.246" z="-840.514"></position>
+        <rotation yaw="-36.12782" pitch="-29.99997" roll="-179.84604"></rotation>
+      </offset>
+    </entry>
+    <entry index="35" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-607.416" y="-928.245" z="-843.042"></position>
+        <rotation yaw="35.89024" pitch="-29.99998" roll="-179.84602"></rotation>
+      </offset>
+    </entry>
+    <entry index="36" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-990.778" y="-928.245" z="309.858"></position>
+        <rotation yaw="107.32295" pitch="-29.99998" roll="-179.84602"></rotation>
+      </offset>
+    </entry>
+    <entry index="37" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1602.633" y="-2267.291" z="-0.0001147"></position>
+        <rotation pitch="-68.08452"></rotation>
+      </offset>
+    </entry>
+    <entry index="38" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1597.364" y="-2267.291" z="0.0003735"></position>
+        <rotation yaw="-179.99992" pitch="-68.08167"></rotation>
+      </offset>
+    </entry>
+    <entry index="39" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1128.735" y="-2267.29" z="1131.37"></position>
+        <rotation yaw="-134.99989" pitch="-68.07495"></rotation>
+      </offset>
+    </entry>
+    <entry index="40" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1134.004" y="-2267.292" z="-1131.369"></position>
+        <rotation yaw="44.99994" pitch="-68.07967"></rotation>
+      </offset>
+    </entry>
+    <entry index="41" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.634" y="-2267.29" z="1600"></position>
+        <rotation yaw="-89.99992" pitch="-68.07208"></rotation>
+      </offset>
+    </entry>
+    <entry index="42" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.634" y="-2267.291" z="-1599.999"></position>
+        <rotation yaw="89.99997" pitch="-68.0774"></rotation>
+      </offset>
+    </entry>
+    <entry index="43" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1134.005" y="-2267.291" z="1131.371"></position>
+        <rotation yaw="-44.99998" pitch="-68.07442"></rotation>
+      </offset>
+    </entry>
+    <entry index="44" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1128.736" y="-2267.291" z="-1131.37"></position>
+        <rotation yaw="135" pitch="-68.07926"></rotation>
+      </offset>
+    </entry>
+    <entry index="45" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1597.351" y="-2267.291" z="-129.896"></position>
+        <rotation yaw="4.65663" pitch="-68.08452"></rotation>
+      </offset>
+    </entry>
+    <entry index="46" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1592.082" y="-2267.29" z="129.897"></position>
+        <rotation yaw="-175.34325" pitch="-68.0817"></rotation>
+      </offset>
+    </entry>
+    <entry index="47" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1033.149" y="-2267.29" z="1219.486"></position>
+        <rotation yaw="-130.3432" pitch="-68.07496"></rotation>
+      </offset>
+    </entry>
+    <entry index="48" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1038.419" y="-2267.292" z="-1219.484"></position>
+        <rotation yaw="49.65661" pitch="-68.07967"></rotation>
+      </offset>
+    </entry>
+    <entry index="49" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="132.53" y="-2267.29" z="1594.718"></position>
+        <rotation yaw="-85.3432" pitch="-68.07208"></rotation>
+      </offset>
+    </entry>
+    <entry index="50" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-127.261" y="-2267.292" z="-1594.717"></position>
+        <rotation yaw="94.65662" pitch="-68.0774"></rotation>
+      </offset>
+    </entry>
+    <entry index="51" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1222.121" y="-2267.29" z="1035.786"></position>
+        <rotation yaw="-40.34329" pitch="-68.07441"></rotation>
+      </offset>
+    </entry>
+    <entry index="52" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1216.852" y="-2267.291" z="-1035.785"></position>
+        <rotation yaw="139.65665" pitch="-68.07929"></rotation>
+      </offset>
+    </entry>
+    <entry index="53" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1576.782" y="-2267.29" z="-286.459"></position>
+        <rotation yaw="10.31373" pitch="-68.08454"></rotation>
+      </offset>
+    </entry>
+    <entry index="54" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1571.511" y="-2267.292" z="286.46"></position>
+        <rotation yaw="-169.68634" pitch="-68.08167"></rotation>
+      </offset>
+    </entry>
+    <entry index="55" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-907.896" y="-2267.291" z="1315.647"></position>
+        <rotation yaw="-124.68633" pitch="-68.07496"></rotation>
+      </offset>
+    </entry>
+    <entry index="56" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="913.167" y="-2267.29" z="-1315.646"></position>
+        <rotation yaw="55.31374" pitch="-68.07965"></rotation>
+      </offset>
+    </entry>
+    <entry index="57" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="289.094" y="-2267.291" z="1574.147"></position>
+        <rotation yaw="-79.68628" pitch="-68.07211"></rotation>
+      </offset>
+    </entry>
+    <entry index="58" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-283.824" y="-2267.291" z="-1574.147"></position>
+        <rotation yaw="100.31369" pitch="-68.07735"></rotation>
+      </offset>
+    </entry>
+    <entry index="59" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1318.283" y="-2267.29" z="910.534"></position>
+        <rotation yaw="-34.68628" pitch="-68.07446"></rotation>
+      </offset>
+    </entry>
+    <entry index="60" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1313.013" y="-2267.291" z="-910.533"></position>
+        <rotation yaw="145.31363" pitch="-68.07923"></rotation>
+      </offset>
+    </entry>
+    <entry index="61" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1551.445" y="-2267.291" z="-401.476"></position>
+        <rotation yaw="14.53205" pitch="-68.08454"></rotation>
+      </offset>
+    </entry>
+    <entry index="62" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1546.175" y="-2267.29" z="401.476"></position>
+        <rotation yaw="-165.46782" pitch="-68.08166"></rotation>
+      </offset>
+    </entry>
+    <entry index="63" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-808.652" y="-2267.29" z="1379.06"></position>
+        <rotation yaw="-120.46783" pitch="-68.07494"></rotation>
+      </offset>
+    </entry>
+    <entry index="64" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="813.923" y="-2267.291" z="-1379.06"></position>
+        <rotation yaw="59.5321" pitch="-68.07969"></rotation>
+      </offset>
+    </entry>
+    <entry index="65" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="404.111" y="-2267.291" z="1548.811"></position>
+        <rotation yaw="-75.46786" pitch="-68.07206"></rotation>
+      </offset>
+    </entry>
+    <entry index="66" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-398.841" y="-2267.291" z="-1548.811"></position>
+        <rotation yaw="104.53213" pitch="-68.0774"></rotation>
+      </offset>
+    </entry>
+    <entry index="67" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1381.696" y="-2267.291" z="811.289"></position>
+        <rotation yaw="-30.46794" pitch="-68.07443"></rotation>
+      </offset>
+    </entry>
+    <entry index="68" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1376.426" y="-2267.291" z="-811.288"></position>
+        <rotation yaw="149.53215" pitch="-68.07925"></rotation>
+      </offset>
+    </entry>
+    <entry index="69" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1505.23" y="-2267.29" z="-549.729"></position>
+        <rotation yaw="20.09525" pitch="-68.08454"></rotation>
+      </offset>
+    </entry>
+    <entry index="70" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1499.96" y="-2267.292" z="549.729"></position>
+        <rotation yaw="-159.90483" pitch="-68.08167"></rotation>
+      </offset>
+    </entry>
+    <entry index="71" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-671.142" y="-2267.291" z="1451.212"></position>
+        <rotation yaw="-114.9048" pitch="-68.07497"></rotation>
+      </offset>
+    </entry>
+    <entry index="72" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="676.413" y="-2267.291" z="-1451.212"></position>
+        <rotation yaw="65.09525" pitch="-68.07966"></rotation>
+      </offset>
+    </entry>
+    <entry index="73" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="552.364" y="-2267.291" z="1502.596"></position>
+        <rotation yaw="-69.90475" pitch="-68.07211"></rotation>
+      </offset>
+    </entry>
+    <entry index="74" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-547.094" y="-2267.291" z="-1502.596"></position>
+        <rotation yaw="110.0952" pitch="-68.07737"></rotation>
+      </offset>
+    </entry>
+    <entry index="75" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1453.848" y="-2267.29" z="673.779"></position>
+        <rotation yaw="-24.90476" pitch="-68.07446"></rotation>
+      </offset>
+    </entry>
+    <entry index="76" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1448.578" y="-2267.292" z="-673.778"></position>
+        <rotation yaw="155.09514" pitch="-68.07924"></rotation>
+      </offset>
+    </entry>
+    <entry index="77" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1451.949" y="-2267.291" z="-677.854"></position>
+        <rotation yaw="25.06575" pitch="-68.08454"></rotation>
+      </offset>
+    </entry>
+    <entry index="78" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1446.679" y="-2267.29" z="677.854"></position>
+        <rotation yaw="-154.93411" pitch="-68.08166"></rotation>
+      </offset>
+    </entry>
+    <entry index="79" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-542.869" y="-2267.291" z="1504.134"></position>
+        <rotation yaw="-109.93414" pitch="-68.07493"></rotation>
+      </offset>
+    </entry>
+    <entry index="80" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="548.139" y="-2267.291" z="-1504.134"></position>
+        <rotation yaw="70.0658" pitch="-68.07969"></rotation>
+      </offset>
+    </entry>
+    <entry index="81" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="680.489" y="-2267.291" z="1449.314"></position>
+        <rotation yaw="-64.93417" pitch="-68.07207"></rotation>
+      </offset>
+    </entry>
+    <entry index="82" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-675.219" y="-2267.291" z="-1449.314"></position>
+        <rotation yaw="115.06583" pitch="-68.0774"></rotation>
+      </offset>
+    </entry>
+    <entry index="83" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1506.771" y="-2267.291" z="545.505"></position>
+        <rotation yaw="-19.93424" pitch="-68.07443"></rotation>
+      </offset>
+    </entry>
+    <entry index="84" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1501.501" y="-2267.29" z="-545.505"></position>
+        <rotation yaw="160.06586" pitch="-68.07925"></rotation>
+      </offset>
+    </entry>
+    <entry index="85" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1383.492" y="-2267.291" z="-808.226"></position>
+        <rotation yaw="30.34068" pitch="-68.08455"></rotation>
+      </offset>
+    </entry>
+    <entry index="86" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1378.223" y="-2267.29" z="808.226"></position>
+        <rotation yaw="-149.65919" pitch="-68.08164"></rotation>
+      </offset>
+    </entry>
+    <entry index="87" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-402.276" y="-2267.291" z="1547.915"></position>
+        <rotation yaw="-104.65921" pitch="-68.07493"></rotation>
+      </offset>
+    </entry>
+    <entry index="88" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="407.547" y="-2267.291" z="-1547.915"></position>
+        <rotation yaw="75.34073" pitch="-68.0797"></rotation>
+      </offset>
+    </entry>
+    <entry index="89" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="810.86" y="-2267.291" z="1380.858"></position>
+        <rotation yaw="-59.65925" pitch="-68.07207"></rotation>
+      </offset>
+    </entry>
+    <entry index="90" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-805.591" y="-2267.291" z="-1380.858"></position>
+        <rotation yaw="120.34077" pitch="-68.0774"></rotation>
+      </offset>
+    </entry>
+    <entry index="91" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1550.551" y="-2267.291" z="404.913"></position>
+        <rotation yaw="-14.65932" pitch="-68.07443"></rotation>
+      </offset>
+    </entry>
+    <entry index="92" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1545.282" y="-2267.29" z="-404.912"></position>
+        <rotation yaw="165.34079" pitch="-68.07925"></rotation>
+      </offset>
+    </entry>
+    <entry index="93" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1318.733" y="-2267.291" z="-909.879"></position>
+        <rotation yaw="34.65787" pitch="-68.0845"></rotation>
+      </offset>
+    </entry>
+    <entry index="94" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1313.464" y="-2267.291" z="909.881"></position>
+        <rotation yaw="-145.34206" pitch="-68.0817"></rotation>
+      </offset>
+    </entry>
+    <entry index="95" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-284.605" y="-2267.29" z="1574.005"></position>
+        <rotation yaw="-100.342" pitch="-68.07496"></rotation>
+      </offset>
+    </entry>
+    <entry index="96" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="289.875" y="-2267.292" z="-1574.003"></position>
+        <rotation yaw="79.65784" pitch="-68.07965"></rotation>
+      </offset>
+    </entry>
+    <entry index="97" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="912.514" y="-2267.29" z="1316.1"></position>
+        <rotation yaw="-55.34198" pitch="-68.07208" roll="-0.000100595"></rotation>
+      </offset>
+    </entry>
+    <entry index="98" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-907.246" y="-2267.292" z="-1316.099"></position>
+        <rotation yaw="124.65781" pitch="-68.07738"></rotation>
+      </offset>
+    </entry>
+    <entry index="99" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1576.64" y="-2267.29" z="287.241"></position>
+        <rotation yaw="-10.34206" pitch="-68.07441"></rotation>
+      </offset>
+    </entry>
+    <entry index="100" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1571.371" y="-2267.292" z="-287.24"></position>
+        <rotation yaw="169.65784" pitch="-68.07926"></rotation>
+      </offset>
+    </entry>
+    <entry index="101" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1230.537" y="-2267.291" z="-1025.793"></position>
+        <rotation yaw="39.87541" pitch="-68.08455"></rotation>
+      </offset>
+    </entry>
+    <entry index="102" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1225.268" y="-2267.29" z="1025.793"></position>
+        <rotation yaw="-140.12447" pitch="-68.08164"></rotation>
+      </offset>
+    </entry>
+    <entry index="103" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-140.278" y="-2267.291" z="1593.603"></position>
+        <rotation yaw="-95.12449" pitch="-68.07493"></rotation>
+      </offset>
+    </entry>
+    <entry index="104" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="145.548" y="-2267.291" z="-1593.603"></position>
+        <rotation yaw="84.87547" pitch="-68.07969"></rotation>
+      </offset>
+    </entry>
+    <entry index="105" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1028.428" y="-2267.291" z="1227.903"></position>
+        <rotation yaw="-50.12453" pitch="-68.07207"></rotation>
+      </offset>
+    </entry>
+    <entry index="106" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1023.159" y="-2267.291" z="-1227.903"></position>
+        <rotation yaw="129.8755" pitch="-68.0774"></rotation>
+      </offset>
+    </entry>
+    <entry index="107" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1596.24" y="-2267.291" z="142.914"></position>
+        <rotation yaw="-5.12459" pitch="-68.07443"></rotation>
+      </offset>
+    </entry>
+    <entry index="108" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1590.97" y="-2267.29" z="-142.913"></position>
+        <rotation yaw="174.8755" pitch="-68.07925"></rotation>
+      </offset>
+    </entry>
+    <entry index="109" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1602.633" y="-2267.29" z="-0.002291"></position>
+        <rotation yaw="-179.99983" pitch="68.08451" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="110" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1597.365" y="-2267.291" z="0.003991"></position>
+        <rotation pitch="68.08169" roll="179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="111" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1128.737" y="-2267.292" z="-1131.367"></position>
+        <rotation yaw="-44.99999" pitch="68.07496" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="112" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1134.007" y="-2267.29" z="1131.368"></position>
+        <rotation yaw="135.00017" pitch="68.07966" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="113" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.631" y="-2267.292" z="-1599.998"></position>
+        <rotation yaw="-89.99999" pitch="68.07207" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="114" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="2.638" y="-2267.29" z="1600"></position>
+        <rotation yaw="90.00018" pitch="68.07739" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="115" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1134.003" y="-2267.291" z="-1131.373"></position>
+        <rotation yaw="-134.99991" pitch="68.07441" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="116" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1128.734" y="-2267.29" z="1131.374"></position>
+        <rotation yaw="45.00014" pitch="68.07928" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="117" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1596.158" y="-2267.29" z="-143.812"></position>
+        <rotation yaw="-174.84305" pitch="68.08454" roll="-179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="118" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1590.887" y="-2267.292" z="143.813"></position>
+        <rotation yaw="5.15681" pitch="68.08166" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="119" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1225.845" y="-2267.292" z="-1025.099"></position>
+        <rotation yaw="-39.84317" pitch="68.07493" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="120" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1231.117" y="-2267.29" z="1025.099"></position>
+        <rotation yaw="140.15689" pitch="68.07969" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="121" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-141.178" y="-2267.291" z="-1593.522"></position>
+        <rotation yaw="-84.84314" pitch="68.07206" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="122" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="146.448" y="-2267.291" z="1593.524"></position>
+        <rotation yaw="95.15686" pitch="68.07739" roll="-180"></rotation>
+      </offset>
+    </entry>
+    <entry index="123" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1027.735" y="-2267.291" z="-1228.482"></position>
+        <rotation yaw="-129.84306" pitch="68.07443" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="124" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1022.465" y="-2267.291" z="1228.483"></position>
+        <rotation yaw="50.15684" pitch="68.07925" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="125" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1580.42" y="-2267.291" z="-265.685"></position>
+        <rotation yaw="-170.44162" pitch="68.08454" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="126" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1575.151" y="-2267.29" z="265.685"></position>
+        <rotation yaw="9.55846" pitch="68.08167" roll="-179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="127" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1300.894" y="-2267.291" z="-927.795"></position>
+        <rotation yaw="-35.44156" pitch="68.07496" roll="-179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="128" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1306.165" y="-2267.291" z="927.795"></position>
+        <rotation yaw="144.55836" pitch="68.07966" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="129" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-263.05" y="-2267.291" z="-1577.785"></position>
+        <rotation yaw="-80.4416" pitch="68.07211" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="130" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="268.32" y="-2267.291" z="1577.786"></position>
+        <rotation yaw="99.5584" pitch="68.07735" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="131" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="930.431" y="-2267.291" z="-1303.531"></position>
+        <rotation yaw="-125.4416" pitch="68.07446" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="132" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-925.161" y="-2267.29" z="1303.532"></position>
+        <rotation yaw="54.55846" pitch="68.07923" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="133" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1547.413" y="-2267.29" z="-416.72"></position>
+        <rotation yaw="-164.90312" pitch="68.08454" roll="-179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="134" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1542.143" y="-2267.292" z="416.721"></position>
+        <rotation yaw="15.09674" pitch="68.08167" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="135" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1384.353" y="-2267.292" z="-797.657"></position>
+        <rotation yaw="-29.90325" pitch="68.07494" roll="179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="136" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1389.624" y="-2267.29" z="797.657"></position>
+        <rotation yaw="150.09683" pitch="68.07969" roll="-179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="137" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-414.086" y="-2267.291" z="-1544.778"></position>
+        <rotation yaw="-74.90322" pitch="68.07207" roll="179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="138" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="419.356" y="-2267.29" z="1544.779"></position>
+        <rotation yaw="105.0968" pitch="68.0774" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="139" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="800.292" y="-2267.291" z="-1386.99"></position>
+        <rotation yaw="-119.90314" pitch="68.07442" roll="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="140" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-795.022" y="-2267.291" z="1386.99"></position>
+        <rotation yaw="60.09677" pitch="68.07926" roll="179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="141" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1504.981" y="-2267.291" z="-550.41"></position>
+        <rotation yaw="-159.87878" pitch="68.0845" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="142" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1499.712" y="-2267.291" z="550.412"></position>
+        <rotation yaw="20.12118" pitch="68.08169" roll="179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="143" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1448.883" y="-2267.292" z="-673.119"></position>
+        <rotation yaw="-24.87888" pitch="68.07497" roll="179.99991"></rotation>
+      </offset>
+    </entry>
+    <entry index="144" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1454.153" y="-2267.29" z="673.12"></position>
+        <rotation yaw="155.12125" pitch="68.07965" roll="-179.99991"></rotation>
+      </offset>
+    </entry>
+    <entry index="145" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-547.777" y="-2267.292" z="-1502.345"></position>
+        <rotation yaw="-69.87891" pitch="68.07208" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="146" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="553.046" y="-2267.29" z="1502.348"></position>
+        <rotation yaw="110.12128" pitch="68.07738" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="147" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="675.754" y="-2267.292" z="-1451.519"></position>
+        <rotation yaw="-114.87885" pitch="68.07441" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="148" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-670.486" y="-2267.29" z="1451.52"></position>
+        <rotation yaw="65.12126" pitch="68.07927" roll="-179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="149" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1451.648" y="-2267.292" z="-678.493"></position>
+        <rotation yaw="-154.90892" pitch="68.08453" roll="179.99991"></rotation>
+      </offset>
+    </entry>
+    <entry index="150" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1446.379" y="-2267.29" z="678.495"></position>
+        <rotation yaw="25.09118" pitch="68.0817" roll="-179.99991"></rotation>
+      </offset>
+    </entry>
+    <entry index="151" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1501.739" y="-2267.291" z="-544.839"></position>
+        <rotation yaw="-19.90889" pitch="68.07499" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="152" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1507.009" y="-2267.291" z="544.84"></position>
+        <rotation yaw="160.09109" pitch="68.07964" roll="179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="153" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-675.859" y="-2267.292" z="-1449.013"></position>
+        <rotation yaw="-64.90895" pitch="68.07212" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="154" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="681.129" y="-2267.29" z="1449.015"></position>
+        <rotation yaw="115.09116" pitch="68.07737" roll="-179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="155" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="547.474" y="-2267.292" z="-1504.375"></position>
+        <rotation yaw="-109.90895" pitch="68.07444" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="156" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-542.205" y="-2267.29" z="1504.376"></position>
+        <rotation yaw="70.09121" pitch="68.07925" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="157" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1388.188" y="-2267.291" z="-800.148"></position>
+        <rotation yaw="-149.99388" pitch="68.08455" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="158" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1382.918" y="-2267.29" z="800.149"></position>
+        <rotation yaw="30.0062" pitch="68.08166" roll="-179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="159" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1542.889" y="-2267.291" z="-413.944"></position>
+        <rotation yaw="-14.9938" pitch="68.07495" roll="-179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="160" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1548.159" y="-2267.291" z="413.944"></position>
+        <rotation yaw="165.00609" pitch="68.07967" roll="179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="161" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-797.514" y="-2267.291" z="-1385.553"></position>
+        <rotation yaw="-59.99384" pitch="68.07211" roll="-179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="162" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="802.784" y="-2267.291" z="1385.554"></position>
+        <rotation yaw="120.00613" pitch="68.07735" roll="179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="163" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="416.579" y="-2267.291" z="-1545.526"></position>
+        <rotation yaw="-104.99385" pitch="68.07446" roll="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="164" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-411.309" y="-2267.29" z="1545.526"></position>
+        <rotation yaw="75.00618" pitch="68.07923" roll="-179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="165" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1312.353" y="-2267.29" z="-919.04"></position>
+        <rotation yaw="-144.94226" pitch="68.08454" roll="-179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="166" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1307.082" y="-2267.292" z="919.041"></position>
+        <rotation yaw="35.0576" pitch="68.08167" roll="179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="167" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1573.334" y="-2267.292" z="-276.251"></position>
+        <rotation yaw="-9.9424" pitch="68.07495" roll="179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="168" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1578.604" y="-2267.29" z="276.251"></position>
+        <rotation yaw="170.05769" pitch="68.07969" roll="-179.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="169" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-916.405" y="-2267.291" z="-1309.717"></position>
+        <rotation yaw="-54.94238" pitch="68.07207" roll="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="170" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="921.676" y="-2267.29" z="1309.719"></position>
+        <rotation yaw="125.05769" pitch="68.0774" roll="-179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="171" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="278.886" y="-2267.291" z="-1575.971"></position>
+        <rotation yaw="-99.9423" pitch="68.07442" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="172" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-273.615" y="-2267.291" z="1575.971"></position>
+        <rotation yaw="80.05765" pitch="68.07927" roll="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="173" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1226.614" y="-2267.292" z="-1030.47"></position>
+        <rotation yaw="-139.90601" pitch="68.08454" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="174" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1221.346" y="-2267.29" z="1030.471"></position>
+        <rotation yaw="40.09414" pitch="68.08167" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="175" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1591.502" y="-2267.291" z="-136.832"></position>
+        <rotation yaw="-4.9059" pitch="68.07498" roll="-179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="176" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1596.771" y="-2267.291" z="136.832"></position>
+        <rotation yaw="175.09399" pitch="68.07964" roll="179.99994"></rotation>
+      </offset>
+    </entry>
+    <entry index="177" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-1027.836" y="-2267.291" z="-1223.979"></position>
+        <rotation yaw="-49.90598" pitch="68.07212" roll="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="178" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="1033.105" y="-2267.29" z="1223.981"></position>
+        <rotation yaw="130.09407" pitch="68.07735" roll="-179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="179" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="139.466" y="-2267.292" z="-1594.138"></position>
+        <rotation yaw="-94.906" pitch="68.07446" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="180" macro="10x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-134.198" y="-2267.29" z="1594.138"></position>
+        <rotation yaw="85.09415" pitch="68.07923" roll="-179.99991"></rotation>
+      </offset>
+    </entry>
+    <entry index="181" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="2.634" y="-2264.519" z="-999.999"></position>
+      </offset>
+    </entry>
+    <entry index="182" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="1002.634" y="-2264.519" z="0.0003306"></position>
+        <rotation yaw="-89.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="183" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="2.634" y="-2264.518" z="1000"></position>
+        <rotation yaw="179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="184" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-997.365" y="-2264.519" z="0.0002067"></position>
+        <rotation yaw="89.99999"></rotation>
+      </offset>
+    </entry>
+    <entry index="185" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="-947.971" y="-2264.519" z="-310.401"></position>
+        <rotation yaw="71.91656"></rotation>
+      </offset>
+    </entry>
+    <entry index="186" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="313.036" y="-2264.52" z="-950.605"></position>
+        <rotation yaw="-18.08342"></rotation>
+      </offset>
+    </entry>
+    <entry index="187" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="953.24" y="-2264.519" z="310.402"></position>
+        <rotation yaw="-108.08344"></rotation>
+      </offset>
+    </entry>
+    <entry index="188" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-307.767" y="-2264.518" z="950.606"></position>
+        <rotation yaw="161.91655"></rotation>
+      </offset>
+    </entry>
+    <entry index="189" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="-584.022" y="-2264.518" z="809.836"></position>
+        <rotation yaw="144.07986"></rotation>
+      </offset>
+    </entry>
+    <entry index="190" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-807.201" y="-2264.519" z="-586.656"></position>
+        <rotation yaw="54.07988"></rotation>
+      </offset>
+    </entry>
+    <entry index="191" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="589.292" y="-2264.519" z="-809.835"></position>
+        <rotation yaw="-35.92013"></rotation>
+      </offset>
+    </entry>
+    <entry index="192" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="812.47" y="-2264.519" z="586.657"></position>
+        <rotation yaw="-125.92013"></rotation>
+      </offset>
+    </entry>
+    <entry index="193" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="587.215" y="-2264.518" z="811.336"></position>
+        <rotation yaw="-144.22659"></rotation>
+      </offset>
+    </entry>
+    <entry index="194" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-808.7" y="-2264.519" z="584.582"></position>
+        <rotation yaw="125.77341"></rotation>
+      </offset>
+    </entry>
+    <entry index="195" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-581.946" y="-2264.519" z="-811.334"></position>
+        <rotation yaw="35.7734"></rotation>
+      </offset>
+    </entry>
+    <entry index="196" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="813.969" y="-2264.519" z="-584.58"></position>
+        <rotation yaw="-54.2266"></rotation>
+      </offset>
+    </entry>
+    <entry index="197" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="953.672" y="-2264.519" z="-309.073"></position>
+        <rotation yaw="-71.99656"></rotation>
+      </offset>
+    </entry>
+    <entry index="198" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="311.709" y="-2264.519" z="951.038"></position>
+        <rotation yaw="-161.99655"></rotation>
+      </offset>
+    </entry>
+    <entry index="199" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-948.403" y="-2264.518" z="309.074"></position>
+        <rotation yaw="108.00342"></rotation>
+      </offset>
+    </entry>
+    <entry index="200" macro="10x_modules_storage_arg_l_container_01_macro">
+      <offset>
+        <position x="-306.439" y="-2264.519" z="-951.037"></position>
+        <rotation yaw="18.00343"></rotation>
+      </offset>
+    </entry>
+    <entry index="201" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="2.635" y="-2493.274" z="-1000.003"></position>
+        <rotation yaw="-179.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="202" macro="dockarea_arg_m_station_02_lowtech_macro">
+      <offset>
+        <position x="2.635" y="-2696.046" z="-1400.002"></position>
+        <rotation roll="179.99669"></rotation>
+      </offset>
+    </entry>
+    <entry index="203" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="-948.225" y="-2493.273" z="-309.623"></position>
+        <rotation yaw="-108.03638"></rotation>
+      </offset>
+    </entry>
+    <entry index="204" macro="dockarea_arg_m_station_02_lowtech_macro">
+      <offset>
+        <position x="-1328.569" y="-2696.044" z="-433.472"></position>
+        <rotation yaw="71.96362" roll="179.99673"></rotation>
+      </offset>
+    </entry>
+    <entry index="205" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="-584.628" y="-2493.272" z="809.394"></position>
+        <rotation yaw="-35.96308"></rotation>
+      </offset>
+    </entry>
+    <entry index="206" macro="dockarea_arg_m_station_02_lowtech_macro">
+      <offset>
+        <position x="-819.534" y="-2696.043" z="1133.152"></position>
+        <rotation yaw="144.03691" roll="179.99669"></rotation>
+      </offset>
+    </entry>
+    <entry index="207" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="593.659" y="-2493.272" z="806.653"></position>
+        <rotation yaw="36.22956"></rotation>
+      </offset>
+    </entry>
+    <entry index="208" macro="dockarea_arg_m_station_02_lowtech_macro">
+      <offset>
+        <position x="830.067" y="-2696.044" z="1129.316"></position>
+        <rotation yaw="-143.77042" roll="179.99663"></rotation>
+      </offset>
+    </entry>
+    <entry index="209" macro="10x_modules_storage_arg_l_solid_01_macro">
+      <offset>
+        <position x="955.422" y="-2493.274" z="-303.647"></position>
+        <rotation yaw="107.67662"></rotation>
+      </offset>
+    </entry>
+    <entry index="210" macro="dockarea_arg_m_station_02_lowtech_macro">
+      <offset>
+        <position x="1336.536" y="-2696.045" z="-425.104"></position>
+        <rotation yaw="-72.32336" roll="179.99663"></rotation>
+      </offset>
+    </entry>
+    <entry index="211" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-1.071" y="-2486.971" z="899.998"></position>
+        <rotation yaw="-90.23078" pitch="-0.275468" roll="-149.99872"></rotation>
+      </offset>
+    </entry>
+    <entry index="212" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-856.675" y="-2486.972" z="267.576"></position>
+        <rotation yaw="-162.69882" pitch="-0.275534" roll="-149.9987"></rotation>
+      </offset>
+    </entry>
+    <entry index="213" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-514.648" y="-2486.973" z="-736.501"></position>
+        <rotation yaw="125.08774" pitch="-0.275536" roll="-149.99863"></rotation>
+      </offset>
+    </entry>
+    <entry index="214" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="547.913" y="-2486.973" z="-716.024"></position>
+        <rotation yaw="52.71462" pitch="-0.275471" roll="-149.99861"></rotation>
+      </offset>
+    </entry>
+    <entry index="215" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="851.712" y="-2486.973" z="298.467"></position>
+        <rotation yaw="-19.36253" pitch="-0.275429" roll="-149.99866"></rotation>
+      </offset>
+    </entry>
+  </plan>
+</plans>

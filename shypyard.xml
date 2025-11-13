@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="524D3F2B-D212-4E84-B5EE-7C4851F5F3A5_1732004048" name="shypyard" description="">
+    <patches>
+      <patch extension="ego_dlc_split" version="710" name="Split Vendetta"/>
+      <patch extension="ego_dlc_pirate" version="710" name="Vagues d'Avarice"/>
+      <patch extension="ego_dlc_timelines" version="710" name="Timelines"/>
+      <patch extension="ego_dlc_boron" version="710" name="Kingdom End"/>
+    </patches>
+    <entry index="1" macro="struct_tel_cross_01_macro">
+      <offset>
+        <position y="-27.204"/>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap001"/>
+      <offset>
+        <position y="-27.204" z="600"/>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001"/>
+      <offset>
+        <position y="-27.204" z="1400"/>
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="3" connection="connectionsnap001"/>
+      <offset>
+        <position y="-27.204" z="2000"/>
+      </offset>
+    </entry>
+    <entry index="5" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap004"/>
+      <offset>
+        <position x="600" y="-27.204" z="2000"/>
+        <rotation yaw="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="6" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap004"/>
+      <offset>
+        <position x="600" y="-27.204"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="7" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="6" connection="connectionsnap001"/>
+      <offset>
+        <position x="1200" y="-27.204" z="-0.0004883"/>
+      </offset>
+    </entry>
+    <entry index="8" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap003"/>
+      <offset>
+        <position x="-600" y="-27.204"/>
+        <rotation yaw="-90.00001"/>
+      </offset>
+    </entry>
+    <entry index="9" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="8" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1200" y="-27.204" z="0.0004883"/>
+        <rotation yaw="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="10" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap003"/>
+      <offset>
+        <position x="-600" y="-27.204" z="1999.999"/>
+        <rotation yaw="-90.00003"/>
+      </offset>
+    </entry>
+    <entry index="11" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="7" connection="connectionsnap004"/>
+      <offset>
+        <position x="1600" y="-27.204" z="-0.0004883"/>
+        <rotation yaw="90"/>
+      </offset>
+    </entry>
+    <entry index="12" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="11" connection="connectionsnap001"/>
+      <offset>
+        <position x="2000" y="-27.204" z="-0.0004883"/>
+      </offset>
+    </entry>
+    <entry index="13" macro="struct_arg_base_02_macro" connection="connectionsnap001">
+      <predecessor index="12" connection="connectionsnap002"/>
+      <offset>
+        <position x="2000" y="-27.204" z="-600"/>
+      </offset>
+    </entry>
+    <entry index="14" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="13" connection="connectionsnap002"/>
+      <offset>
+        <position x="2000" y="-27.204" z="-1200"/>
+      </offset>
+    </entry>
+    <entry index="15" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1600" y="-27.204" z="0.0004883"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="16" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="15" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2000" y="-27.204" z="0.0004883"/>
+      </offset>
+    </entry>
+    <entry index="17" macro="struct_arg_base_02_macro" connection="connectionsnap001">
+      <predecessor index="16" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2000" y="-27.204" z="-599.999"/>
+      </offset>
+    </entry>
+    <entry index="18" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="17" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2000" y="-27.204" z="-1199.999"/>
+      </offset>
+    </entry>
+    <entry index="19" macro="pier_arg_harbor_02_macro" connection="connectionsnap001">
+      <predecessor index="10" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1200" y="-27.204" z="1799.999"/>
+        <rotation yaw="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="20" macro="pier_arg_harbor_02_macro" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap001"/>
+      <offset>
+        <position x="1200" y="-27.204" z="1800"/>
+        <rotation yaw="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="21" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="20" connection="connectionsnap004"/>
+      <offset>
+        <position x="1200.001" y="-27.204" z="1000"/>
+        <rotation yaw="-90.00002"/>
+      </offset>
+    </entry>
+    <entry index="22" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="19" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1200" y="-27.204" z="999.999"/>
+        <rotation yaw="89.99995" roll="-179.99998"/>
+      </offset>
+    </entry>
+    <entry index="23" macro="buildmodule_bor_ships_xl_macro" connection="con_snap_01">
+      <predecessor index="14" connection="connectionsnap003"/>
+      <offset>
+        <position x="-0.0002441" y="-27.204" z="-1200"/>
+      </offset>
+    </entry>
+    <entry index="24" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_01">
+      <predecessor index="18" connection="connectionsnap003"/>
+      <offset>
+        <position x="-2943.139" y="-27.204" z="-1076.939"/>
+        <rotation yaw="-67.50002"/>
+      </offset>
+    </entry>
+    <entry index="25" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_02">
+      <predecessor index="16" connection="connectionsnap003"/>
+      <offset>
+        <position x="-2943.139" y="-27.204" z="-123.06"/>
+        <rotation yaw="67.49997"/>
+      </offset>
+    </entry>
+    <entry index="26" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_01">
+      <predecessor index="12" connection="connectionsnap004"/>
+      <offset>
+        <position x="2943.14" y="-27.204" z="-123.061"/>
+        <rotation yaw="112.49998"/>
+      </offset>
+    </entry>
+    <entry index="27" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_02">
+      <predecessor index="14" connection="connectionsnap004"/>
+      <offset>
+        <position x="2943.14" y="-27.204" z="-1076.94"/>
+        <rotation yaw="-112.50001"/>
+      </offset>
+    </entry>
+    <entry index="28" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_02">
+      <predecessor index="20" connection="connectionsnap001"/>
+      <offset>
+        <position x="2143.139" y="-27.204" z="2123.061"/>
+        <rotation yaw="-112.50007"/>
+      </offset>
+    </entry>
+    <entry index="29" macro="struct_arg_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="28" connection="con_snap_01"/>
+      <offset>
+        <position x="2897.055" y="-27.204" z="2702.946"/>
+        <rotation yaw="44.99993"/>
+      </offset>
+    </entry>
+    <entry index="30" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_02">
+      <predecessor index="29" connection="connectionsnap003"/>
+      <offset>
+        <position x="2143.138" y="-27.204" z="3282.828"/>
+        <rotation yaw="112.49989"/>
+      </offset>
+    </entry>
+    <entry index="31" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_01">
+      <predecessor index="19" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2143.14" y="-27.204" z="2123.059"/>
+        <rotation yaw="-67.50005"/>
+      </offset>
+    </entry>
+    <entry index="32" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="31" connection="con_snap_02"/>
+      <offset>
+        <position x="-2897.057" y="-27.204" z="2702.942"/>
+        <rotation yaw="-135.00002"/>
+      </offset>
+    </entry>
+    <entry index="33" macro="landmarks_arg_antigonearc_01_macro" connection="con_snap_01">
+      <predecessor index="32" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2143.14" y="-27.204" z="3282.826"/>
+        <rotation yaw="67.49997"/>
+      </offset>
+    </entry>
+    <entry index="34" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap001"/>
+      <offset>
+        <position y="-27.204" z="2400"/>
+      </offset>
+    </entry>
+    <entry index="35" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="34" connection="connectionsnap005"/>
+      <offset>
+        <position y="-427.204" z="2400"/>
+      </offset>
+    </entry>
+    <entry index="36" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="35" connection="connectionsnap001"/>
+      <offset>
+        <position y="-427.204" z="2800"/>
+      </offset>
+    </entry>
+    <entry index="37" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="36" connection="connectionsnap001"/>
+      <offset>
+        <position y="-427.204" z="3200"/>
+      </offset>
+    </entry>
+    <entry index="38" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="35" connection="connectionsnap002"/>
+      <offset>
+        <position y="-427.204" z="2000"/>
+      </offset>
+    </entry>
+    <entry index="39" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="38" connection="connectionsnap002"/>
+      <offset>
+        <position y="-427.204" z="1600"/>
+      </offset>
+    </entry>
+    <entry index="40" macro="storage_arg_m_container_01_macro" connection="connectionsnap002">
+      <predecessor index="37" connection="connectionsnap003"/>
+      <offset>
+        <position x="-600" y="-427.204" z="3200"/>
+        <rotation yaw="-90.00002"/>
+      </offset>
+    </entry>
+    <entry index="41" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="40" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1200" y="-427.204" z="3200"/>
+        <rotation yaw="89.99996"/>
+      </offset>
+    </entry>
+    <entry index="42" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="41" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1200" y="-427.204" z="2800"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="43" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="42" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1800" y="-427.204" z="2799.999"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="44" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="43" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2600" y="-427.204" z="2800"/>
+        <rotation yaw="90"/>
+      </offset>
+    </entry>
+    <entry index="45" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="44" connection="connectionsnap003"/>
+      <offset>
+        <position x="-2600" y="-427.204" z="3599.999"/>
+        <rotation yaw="-90"/>
+      </offset>
+    </entry>
+    <entry index="46" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="45" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1800" y="-427.204" z="3599.999"/>
+        <rotation yaw="-89.99998"/>
+      </offset>
+    </entry>
+    <entry index="47" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="40" connection="connectionsnap003"/>
+      <offset>
+        <position x="-600" y="-427.204" z="2400"/>
+        <rotation yaw="89.99996"/>
+      </offset>
+    </entry>
+    <entry index="48" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="47" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1400" y="-427.204" z="2400"/>
+        <rotation yaw="89.99997" roll="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="49" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="48" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2200" y="-427.204" z="2399.999"/>
+        <rotation yaw="89.99996" roll="179.99997"/>
+      </offset>
+    </entry>
+    <entry index="50" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="48" connection="connectionsnap003"/>
+      <offset>
+        <position x="-1399.999" y="-427.204" z="1600"/>
+        <rotation yaw="-90.00002" roll="-179.99997"/>
+      </offset>
+    </entry>
+    <entry index="51" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="50" connection="connectionsnap002"/>
+      <offset>
+        <position x="-599.999" y="-427.204" z="1600.001"/>
+        <rotation yaw="-90.00002" roll="-179.99997"/>
+      </offset>
+    </entry>
+    <entry index="52" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="37" connection="connectionsnap004"/>
+      <offset>
+        <position x="600" y="-427.204" z="3200"/>
+        <rotation yaw="-90.00001"/>
+      </offset>
+    </entry>
+    <entry index="53" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="52" connection="connectionsnap002"/>
+      <offset>
+        <position x="1200" y="-427.204" z="3200"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="54" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="53" connection="connectionsnap004"/>
+      <offset>
+        <position x="1200" y="-427.204" z="2800"/>
+        <rotation yaw="90"/>
+      </offset>
+    </entry>
+    <entry index="55" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="54" connection="connectionsnap001"/>
+      <offset>
+        <position x="1800" y="-427.204" z="2800"/>
+        <rotation yaw="-89.99999" roll="179.99995"/>
+      </offset>
+    </entry>
+    <entry index="56" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="55" connection="connectionsnap002"/>
+      <offset>
+        <position x="2600.001" y="-427.204" z="2800"/>
+        <rotation yaw="-90" roll="179.99995"/>
+      </offset>
+    </entry>
+    <entry index="57" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="56" connection="connectionsnap003"/>
+      <offset>
+        <position x="2600" y="-427.204" z="3600"/>
+        <rotation yaw="89.99999" roll="-179.99995"/>
+      </offset>
+    </entry>
+    <entry index="58" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="57" connection="connectionsnap002"/>
+      <offset>
+        <position x="1800" y="-427.204" z="3600"/>
+        <rotation yaw="89.99998" roll="-179.99995"/>
+      </offset>
+    </entry>
+    <entry index="59" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="52" connection="connectionsnap003"/>
+      <offset>
+        <position x="600" y="-427.204" z="2400"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="60" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="59" connection="connectionsnap001"/>
+      <offset>
+        <position x="1400" y="-427.204" z="2400"/>
+        <rotation yaw="-90.00001"/>
+      </offset>
+    </entry>
+    <entry index="61" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="60" connection="connectionsnap002"/>
+      <offset>
+        <position x="2200" y="-427.204" z="2400"/>
+        <rotation yaw="-90"/>
+      </offset>
+    </entry>
+    <entry index="62" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="60" connection="connectionsnap003"/>
+      <offset>
+        <position x="1400" y="-427.204" z="1599.999"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="63" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="62" connection="connectionsnap002"/>
+      <offset>
+        <position x="600" y="-427.204" z="1599.999"/>
+        <rotation yaw="90"/>
+      </offset>
+    </entry>
+    <entry index="64" macro="struct_arg_base_02_macro" connection="connectionsnap002">
+      <predecessor index="33" connection="con_snap_02"/>
+      <offset>
+        <position x="-1000" y="-27.204" z="3405.886"/>
+        <rotation yaw="89.99998"/>
+      </offset>
+    </entry>
+    <entry index="65" macro="struct_arg_base_02_macro" connection="connectionsnap001">
+      <predecessor index="30" connection="con_snap_01"/>
+      <offset>
+        <position x="999.998" y="-27.204" z="3405.887"/>
+        <rotation yaw="89.99991"/>
+      </offset>
+    </entry>
+    <entry index="66" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="64" connection="connectionsnap001"/>
+      <offset>
+        <position x="-400" y="-27.204" z="3405.886"/>
+        <rotation yaw="89.99997"/>
+      </offset>
+    </entry>
+    <entry index="67" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="65" connection="connectionsnap002"/>
+      <offset>
+        <position x="399.998" y="-27.204" z="3405.886"/>
+        <rotation yaw="89.99992"/>
+      </offset>
+    </entry>
+    <entry index="68" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="67" connection="connectionsnap002"/>
+      <offset>
+        <position x="-0.001953" y="-27.204" z="3405.886"/>
+        <rotation yaw="89.99993"/>
+      </offset>
+    </entry>
+    <entry index="69" macro="struct_arg_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap006"/>
+      <offset>
+        <position y="372.796"/>
+      </offset>
+    </entry>
+    <entry index="70" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="69" connection="connectionsnap001"/>
+      <offset>
+        <position y="772.796"/>
+      </offset>
+    </entry>
+    <entry index="71" macro="hab_tel_l_01_macro" connection="connectionsnap002">
+      <predecessor index="70" connection="connectionsnap001"/>
+      <offset>
+        <position y="772.796" z="600"/>
+        <rotation yaw="180"/>
+      </offset>
+    </entry>
+    <entry index="72" macro="hab_bor_l_01_macro" connection="con_snap_02">
+      <predecessor index="71" connection="connectionsnap001"/>
+      <offset>
+        <position x="0.0001197" y="772.796" z="1800"/>
+        <rotation yaw="179.99998"/>
+      </offset>
+    </entry>
+    <entry index="73" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="72" connection="con_snap_01"/>
+      <offset>
+        <position x="-561.51" y="772.795" z="1496.591"/>
+        <rotation yaw="150.00017"/>
+      </offset>
+    </entry>
+    <entry index="74" macro="hab_spl_l_01_macro" connection="connectionsnap001">
+      <predecessor index="73" connection="connectionsnap006"/>
+      <offset>
+        <position x="-561.51" y="1772.796" z="1496.592"/>
+        <rotation yaw="-179.99998"/>
+      </offset>
+    </entry>
+    <entry index="75" macro="hab_arg_l_01_macro" connection="connectionsnap001">
+      <predecessor index="20" connection="connectionsnap006"/>
+      <offset>
+        <position x="1200" y="972.796" z="2000"/>
+        <rotation yaw="-179.99997"/>
+      </offset>
+    </entry>
+    <entry index="76" macro="defence_tel_claim_01_macro" connection="connectionsnap001">
+      <predecessor index="72" connection="con_snap_04"/>
+      <offset>
+        <position x="0.0001035" y="772.795" z="3200"/>
+      </offset>
+    </entry>
+    <entry index="77" macro="struct_arg_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="75" connection="connectionsnap002"/>
+      <offset>
+        <position x="1200" y="1972.796" z="2000"/>
+      </offset>
+    </entry>
+    <entry index="78" macro="struct_arg_vertical_02_macro" connection="connectionsnap002">
+      <predecessor index="7" connection="connectionsnap006"/>
+      <offset>
+        <position x="1200" y="572.796" z="-0.0004168"/>
+      </offset>
+    </entry>
+    <entry index="79" macro="struct_gen_observationdeck_03_macro" connection="con_snap_01">
+      <predecessor index="78" connection="connectionsnap001"/>
+      <offset>
+        <position x="1200" y="972.796" z="-0.0003452"/>
+      </offset>
+    </entry>
+    <entry index="80" macro="struct_gen_observationdeck_03_macro" connection="con_snap_01">
+      <predecessor index="77" connection="connectionsnap001"/>
+      <offset>
+        <position x="1200" y="2172.796" z="2000"/>
+      </offset>
+    </entry>
+    <entry index="81" macro="struct_gen_observationdeck_03_macro" connection="con_snap_01">
+      <predecessor index="74" connection="connectionsnap002"/>
+      <offset>
+        <position x="-561.51" y="2572.795" z="1496.592"/>
+      </offset>
+    </entry>
+    <entry index="82" macro="hab_par_l_01_macro" connection="connectionsnap001">
+      <predecessor index="16" connection="connectionsnap006"/>
+      <offset>
+        <position x="-2000" y="172.796" z="0.0004883"/>
+        <rotation yaw="-29.99996"/>
+      </offset>
+    </entry>
+    <entry index="83" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="76" connection="connectionsnap003"/>
+      <offset>
+        <position x="800" y="772.795" z="3200"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="84" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="76" connection="connectionsnap004"/>
+      <offset>
+        <position x="-800" y="772.795" z="3200.001"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="85" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="70" connection="connectionsnap004"/>
+      <offset>
+        <position x="400" y="772.796"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="86" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="70" connection="connectionsnap003"/>
+      <offset>
+        <position x="-400" y="772.796"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="87" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="56" connection="connectionsnap002"/>
+      <offset>
+        <position x="3200.001" y="-427.204" z="2800"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="88" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="44" connection="connectionsnap002"/>
+      <offset>
+        <position x="-3200" y="-427.204" z="2800"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="89" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+      <predecessor index="14" connection="connectionsnap002"/>
+      <offset>
+        <position x="2000" y="-27.204" z="-1600"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="90" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+      <predecessor index="18" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2000" y="-27.204" z="-1599.999"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+          <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group05"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group07"/>
+          <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group02" exact="2"/>
+          <turrets macro="turret_arg_m_flak_02_mk1_macro" group="group03" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group01" exact="2"/>
+          <turrets macro="turret_arg_m_beam_02_mk1_macro" group="group04" exact="2"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group05" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group06" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group07" exact="4"/>
+          <turrets macro="turret_arg_l_plasma_01_mk1_macro" group="group08" exact="4"/>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="91" macro="welfare_gen_gamblinghall_01_macro" connection="connectionsnap002">
+      <predecessor index="9" connection="connectionsnap006"/>
+      <offset>
+        <position x="-1200" y="572.796" z="0.000436"/>
+        <quaternion qx="-0.612373" qy="-0.353553" qz="-0.353553" qw="0.612373"/>
+      </offset>
+    </entry>
+    <entry index="92" macro="struct_gen_observationdeck_03_macro" connection="con_snap_01">
+      <predecessor index="91" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1200" y="972.796" z="0.000436"/>
+        <rotation yaw="30.00003"/>
+      </offset>
+    </entry>
+    <entry index="93" macro="welfare_gen_casino_01_macro" connection="connectionsnap002">
+      <predecessor index="73" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1061.508" y="772.795" z="2362.618"/>
+        <rotation yaw="-29.99983"/>
+      </offset>
+    </entry>
+  </plan>
+</plans>

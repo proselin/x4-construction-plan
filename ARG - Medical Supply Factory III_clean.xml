@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736530564" name="ARG - Medical Supply Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021" />
+        <rotation yaw="-89.01369" roll="0.000185193" />
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.367" y="21.421" z="6.981" />
+        <rotation yaw="0.986344" />
+      </offset>
+    </entry>
+    <entry index="3" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3827" y="621.421" z="0.05261" />
+        <rotation pitch="-0.000185166" />
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="399.558" y="21.421" z="-6.835" />
+        <rotation yaw="-89.01363" roll="0.000580402" />
+      </offset>
+    </entry>
+    <entry index="5" macro="prod_arg_medicalsupplies_macro">
+      <offset>
+        <position x="204.287" y="933.204" z="209.334" />
+        <rotation yaw="-89.01369" />
+      </offset>
+      </entry>
+    <entry index="6" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap005" />
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04869" />
+        <rotation pitch="-0.000191996" roll="90" />
+      </offset>
+      </entry>
+    <entry index="7" macro="struct_arg_vertical_01_macro">
+      <offset>
+        <position x="405.256" y="579.824" z="768.008" />
+        <rotation yaw="89.99995" roll="-90" />
+      </offset>
+    </entry>
+    <entry index="8" macro="prod_arg_medicalsupplies_macro">
+      <offset>
+        <position x="191.792" y="658.869" z="1103.513" />
+        <rotation yaw="-119.01368" />
+      </offset>
+      </entry>
+    <entry index="9" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="9.946" y="21.419" z="599.962" />
+        <rotation yaw="90.98631" pitch="-0.000427114" roll="179.99976" />
+      </offset>
+      </entry>
+    <entry index="10" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap002" />
+      <offset>
+        <position x="799.499" y="21.421" z="-13.72" />
+        <rotation yaw="-89.01363" />
+      </offset>
+      </entry>
+    <entry index="11" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="10" connection="connectionsnap001" />
+      <offset>
+        <position x="1199.44" y="21.421" z="-20.606" />
+        <rotation yaw="0.986346" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

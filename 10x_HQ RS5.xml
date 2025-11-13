@@ -1,0 +1,3456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_217320698824" name="10X HQ RS5" description="">
+    <patches>
+      <patch extension="ego_dlc_pirate" version="750" name="Tides of Avarice"></patch>
+      <patch extension="ego_dlc_terran" version="750" name="Cradle of Humanity"></patch>
+      <patch extension="ego_dlc_boron" version="750" name="Kingdom End"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_boron" version="101" name="z10x_modules_boron"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+      <patch extension="z10x_modules_pirate" version="102" name="z10x_modules_pirate"></patch>
+    </patches>
+    <entry index="1" macro="landmarks_player_hq_01_research_macro" fixed="1"></entry>
+    <entry index="2" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1000" z="-4910.993"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1000" z="-4910.993"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2200" z="-4910.993"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="5" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2800" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="7" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="6" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3200" z="-4910.993"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4200" z="-4910.994"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="8" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="5200" z="-4910.995"></position>
+      </offset>
+    </entry>
+    <entry index="10" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="9" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.001" z="-3910.995"></position>
+      </offset>
+    </entry>
+    <entry index="11" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2200" z="-4910.993"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="11" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2800" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="13" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="12" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3200" z="-4910.993"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="13" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4200" z="-4910.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="14" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200" z="-4910.995"></position>
+      </offset>
+    </entry>
+    <entry index="16" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="10" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.002" z="-2910.995"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="16" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="5200.002" z="-2510.995"></position>
+      </offset>
+    </entry>
+    <entry index="18" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="15" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.001" z="-3910.995"></position>
+      </offset>
+    </entry>
+    <entry index="19" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="18" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.002" z="-2910.995"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="20" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="19" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-5200.003" z="-2510.995"></position>
+      </offset>
+    </entry>
+    <entry index="21" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="17" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.002" z="-2110.995"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="22" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="21" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="5200.003" z="-1110.995"></position>
+      </offset>
+    </entry>
+    <entry index="23" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="22" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.004" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="24" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="23" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.005" z="889.005"></position>
+      </offset>
+    </entry>
+    <entry index="25" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="24" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.006" z="2089.005"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="26" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="25" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="5200.006" z="2689.005"></position>
+      </offset>
+    </entry>
+    <entry index="27" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="26" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.006" z="3089.005"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="28" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="27" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="5200.007" z="4089.005"></position>
+      </offset>
+    </entry>
+    <entry index="29" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="28" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="5200.008" z="5089.005"></position>
+      </offset>
+    </entry>
+    <entry index="30" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="29" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="4200.008" z="5089.005"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="31" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="30" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3200.008" z="5089.006"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="32" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="31" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="2800.008" z="5089.006"></position>
+      </offset>
+    </entry>
+    <entry index="33" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="32" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="2200.008" z="5089.006"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="34" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="33" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1000.008" z="5089.005"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="35" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="20" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.003" z="-2110.995"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="36" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="35" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-5200.004" z="-1110.995"></position>
+      </offset>
+    </entry>
+    <entry index="37" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="36" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.005" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="38" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="37" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.006" z="889.005"></position>
+      </offset>
+    </entry>
+    <entry index="39" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="38" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.008" z="2089.005"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="40" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="39" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-5200.009" z="2689.005"></position>
+      </offset>
+    </entry>
+    <entry index="41" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="40" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.01" z="3089.005"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="42" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="41" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-5200.011" z="4089.005"></position>
+      </offset>
+    </entry>
+    <entry index="43" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="42" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.013" z="5089.005"></position>
+      </offset>
+    </entry>
+    <entry index="44" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="43" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-4200.013" z="5089.007"></position>
+        <rotation yaw="-90.00008"></rotation>
+      </offset>
+    </entry>
+    <entry index="45" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="44" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3200.013" z="5089.008"></position>
+        <rotation yaw="-90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="46" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="45" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2800.013" z="5089.009"></position>
+      </offset>
+    </entry>
+    <entry index="47" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="46" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-2200.013" z="5089.009"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="48" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="47" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1000.013" z="5089.01"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="49" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="48" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0127" z="5089.011"></position>
+      </offset>
+    </entry>
+    <entry index="50" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position z="-5310.993"></position>
+      </offset>
+    </entry>
+    <entry index="51" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position y="-600" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="52" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="51" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position y="-1200" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="53" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="52" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400" y="-1200" z="-4910.992"></position>
+      </offset>
+    </entry>
+    <entry index="54" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="52" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1400" y="-1200" z="-4910.995"></position>
+      </offset>
+    </entry>
+    <entry index="55" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="50" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0001208" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="56" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="55" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.0002008" y="-800" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="57" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="23" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="5600.004" z="-110.995"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="58" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="57" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="6000.004" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="59" macro="proc_gen_scrapworks_macro" connection="connectionsnap001">
+      <predecessor index="58" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="6000.003" z="-1910.995"></position>
+      </offset>
+    </entry>
+    <entry index="60" macro="10x_modules_prod_gen_scrap_recycler" connection="connectionsnap_04">
+      <predecessor index="58" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="6000.004" y="0.0003781" z="289.006"></position>
+        <quaternion qy="-0.707107" qz="0.707107" qw="7.58615e-08"></quaternion>
+      </offset>
+    </entry>
+    <entry index="61" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="56" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="600" y="-400" z="-5710.994"></position>
+        <rotation yaw="-89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="62" macro="10x_modules_storage_tel_l_liquid_01_macro" connection="connectionsnap001">
+      <predecessor index="61" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1200" y="-800" z="-5710.994"></position>
+      </offset>
+    </entry>
+    <entry index="63" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="56" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-600" y="-400" z="-5710.992"></position>
+        <rotation yaw="-89.99988"></rotation>
+      </offset>
+    </entry>
+    <entry index="64" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap005">
+      <predecessor index="63" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1200" y="-800" z="-5710.991"></position>
+        <rotation yaw="0.000146735"></rotation>
+      </offset>
+    </entry>
+    <entry index="65" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="49" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.01275" y="-600" z="5089.011"></position>
+      </offset>
+    </entry>
+    <entry index="66" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="65" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01275" y="-1200" z="5089.011"></position>
+      </offset>
+    </entry>
+    <entry index="67" macro="radar_arg_dish_01_macro" connection="con_snap_02">
+      <predecessor index="66" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01285" y="-1200" z="5489.011"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="68" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap002">
+      <predecessor index="55" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-600" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="69" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="55" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0002718" z="-6110.993"></position>
+      </offset>
+    </entry>
+    <entry index="70" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="69" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0004832" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="71" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap002">
+      <predecessor index="70" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-600" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="72" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="70" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.000755" z="-6910.993"></position>
+      </offset>
+    </entry>
+    <entry index="73" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="72" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.001087" z="-7310.994"></position>
+      </offset>
+    </entry>
+    <entry index="74" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap002">
+      <predecessor index="73" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-800.001" y="500" z="-7310.993"></position>
+      </offset>
+    </entry>
+    <entry index="75" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="73" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.001691" z="-7910.994"></position>
+      </offset>
+    </entry>
+    <entry index="76" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="75" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.002356" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="77" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="76" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-600.002" z="-8510.994"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="78" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="77" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1800.002" z="-8510.992"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="79" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="78" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3400.002" z="-8510.991"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="80" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="79" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4400.002" z="-8510.991"></position>
+      </offset>
+    </entry>
+    <entry index="81" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="80" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.002" z="-8910.991"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="82" macro="struct_tel_vertical_02_macro" connection="connectionsnap002">
+      <predecessor index="76" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.002284" y="600" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="83" macro="struct_tel_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="82" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.002284" y="1200" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="84" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="83" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.002284" y="1600" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="85" macro="struct_bor_base_01_macro" connection="con_snap_01">
+      <predecessor index="84" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.002" y="1600" z="-8510.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="86" macro="buildmodule_bor_ships_m_dockarea_01_macro" connection="con_snap_01">
+      <predecessor index="85" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-1300.003" y="1600" z="-8510.994"></position>
+        <rotation yaw="-30.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="87" macro="struct_bor_base_01_macro" connection="con_snap_02">
+      <predecessor index="84" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.998" y="1600" z="-8510.994"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="88" macro="buildmodule_bor_ships_m_dockarea_01_macro" connection="con_snap_03">
+      <predecessor index="87" connection="con_snap_01"></predecessor>
+      <offset>
+        <position x="1299.998" y="1600" z="-8510.994"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="89" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="76" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="599.998" z="-8510.994"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="90" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="89" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1799.998" z="-8510.994"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="91" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="90" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3399.998" z="-8510.994"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="92" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="91" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.998" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="93" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="92" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.997" z="-8910.994"></position>
+        <rotation yaw="-89.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="94" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="54" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3800" y="-1200" z="-4910.996"></position>
+      </offset>
+    </entry>
+    <entry index="95" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="53" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800" y="-1200" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="96" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap001">
+      <predecessor index="55" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="600" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="97" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap001">
+      <predecessor index="70" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="600" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="98" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap001">
+      <predecessor index="73" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="799.999" y="500" z="-7310.994"></position>
+      </offset>
+    </entry>
+    <entry index="99" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap002">
+      <predecessor index="68" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1400" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="100" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap001">
+      <predecessor index="96" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1400" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="101" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap001">
+      <predecessor index="97" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1400" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="102" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap002">
+      <predecessor index="71" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1400" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="103" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap001">
+      <predecessor index="98" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.999" y="500" z="-7310.993"></position>
+      </offset>
+    </entry>
+    <entry index="104" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap002">
+      <predecessor index="74" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2000.001" y="500" z="-7310.993"></position>
+      </offset>
+    </entry>
+    <entry index="105" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="56" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0004059" y="-2000" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="106" macro="10x_modules_storage_tel_l_liquid_01_macro" connection="connectionsnap004">
+      <predecessor index="62" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1200" y="-2000" z="-5710.994"></position>
+      </offset>
+    </entry>
+    <entry index="107" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap004">
+      <predecessor index="64" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1200" y="-2000" z="-5710.991"></position>
+        <rotation yaw="0.000155387"></rotation>
+      </offset>
+    </entry>
+    <entry index="108" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="52" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position y="-1200" z="-4510.993"></position>
+      </offset>
+    </entry>
+    <entry index="109" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="108" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0001208" y="-1200" z="-4110.993"></position>
+      </offset>
+    </entry>
+    <entry index="110" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="109" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400" y="-1200" z="-4110.993"></position>
+      </offset>
+    </entry>
+    <entry index="111" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="109" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1400" y="-1200" z="-4110.995"></position>
+      </offset>
+    </entry>
+    <entry index="112" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="111" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3800" y="-1200" z="-4110.995"></position>
+      </offset>
+    </entry>
+    <entry index="113" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="110" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800" y="-1200" z="-4110.994"></position>
+      </offset>
+    </entry>
+    <entry index="114" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap002">
+      <predecessor index="99" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2200" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="115" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap002">
+      <predecessor index="114" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3000" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="116" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap001">
+      <predecessor index="100" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2200" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="117" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap001">
+      <predecessor index="116" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3000" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="118" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="109" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.000151" y="-1200" z="-3710.993"></position>
+      </offset>
+    </entry>
+    <entry index="119" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="118" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0003322" y="-1200" z="-3310.993"></position>
+      </offset>
+    </entry>
+    <entry index="120" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="119" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400" y="-1200" z="-3310.993"></position>
+      </offset>
+    </entry>
+    <entry index="121" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="119" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1400" y="-1200" z="-3310.995"></position>
+      </offset>
+    </entry>
+    <entry index="122" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="121" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3800" y="-1200" z="-3310.995"></position>
+      </offset>
+    </entry>
+    <entry index="123" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="120" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800" y="-1200" z="-3310.995"></position>
+      </offset>
+    </entry>
+    <entry index="124" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="119" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0004228" y="-1200" z="-2910.993"></position>
+      </offset>
+    </entry>
+    <entry index="125" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="124" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0006644" y="-1200" z="-2510.993"></position>
+      </offset>
+    </entry>
+    <entry index="126" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="125" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400" y="-1200" z="-2510.994"></position>
+      </offset>
+    </entry>
+    <entry index="127" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="125" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1400" y="-1200" z="-2510.995"></position>
+      </offset>
+    </entry>
+    <entry index="128" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="127" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3800" y="-1200" z="-2510.994"></position>
+      </offset>
+    </entry>
+    <entry index="129" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="126" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800" y="-1200" z="-2510.995"></position>
+      </offset>
+    </entry>
+    <entry index="130" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="56" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-0.000231" y="-400" z="-6310.993"></position>
+      </offset>
+    </entry>
+    <entry index="131" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap006">
+      <predecessor index="130" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.000382" y="-800" z="-6910.993"></position>
+      </offset>
+    </entry>
+    <entry index="132" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="131" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="600" y="-400" z="-6910.994"></position>
+        <rotation yaw="-89.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="133" macro="10x_modules_storage_tel_l_liquid_01_macro" connection="connectionsnap001">
+      <predecessor index="132" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1200" y="-800" z="-6910.995"></position>
+      </offset>
+    </entry>
+    <entry index="134" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="131" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-600" y="-400" z="-6910.992"></position>
+        <rotation yaw="-89.99986"></rotation>
+      </offset>
+    </entry>
+    <entry index="135" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap005">
+      <predecessor index="134" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1200" y="-800" z="-6910.991"></position>
+        <rotation yaw="0.000164038"></rotation>
+      </offset>
+    </entry>
+    <entry index="136" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="131" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0005871" y="-2000" z="-6910.993"></position>
+      </offset>
+    </entry>
+    <entry index="137" macro="10x_modules_storage_tel_l_liquid_01_macro" connection="connectionsnap004">
+      <predecessor index="133" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1200" y="-2000" z="-6910.995"></position>
+      </offset>
+    </entry>
+    <entry index="138" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap004">
+      <predecessor index="135" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1200" y="-2000" z="-6910.991"></position>
+        <rotation yaw="0.00017269"></rotation>
+      </offset>
+    </entry>
+    <entry index="139" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="125" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0006946" y="-1200" z="-2110.993"></position>
+      </offset>
+    </entry>
+    <entry index="140" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="139" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0009966" y="-1200" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="141" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="140" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400" y="-1200" z="-1710.994"></position>
+      </offset>
+    </entry>
+    <entry index="142" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="140" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1400" y="-1200" z="-1710.995"></position>
+      </offset>
+    </entry>
+    <entry index="143" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="142" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3800" y="-1200" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="144" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="141" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800" y="-1200" z="-1710.996"></position>
+      </offset>
+    </entry>
+    <entry index="145" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="49" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01273" z="5489.011"></position>
+      </offset>
+    </entry>
+    <entry index="146" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="145" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.013" z="5489.011"></position>
+      </offset>
+    </entry>
+    <entry index="147" macro="10x_modules_prod_gen_antimattercells" connection="connectionsnap004">
+      <predecessor index="146" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1800.013" y="-200" z="5689.011"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="148" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="145" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01282" z="5889.011"></position>
+      </offset>
+    </entry>
+    <entry index="149" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="148" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.987" z="5889.011"></position>
+      </offset>
+    </entry>
+    <entry index="150" macro="10x_modules_prod_tel_teladianium" connection="connectionsnap001">
+      <predecessor index="149" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="599.987" y="600" z="6489.011"></position>
+        <quaternion qy="0.707107" qz="0.707107" qw="1.29247e-07"></quaternion>
+      </offset>
+    </entry>
+    <entry index="151" macro="10x_modules_prod_tel_teladianium" connection="connectionsnap002">
+      <predecessor index="150" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="999.988" y="599.999" z="5689.011"></position>
+        <quaternion qx="-0.707107" qw="0.707107"></quaternion>
+      </offset>
+    </entry>
+    <entry index="152" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="148" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01297" z="6289.011"></position>
+      </offset>
+    </entry>
+    <entry index="153" macro="10x_modules_prod_tel_engineparts" connection="connectionsnap01">
+      <predecessor index="152" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-200.013" y="600" z="6489.011"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="154" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="37" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-5600.005" z="-110.995"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="155" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="154" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-6000.005" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="156" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="155" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-6000.005" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="157" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="155" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-6000.005" z="-510.995"></position>
+      </offset>
+    </entry>
+    <entry index="158" macro="10x_modules_prod_gen_siliconwafers" connection="connectionsnap001">
+      <predecessor index="157" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-6400.005" z="-510.995"></position>
+        <quaternion qx="0.5" qy="-0.5" qz="0.5" qw="0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="159" macro="10x_modules_prod_gen_siliconwafers" connection="connectionsnap001">
+      <predecessor index="157" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-5600.005" z="-510.995"></position>
+        <quaternion qx="0.5" qy="0.5" qz="0.5" qw="-0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="160" macro="10x_modules_prod_gen_microchips" connection="connectionsnap001">
+      <predecessor index="156" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-6200.005" y="600" z="489.005"></position>
+        <quaternion qx="0.5" qy="-0.5" qz="0.5" qw="0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="161" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="156" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-6000.005" z="689.005"></position>
+      </offset>
+    </entry>
+    <entry index="162" macro="10x_modules_prod_gen_microchips" connection="connectionsnap001">
+      <predecessor index="161" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-5800.005" y="600" z="489.005"></position>
+        <quaternion qx="-0.5" qy="-0.5" qz="0.5" qw="-0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="163" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="155" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-6600.005" z="-110.995"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="164" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="163" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-7200.005" z="-110.996"></position>
+      </offset>
+    </entry>
+    <entry index="165" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="164" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-7200.005" z="-510.996"></position>
+      </offset>
+    </entry>
+    <entry index="166" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="164" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-7200.005" z="289.004"></position>
+      </offset>
+    </entry>
+    <entry index="167" macro="10x_modules_prod_gen_graphene" connection="connectionsnap002">
+      <predecessor index="165" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-7600.005" y="200" z="-710.996"></position>
+        <quaternion qx="0.5" qy="-0.5" qz="0.5" qw="0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="168" macro="10x_modules_prod_gen_graphene" connection="connectionsnap001">
+      <predecessor index="165" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-6800.005" y="200" z="-710.996"></position>
+        <quaternion qx="0.5" qy="0.5" qz="0.5" qw="-0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="169" macro="10x_modules_prod_tel_advancedcomposites" connection="connectionsnap001">
+      <predecessor index="166" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-7200.005" y="-200" z="1289.004"></position>
+        <rotation yaw="89.99995" roll="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="170" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="164" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-7800.005" z="-110.996"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="171" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="170" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8400.005" z="-110.996"></position>
+      </offset>
+    </entry>
+    <entry index="172" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="171" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8400.005" z="-510.996"></position>
+      </offset>
+    </entry>
+    <entry index="173" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="171" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-8400.005" z="289.004"></position>
+      </offset>
+    </entry>
+    <entry index="174" macro="10x_modules_prod_gen_superfluidcoolant" connection="connectionsnap01">
+      <predecessor index="172" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-8200.005" y="800" z="-710.997"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="175" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="173" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-8200.005" y="600" z="889.003"></position>
+      </offset>
+    </entry>
+    <entry index="176" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="171" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-8800.005" z="-110.997"></position>
+      </offset>
+    </entry>
+    <entry index="177" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="176" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8800.005" z="-710.997"></position>
+      </offset>
+    </entry>
+    <entry index="178" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="177" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8800.003" z="-1910.997"></position>
+      </offset>
+    </entry>
+    <entry index="179" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="178" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8800" z="-3510.997"></position>
+      </offset>
+    </entry>
+    <entry index="180" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="179" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8799.999" z="-4510.997"></position>
+        <rotation yaw="89.9999"></rotation>
+      </offset>
+    </entry>
+    <entry index="181" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="180" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9199.999" z="-4510.996"></position>
+      </offset>
+    </entry>
+    <entry index="182" macro="10x_modules_prod_gen_quantumtubes" connection="connectionsnap001">
+      <predecessor index="157" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-6000.005" y="800" z="-510.995"></position>
+      </offset>
+    </entry>
+    <entry index="183" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="37" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-5200.005" y="-400" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="184" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="183" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5200.005" y="-400" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="185" macro="10x_modules_prod_gen_antimatterconverters" connection="connectionsnap001">
+      <predecessor index="184" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-6200.646" y="-600" z="489.004"></position>
+        <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="186" macro="struct_tel_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="49" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.01266" y="400" z="5089.011"></position>
+      </offset>
+    </entry>
+    <entry index="187" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="186" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01266" y="800" z="5089.011"></position>
+      </offset>
+    </entry>
+    <entry index="188" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="187" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01239" y="800" z="4689.011"></position>
+      </offset>
+    </entry>
+    <entry index="189" macro="struct_tel_cross_01_macro">
+      <offset>
+        <position x="-0.01218" y="800" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="190" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="189" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.012" y="800" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="191" macro="10x_modules_prod_gen_advancedelectronics" connection="connectionsnap001">
+      <predecessor index="190" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-600.012" y="1000" z="4489.011"></position>
+        <quaternion qx="0.707107" qw="0.707107"></quaternion>
+      </offset>
+    </entry>
+    <entry index="192" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="189" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.988" y="800" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="193" macro="10x_modules_prod_gen_shieldcomponents" connection="connectionsnap001">
+      <predecessor index="192" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="599.988" y="1000" z="4689.011"></position>
+        <quaternion qx="0.707107" qw="0.707107"></quaternion>
+      </offset>
+    </entry>
+    <entry index="194" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="152" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01318" z="6689.011"></position>
+      </offset>
+    </entry>
+    <entry index="195" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="194" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01345" z="7089.011"></position>
+      </offset>
+    </entry>
+    <entry index="196" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="195" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.013" z="7089.011"></position>
+      </offset>
+    </entry>
+    <entry index="197" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="195" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.987" z="7089.011"></position>
+      </offset>
+    </entry>
+    <entry index="198" macro="10x_modules_prod_tel_scanningarrays" connection="connectionsnap001">
+      <predecessor index="196" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-600.014" y="400" z="7489.011"></position>
+        <quaternion qy="0.707107" qz="0.707107" qw="2.89402e-07"></quaternion>
+      </offset>
+    </entry>
+    <entry index="199" macro="10x_modules_prod_gen_turretcomponents" connection="connectionsnap002">
+      <predecessor index="197" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="599.987" y="600" z="7289.011"></position>
+      </offset>
+    </entry>
+    <entry index="200" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="195" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01379" z="7489.011"></position>
+      </offset>
+    </entry>
+    <entry index="201" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="200" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01417" z="7889.011"></position>
+        <rotation yaw="89.99993"></rotation>
+      </offset>
+    </entry>
+    <entry index="202" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="201" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-400.014" z="7889.011"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="203" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="202" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-400.014" y="800" z="8289.012"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="204" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="201" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="399.986" z="7889.011"></position>
+        <rotation yaw="89.99993"></rotation>
+      </offset>
+    </entry>
+    <entry index="205" macro="10x_modules_prod_gen_fieldcoils" connection="connectionsnap002">
+      <predecessor index="204" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="599.986" y="400" z="8089.011"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="206" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="201" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-0.01464" z="8289.012"></position>
+      </offset>
+    </entry>
+    <entry index="207" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="206" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01518" z="8689.012"></position>
+        <rotation yaw="89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="208" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="207" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-600.015" z="8689.012"></position>
+        <rotation yaw="89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="209" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="208" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1800.015" z="8689.009"></position>
+        <rotation yaw="89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="210" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="209" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3400.015" z="8689.005"></position>
+        <rotation yaw="89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="211" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="210" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.015" z="8689.003"></position>
+        <rotation yaw="179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="212" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="211" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.015" z="9089.003"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="213" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="207" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="599.985" z="8689.013"></position>
+        <rotation yaw="89.9999"></rotation>
+      </offset>
+    </entry>
+    <entry index="214" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="213" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1799.985" z="8689.014"></position>
+        <rotation yaw="89.9999"></rotation>
+      </offset>
+    </entry>
+    <entry index="215" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="214" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3399.985" z="8689.017"></position>
+        <rotation yaw="89.9999"></rotation>
+      </offset>
+    </entry>
+    <entry index="216" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="215" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="4399.984" z="8689.02"></position>
+        <rotation yaw="179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="217" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="216" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.983" z="9089.02"></position>
+        <rotation yaw="89.9999"></rotation>
+      </offset>
+    </entry>
+    <entry index="218" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="58" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="6400.004" z="-110.995"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="219" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="218" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="6800.004" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="220" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="189" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01203" y="800" z="3889.011"></position>
+      </offset>
+    </entry>
+    <entry index="221" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="220" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01194" y="800" z="3489.011"></position>
+      </offset>
+    </entry>
+    <entry index="222" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="221" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.988" y="800" z="3489.011"></position>
+      </offset>
+    </entry>
+    <entry index="223" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="192" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="799.988" y="800" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="224" macro="10x_modules_prod_gen_water" connection="connectionsnap001">
+      <predecessor index="222" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="599.988" y="1000" z="2889.011"></position>
+      </offset>
+    </entry>
+    <entry index="225" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="222" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="799.988" y="800" z="3489.011"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="226" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="225" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1199.988" y="800" z="3489.011"></position>
+      </offset>
+    </entry>
+    <entry index="227" macro="10x_modules_prod_gen_water" connection="connectionsnap001">
+      <predecessor index="226" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1399.988" y="1000" z="2889.011"></position>
+      </offset>
+    </entry>
+    <entry index="228" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="219" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="7400.004" z="-110.995"></position>
+        <rotation yaw="-89.99995" roll="0.000266377"></rotation>
+      </offset>
+    </entry>
+    <entry index="229" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="228" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8000.004" z="-110.996"></position>
+      </offset>
+    </entry>
+    <entry index="230" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="229" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8000.004" z="-510.996"></position>
+      </offset>
+    </entry>
+    <entry index="231" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="229" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="8000.004" z="289.004"></position>
+      </offset>
+    </entry>
+    <entry index="232" macro="10x_modules_prod_tel_hullparts" connection="connectionsnap001">
+      <predecessor index="231" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="8400.004" y="400" z="289.004"></position>
+        <quaternion qx="0.5" qy="0.5" qz="0.5" qw="-0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="233" macro="10x_modules_prod_tel_hullparts" connection="connectionsnap001">
+      <predecessor index="231" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="7600.004" y="400" z="289.005"></position>
+        <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="234" macro="10x_modules_prod_gen_claytronics" connection="connectionsnap01">
+      <predecessor index="230" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="8000.004" y="600" z="-510.996"></position>
+      </offset>
+    </entry>
+    <entry index="235" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="229" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="8400.004" z="-110.996"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="236" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="235" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8800.004" z="-110.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="237" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="236" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8800.005" y="-0.0001049" z="489.004"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="238" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="237" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8800.005" y="-0.0003147" z="1689.003"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="239" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="238" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8800.006" y="-0.0005945" z="3289.003"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="240" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="239" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="8800.006" y="-0.0007693" z="4289.003"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="241" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="240" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.006" y="-0.0007693" z="4289.002"></position>
+        <rotation yaw="-179.99988"></rotation>
+      </offset>
+    </entry>
+    <entry index="242" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="236" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="8800.004" y="0.0001049" z="-710.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="243" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="242" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="8800.002" y="0.0003147" z="-1910.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="244" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="243" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="8800" y="0.0005945" z="-3510.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="245" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="244" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="8800.001" y="0.0007693" z="-4510.996"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="246" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="245" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.001" y="0.0007693" z="-4510.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="247" macro="10x_modules_prod_gen_missilecomponents" connection="connectionsnap002">
+      <predecessor index="202" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-600.014" y="-200" z="8289.012"></position>
+        <rotation yaw="179.99989" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="248" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="76" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.002404" y="-600" z="-8510.994"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="249" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="248" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.002404" y="-1200" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="250" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="249" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.002404" y="-1600" z="-8510.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="251" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="250" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.002428" y="-2000" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="252" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="251" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.002451" y="-2400" z="-8510.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="253" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="252" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1000.001" y="-2400" z="-8510.995"></position>
+      </offset>
+    </entry>
+    <entry index="254" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="176" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-8800.005" z="489.003"></position>
+      </offset>
+    </entry>
+    <entry index="255" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="254" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-8800.004" z="1689.003"></position>
+      </offset>
+    </entry>
+    <entry index="256" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="255" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-8800.005" z="3289.003"></position>
+      </offset>
+    </entry>
+    <entry index="257" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="256" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-8800.006" z="4289.002"></position>
+        <rotation yaw="89.9999"></rotation>
+      </offset>
+    </entry>
+    <entry index="258" macro="pier_tel_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="257" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9200.006" z="4289.001"></position>
+      </offset>
+    </entry>
+    <entry index="259" macro="10x_modules_prod_gen_smartchips" connection="connectionsnap001">
+      <predecessor index="156" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-6000.005" y="800" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="260" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="176" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-9200.005" z="-110.997"></position>
+      </offset>
+    </entry>
+    <entry index="261" macro="10x_modules_prod_gen_dronecomponents" connection="connectionsnap004">
+      <predecessor index="260" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-9000.005" y="600" z="-110.997"></position>
+        <rotation yaw="89.99995" roll="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="262" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="252" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.002451" y="-3000" z="-8510.994"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="263" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="262" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.002451" y="-3600" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="264" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="263" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.002451" y="-4000" z="-8510.994"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="265" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="264" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1000.002" y="-4000" z="-8510.995"></position>
+        <rotation yaw="-90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="266" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="265" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2000.002" y="-4000" z="-8510.996"></position>
+        <rotation yaw="-90.00008"></rotation>
+      </offset>
+    </entry>
+    <entry index="267" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="266" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-2000.002" y="-4600" z="-8510.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="268" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="264" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="999.998" y="-4000" z="-8510.993"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="269" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="268" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.998" y="-4000" z="-8510.992"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="270" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="269" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="1999.998" y="-4600" z="-8510.992"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="271" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="270" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.997" y="-5200" z="-8510.992"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="272" macro="buildmodule_bor_ships_xl_macro" connection="con_snap_01">
+      <predecessor index="271" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.002441" y="-5200" z="-8510.993"></position>
+      </offset>
+    </entry>
+    <entry index="273" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="272" connection="con_snap_02"></predecessor>
+      <offset>
+        <position x="-2000.002" y="-5200" z="-8510.996"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="274" macro="struct_gen_observationdeck_01_macro" connection="con_snap_01">
+      <predecessor index="264" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-0.002174" y="-4000" z="-8710.994"></position>
+      </offset>
+    </entry>
+    <entry index="275" macro="struct_gen_observationdeck_03_macro" connection="con_snap_01">
+      <predecessor index="84" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.002284" y="1800" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="276" macro="struct_gen_observationdeck_01_macro" connection="con_snap_01">
+      <predecessor index="84" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.002353" y="1600" z="-8310.994"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="277" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap001">
+      <predecessor index="101" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2200" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="278" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap001">
+      <predecessor index="277" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3000" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="279" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap002">
+      <predecessor index="102" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2200" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="280" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap002">
+      <predecessor index="279" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3000" y="600" z="-6510.993"></position>
+      </offset>
+    </entry>
+    <entry index="281" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap001">
+      <predecessor index="103" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3199.999" y="500" z="-7310.993"></position>
+      </offset>
+    </entry>
+    <entry index="282" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap001">
+      <predecessor index="281" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.999" y="500" z="-7310.991"></position>
+      </offset>
+    </entry>
+    <entry index="283" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap002">
+      <predecessor index="104" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3200.001" y="500" z="-7310.993"></position>
+      </offset>
+    </entry>
+    <entry index="284" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap002">
+      <predecessor index="283" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4400.001" y="500" z="-7310.992"></position>
+      </offset>
+    </entry>
+    <entry index="285" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap001">
+      <predecessor index="117" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3800" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="286" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap001">
+      <predecessor index="285" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4600" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="287" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap002">
+      <predecessor index="115" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3800" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="288" macro="10x_modules_prod_ter_metallicmicrolattice" connection="connectionsnap002">
+      <predecessor index="287" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4600" y="600" z="-5710.993"></position>
+      </offset>
+    </entry>
+    <entry index="289" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap002">
+      <predecessor index="280" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3800" y="600" z="-6510.992"></position>
+      </offset>
+    </entry>
+    <entry index="290" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap002">
+      <predecessor index="289" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4600" y="600" z="-6510.991"></position>
+      </offset>
+    </entry>
+    <entry index="291" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap001">
+      <predecessor index="278" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3800" y="600" z="-6510.992"></position>
+      </offset>
+    </entry>
+    <entry index="292" macro="10x_modules_prod_ter_siliconcarbide" connection="connectionsnap001">
+      <predecessor index="291" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4600" y="600" z="-6510.991"></position>
+      </offset>
+    </entry>
+    <entry index="293" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="62" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="1800" y="-400" z="-5710.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="294" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="64" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1800" y="-400" z="-5710.99"></position>
+        <rotation yaw="-89.99982"></rotation>
+      </offset>
+    </entry>
+    <entry index="295" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap005">
+      <predecessor index="294" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2400" y="-800" z="-5710.988"></position>
+        <rotation yaw="0.000199555"></rotation>
+      </offset>
+    </entry>
+    <entry index="296" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap004">
+      <predecessor index="295" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400" y="-2000" z="-5710.988"></position>
+        <rotation yaw="0.000198075"></rotation>
+      </offset>
+    </entry>
+    <entry index="297" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap005">
+      <predecessor index="295" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3200" y="-800" z="-5710.984"></position>
+        <rotation yaw="0.000261027"></rotation>
+      </offset>
+    </entry>
+    <entry index="298" macro="10x_modules_storage_tel_l_solid_01_macro" connection="connectionsnap004">
+      <predecessor index="297" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3200" y="-2000" z="-5710.984"></position>
+        <rotation yaw="0.000259547"></rotation>
+      </offset>
+    </entry>
+    <entry index="299" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="293" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2400" y="-800" z="-5710.994"></position>
+      </offset>
+    </entry>
+    <entry index="300" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="299" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2400" y="-2000" z="-5710.994"></position>
+      </offset>
+    </entry>
+    <entry index="301" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="299" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="3200" y="-800" z="-5710.992"></position>
+        <rotation yaw="-0.000114292"></rotation>
+      </offset>
+    </entry>
+    <entry index="302" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="301" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3200" y="-2000" z="-5710.992"></position>
+        <rotation yaw="-0.000124651"></rotation>
+      </offset>
+    </entry>
+    <entry index="303" macro="10x_modules_prod_gen_scrap_recycler" connection="connectionsnap_01">
+      <predecessor index="60" connection="connectionsnap_03"></predecessor>
+      <offset>
+        <position x="6800.005" y="0.000483" z="289.006"></position>
+        <quaternion qy="-0.707107" qz="0.707107" qw="-9.27261e-08"></quaternion>
+      </offset>
+    </entry>
+    <entry index="304" macro="proc_gen_scrapworks_macro" connection="connectionsnap001">
+      <predecessor index="219" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="6800.004" z="-1910.995"></position>
+      </offset>
+    </entry>
+    <entry index="305" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="20" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-4800.003" z="-2510.995"></position>
+      </offset>
+    </entry>
+    <entry index="306" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="305" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4800.003" z="-2910.995"></position>
+      </offset>
+    </entry>
+    <entry index="307" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="306" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4800.003" z="-3310.995"></position>
+      </offset>
+    </entry>
+    <entry index="308" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="307" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4800.003" y="400" z="-3310.995"></position>
+      </offset>
+    </entry>
+    <entry index="309" macro="10x_modules_prod_arg_wheat" connection="connectionsnap002">
+      <predecessor index="308" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.003" y="400" z="-3310.996"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="310" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="308" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4800.003" y="800" z="-3310.995"></position>
+      </offset>
+    </entry>
+    <entry index="311" macro="10x_modules_prod_arg_wheat" connection="connectionsnap002">
+      <predecessor index="310" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.003" y="800" z="-3310.996"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="312" macro="struct_tel_cross_01_macro">
+      <offset>
+        <position x="-4800.003" z="-1310.995"></position>
+      </offset>
+    </entry>
+    <entry index="313" macro="10x_modules_prod_arg_meat" connection="connectionsnap001">
+      <predecessor index="305" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4200.003" y="400" z="-2310.995"></position>
+      </offset>
+    </entry>
+    <entry index="314" macro="10x_modules_prod_tel_engineparts" connection="connectionsnap002">
+      <predecessor index="153" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-600.013" y="-200" z="6489.011"></position>
+        <rotation yaw="-89.99995" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="315" macro="10x_modules_prod_tel_engineparts" connection="connectionsnap01">
+      <predecessor index="314" connection="connectionsnap01"></predecessor>
+      <offset>
+        <position x="-1000.013" y="600" z="6489.011"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="316" macro="10x_modules_prod_tel_engineparts" connection="connectionsnap002">
+      <predecessor index="315" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1400.013" y="-200" z="6489.011"></position>
+        <rotation yaw="-89.99995" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="317" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="37" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-4600.005" z="-110.995"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="318" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="317" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4000.005" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="319" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="318" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.005" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="320" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="319" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3200.005" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="321" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="320" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3000.004" y="1000" z="-310.995"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="322" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="319" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3400.005" y="1000" z="-310.995"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="323" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="318" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3800.005" y="1000" z="-310.995"></position>
+        <rotation yaw="89.99993"></rotation>
+      </offset>
+    </entry>
+    <entry index="324" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="320" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-2800.005" z="-110.995"></position>
+      </offset>
+    </entry>
+    <entry index="325" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="324" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-2600.005" y="1000" z="-310.995"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="326" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="324" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-2400.005" z="-110.996"></position>
+      </offset>
+    </entry>
+    <entry index="327" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="326" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-2200.005" y="1000" z="-310.996"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="328" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="202" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-800.014" z="7889.011"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="329" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="328" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-800.015" y="800" z="8289.012"></position>
+        <rotation yaw="179.99988"></rotation>
+      </offset>
+    </entry>
+    <entry index="330" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="328" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1200.014" z="7889.011"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="331" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="330" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-1200.015" y="800" z="8289.012"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="332" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="330" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1600.014" z="7889.011"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="333" macro="10x_modules_prod_gen_weaponcomponents" connection="connectionsnap001">
+      <predecessor index="332" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-1600.015" y="800" z="8289.012"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="334" macro="struct_tel_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="140" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.0009608" y="-800" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="335" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="334" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0009608" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="336" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="335" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.001" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="337" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="336" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-400.001" y="600" z="-1710.993"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="338" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="336" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-800.001" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="339" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="338" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-800.001" y="600" z="-1710.993"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="340" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="335" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.999" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="341" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="340" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="399.999" y="600" z="-1710.993"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="342" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="340" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="799.999" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="343" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="342" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="799.999" y="600" z="-1710.993"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="344" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="335" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.0008655" y="600" z="-1710.993"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="345" macro="struct_tel_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position y="400" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="346" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="345" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position y="800" z="-4910.993"></position>
+      </offset>
+    </entry>
+    <entry index="347" macro="welfare_gen_gamblinghall_01_macro" connection="connectionsnap002">
+      <predecessor index="346" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position y="800" z="-4310.993"></position>
+      </offset>
+    </entry>
+    <entry index="348" macro="welfare_gen_casino_01_macro" connection="connectionsnap002">
+      <predecessor index="347" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.0003266" y="800" z="-3110.993"></position>
+      </offset>
+    </entry>
+    <entry index="349" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="342" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1199.999" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="350" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="349" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1199.999" y="600" z="-1710.993"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="351" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="349" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1599.999" y="-400" z="-1710.994"></position>
+      </offset>
+    </entry>
+    <entry index="352" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="351" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1599.999" y="600" z="-1710.994"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="353" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="351" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1999.999" y="-400" z="-1710.994"></position>
+      </offset>
+    </entry>
+    <entry index="354" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="353" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1999.999" y="600" z="-1710.994"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="355" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="338" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1200.001" y="-400" z="-1710.993"></position>
+      </offset>
+    </entry>
+    <entry index="356" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="355" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-1200.001" y="600" z="-1710.993"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="357" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="355" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1600.001" y="-400" z="-1710.994"></position>
+      </offset>
+    </entry>
+    <entry index="358" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="357" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-1600.001" y="600" z="-1710.994"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="359" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="357" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-2000.001" y="-400" z="-1710.994"></position>
+      </offset>
+    </entry>
+    <entry index="360" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="359" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-2000.001" y="600" z="-1710.994"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="361" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="66" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01278" y="-1200" z="4689.011"></position>
+      </offset>
+    </entry>
+    <entry index="362" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="361" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01287" y="-1200" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="363" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="362" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400.013" y="-1200" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="364" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="363" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800.012" y="-1200" z="4289.009"></position>
+      </offset>
+    </entry>
+    <entry index="365" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="362" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1399.987" y="-1200" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="366" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="365" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3799.988" y="-1200" z="4289.011"></position>
+      </offset>
+    </entry>
+    <entry index="367" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="362" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01302" y="-1200" z="3889.011"></position>
+      </offset>
+    </entry>
+    <entry index="368" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="367" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01323" y="-1200" z="3489.011"></position>
+      </offset>
+    </entry>
+    <entry index="369" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="368" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400.013" y="-1200" z="3489.012"></position>
+      </offset>
+    </entry>
+    <entry index="370" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="369" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800.013" y="-1200" z="3489.01"></position>
+      </offset>
+    </entry>
+    <entry index="371" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="368" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1399.987" y="-1200" z="3489.01"></position>
+      </offset>
+    </entry>
+    <entry index="372" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="371" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3799.987" y="-1200" z="3489.01"></position>
+      </offset>
+    </entry>
+    <entry index="373" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="368" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0135" y="-1200" z="3089.011"></position>
+      </offset>
+    </entry>
+    <entry index="374" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="373" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01384" y="-1200" z="2689.011"></position>
+      </offset>
+    </entry>
+    <entry index="375" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="374" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400.014" y="-1200" z="2689.012"></position>
+      </offset>
+    </entry>
+    <entry index="376" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="375" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800.013" y="-1200" z="2689.011"></position>
+      </offset>
+    </entry>
+    <entry index="377" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="374" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1399.986" y="-1200" z="2689.01"></position>
+      </offset>
+    </entry>
+    <entry index="378" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="377" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3799.987" y="-1200" z="2689.009"></position>
+      </offset>
+    </entry>
+    <entry index="379" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="374" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01423" y="-1200" z="2289.011"></position>
+      </offset>
+    </entry>
+    <entry index="380" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="379" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01468" y="-1200" z="1889.011"></position>
+      </offset>
+    </entry>
+    <entry index="381" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="380" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1400.015" y="-1200" z="1889.013"></position>
+      </offset>
+    </entry>
+    <entry index="382" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="381" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="1889.013"></position>
+      </offset>
+    </entry>
+    <entry index="383" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="380" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1399.985" y="-1200" z="1889.009"></position>
+      </offset>
+    </entry>
+    <entry index="384" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="383" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="3799.986" y="-1200" z="1889.008"></position>
+      </offset>
+    </entry>
+    <entry index="385" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="173" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-8000.005" z="289.004"></position>
+      </offset>
+    </entry>
+    <entry index="386" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="385" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-8200.005" y="-600" z="889.004"></position>
+        <rotation roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="387" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="172" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-8400.005" z="-910.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="388" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="387" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-8400.005" z="-1310.996"></position>
+      </offset>
+    </entry>
+    <entry index="389" macro="10x_modules_prod_gen_superfluidcoolant" connection="connectionsnap01">
+      <predecessor index="388" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-8200.005" y="800" z="-1510.997"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="390" macro="struct_tel_base_02_macro" connection="connectionsnap001">
+      <predecessor index="308" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4800.003" y="400" z="-3910.995"></position>
+      </offset>
+    </entry>
+    <entry index="391" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="390" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4800.003" y="400" z="-4510.995"></position>
+      </offset>
+    </entry>
+    <entry index="392" macro="10x_modules_prod_arg_wheat" connection="connectionsnap002">
+      <predecessor index="391" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.003" y="400" z="-4510.997"></position>
+        <rotation yaw="-89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="393" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="391" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4800.003" y="800" z="-4510.995"></position>
+      </offset>
+    </entry>
+    <entry index="394" macro="10x_modules_prod_arg_wheat" connection="connectionsnap002">
+      <predecessor index="393" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.003" y="800" z="-4510.997"></position>
+        <rotation yaw="-89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="395" macro="10x_modules_prod_arg_meat" connection="connectionsnap001">
+      <predecessor index="305" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-4200.003" y="-400" z="-2710.995"></position>
+        <rotation yaw="-179.99989" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="396" macro="10x_modules_prod_arg_meat" connection="connectionsnap001">
+      <predecessor index="307" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-4200.003" y="-400" z="-3510.995"></position>
+        <rotation yaw="-179.99989" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="397" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="226" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1599.988" y="800" z="3489.011"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="398" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="397" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.988" y="800" z="3489.011"></position>
+      </offset>
+    </entry>
+    <entry index="399" macro="10x_modules_prod_gen_water" connection="connectionsnap001">
+      <predecessor index="398" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="2199.989" y="1000" z="2889.011"></position>
+      </offset>
+    </entry>
+    <entry index="400" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="398" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="2399.988" y="800" z="3489.012"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="401" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="400" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2799.989" y="800" z="3489.012"></position>
+      </offset>
+    </entry>
+    <entry index="402" macro="10x_modules_prod_gen_water" connection="connectionsnap001">
+      <predecessor index="401" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="2999.989" y="1000" z="2889.013"></position>
+      </offset>
+    </entry>
+    <entry index="403" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="318" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4000.005" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="404" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="403" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4200.005" y="1000" z="489.005"></position>
+        <rotation yaw="-90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="405" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="319" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3600.005" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="406" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="405" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3800.005" y="1000" z="489.005"></position>
+        <rotation yaw="-90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="407" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="320" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3200.005" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="408" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="407" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3400.005" y="1000" z="489.005"></position>
+        <rotation yaw="-90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="409" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="407" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-2800.005" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="410" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="409" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3000.005" y="1000" z="489.005"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="411" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="409" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-2400.005" z="289.005"></position>
+      </offset>
+    </entry>
+    <entry index="412" macro="10x_modules_prod_arg_medicalsupplies" connection="connectionsnap001">
+      <predecessor index="411" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-2600.005" y="1000" z="489.005"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="413" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="380" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01471" y="-1200" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="414" macro="struct_tel_vertical_01_macro" connection="connectionsnap002">
+      <predecessor index="413" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.01467" y="-800" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="415" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="414" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-0.01467" y="-400" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="416" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="415" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.01477" y="600" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="417" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="415" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="399.985" y="-400" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="418" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="417" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="399.985" y="600" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="419" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="415" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-400.015" y="-400" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="420" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="419" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-400.015" y="600" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="421" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="417" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="799.985" y="-400" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="422" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="421" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="799.985" y="600" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="423" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="419" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-800.015" y="-400" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="424" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="423" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-800.015" y="600" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="425" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="421" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1199.985" y="-400" z="1489.01"></position>
+      </offset>
+    </entry>
+    <entry index="426" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="425" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1199.985" y="600" z="1489.01"></position>
+      </offset>
+    </entry>
+    <entry index="427" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="423" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1200.015" y="-400" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="428" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="427" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-1200.015" y="600" z="1489.011"></position>
+      </offset>
+    </entry>
+    <entry index="429" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="425" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="1599.985" y="-400" z="1489.01"></position>
+      </offset>
+    </entry>
+    <entry index="430" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="429" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="1599.985" y="600" z="1489.01"></position>
+        <rotation yaw="0.000100632"></rotation>
+      </offset>
+    </entry>
+    <entry index="431" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="427" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1600.015" y="-400" z="1489.01"></position>
+      </offset>
+    </entry>
+    <entry index="432" macro="10x_modules_hab_pir_l_01_macro" connection="connectionsnap001">
+      <predecessor index="431" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-1600.015" y="600" z="1489.01"></position>
+      </offset>
+    </entry>
+    <entry index="433" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="241" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="9200.006" y="-600.001" z="4289.002"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="434" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="433" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.006" y="-1400.001" z="4289.002"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="435" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="434" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.006" y="-2200.001" z="4289.002"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="436" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="435" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.006" y="-2800.001" z="4289.002"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="437" macro="pier_tel_harbor_03_macro" connection="connectionsnap003">
+      <predecessor index="436" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.006" y="-3200.001" z="4289.002"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="438" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="246" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="9200.001" y="-599.999" z="-4510.996"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="439" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="438" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.001" y="-1399.999" z="-4510.996"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="440" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="439" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.001" y="-2199.999" z="-4510.996"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+    <entry index="441" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="440" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.001" y="-2799.999" z="-4510.996"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="442" macro="pier_tel_harbor_03_macro" connection="connectionsnap003">
+      <predecessor index="441" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="9200.001" y="-3199.999" z="-4510.996"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="443" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="217" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="4399.983" y="-600" z="9089.02"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="444" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="443" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.983" y="-1400" z="9089.02"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="445" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="444" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.983" y="-2200" z="9089.02"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="446" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="445" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.983" y="-2800" z="9089.02"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="447" macro="pier_tel_harbor_03_macro" connection="connectionsnap003">
+      <predecessor index="446" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="4399.983" y="-3200" z="9089.02"></position>
+        <rotation yaw="90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="448" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="212" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="-4400.015" y="-600" z="9089.003"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="449" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="448" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.015" y="-1400" z="9089.003"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="450" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="449" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.015" y="-2200" z="9089.003"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="451" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="450" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.015" y="-2800" z="9089.003"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="452" macro="pier_tel_harbor_03_macro" connection="connectionsnap003">
+      <predecessor index="451" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4400.015" y="-3200" z="9089.003"></position>
+        <rotation yaw="90.00007"></rotation>
+      </offset>
+    </entry>
+    <entry index="453" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="258" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="-9200.006" y="-600" z="4289.001"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="454" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="453" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9200.006" y="-1400" z="4289.001"></position>
+        <rotation yaw="89.99993"></rotation>
+      </offset>
+    </entry>
+    <entry index="455" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="454" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9200.006" y="-2200" z="4289.001"></position>
+        <rotation yaw="89.99993"></rotation>
+      </offset>
+    </entry>
+    <entry index="456" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="455" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9200.006" y="-2799.999" z="4289.001"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="457" macro="pier_tel_harbor_03_macro" connection="connectionsnap003">
+      <predecessor index="456" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9200.006" y="-3199.999" z="4289.001"></position>
+      </offset>
+    </entry>
+    <entry index="458" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="181" connection="connectionsnap008"></predecessor>
+      <offset>
+        <position x="-9199.999" y="-600" z="-4510.996"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="459" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="458" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9199.999" y="-1400" z="-4510.996"></position>
+        <rotation yaw="89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="460" macro="struct_tel_vertical_02_macro" connection="connectionsnap001">
+      <predecessor index="459" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9199.999" y="-2200" z="-4510.996"></position>
+        <rotation yaw="89.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="461" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="460" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9199.999" y="-2799.999" z="-4510.996"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="462" macro="pier_tel_harbor_03_macro" connection="connectionsnap003">
+      <predecessor index="461" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-9199.999" y="-3199.999" z="-4510.996"></position>
+      </offset>
+    </entry>
+    <entry index="463" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap001">
+      <predecessor index="282" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="5599.999" y="500" z="-7310.991"></position>
+      </offset>
+    </entry>
+    <entry index="464" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap001">
+      <predecessor index="463" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="6799.999" y="500" z="-7310.988"></position>
+      </offset>
+    </entry>
+    <entry index="465" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap002">
+      <predecessor index="284" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-5600.001" y="500" z="-7310.992"></position>
+      </offset>
+    </entry>
+    <entry index="466" macro="10x_modules_prod_ter_computronicsubstrate" connection="connectionsnap002">
+      <predecessor index="465" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-6800.001" y="500" z="-7310.99"></position>
+      </offset>
+    </entry>
+    <entry index="467" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="413" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.01474" y="-1200" z="1089.011"></position>
+      </offset>
+    </entry>
+    <entry index="468" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="467" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="999.985" y="-1200" z="1089.011"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="469" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="468" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.985" y="-1200" z="1089.01"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="470" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="469" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2399.985" y="-1200" z="1089.01"></position>
+      </offset>
+    </entry>
+    <entry index="471" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="470" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3799.985" y="-1200" z="1089.009"></position>
+      </offset>
+    </entry>
+    <entry index="472" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="470" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2399.985" y="-1200" z="689.01"></position>
+      </offset>
+    </entry>
+    <entry index="473" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="472" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3799.985" y="-1200" z="689.009"></position>
+      </offset>
+    </entry>
+    <entry index="474" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="472" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2399.984" y="-1200" z="289.01"></position>
+      </offset>
+    </entry>
+    <entry index="475" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="474" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3799.984" y="-1200" z="289.008"></position>
+      </offset>
+    </entry>
+    <entry index="476" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="474" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2399.984" y="-1200" z="-110.99"></position>
+      </offset>
+    </entry>
+    <entry index="477" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="476" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3799.984" y="-1200" z="-110.992"></position>
+      </offset>
+    </entry>
+    <entry index="478" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="476" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2399.983" y="-1200" z="-510.99"></position>
+      </offset>
+    </entry>
+    <entry index="479" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="478" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3799.983" y="-1200" z="-510.992"></position>
+      </offset>
+    </entry>
+    <entry index="480" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="478" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2399.983" y="-1200" z="-910.99"></position>
+      </offset>
+    </entry>
+    <entry index="481" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="480" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="3799.983" y="-1200" z="-910.992"></position>
+      </offset>
+    </entry>
+    <entry index="482" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="413" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-600.015" y="-1200" z="1489.011"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="483" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="482" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1200.015" y="-1200" z="1489.011"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="484" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="483" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1600.015" y="-1200" z="1489.01"></position>
+      </offset>
+    </entry>
+    <entry index="485" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="484" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1600.014" y="-1200" z="1089.01"></position>
+      </offset>
+    </entry>
+    <entry index="486" macro="struct_tel_base_01_macro" connection="connectionsnap002">
+      <predecessor index="485" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-2000.014" y="-1200" z="1089.01"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="487" macro="struct_tel_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="486" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2400.014" y="-1200" z="1089.01"></position>
+      </offset>
+    </entry>
+    <entry index="488" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="487" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="1089.009"></position>
+      </offset>
+    </entry>
+    <entry index="489" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="487" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400.014" y="-1200" z="689.01"></position>
+      </offset>
+    </entry>
+    <entry index="490" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="489" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="689.009"></position>
+      </offset>
+    </entry>
+    <entry index="491" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="403" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4000.005" z="889.005"></position>
+      </offset>
+    </entry>
+    <entry index="492" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="491" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4000.005" z="1489.005"></position>
+        <rotation yaw="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="493" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="492" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4000.005" z="1889.005"></position>
+      </offset>
+    </entry>
+    <entry index="494" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap001">
+      <predecessor index="493" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4000.005" y="600" z="2089.005"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="495" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="494" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4000.005" y="600" z="1289.005"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="496" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="493" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.005" z="1889.005"></position>
+      </offset>
+    </entry>
+    <entry index="497" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap001">
+      <predecessor index="496" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3600.005" y="600" z="2089.005"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="498" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="497" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3600.005" y="600" z="1289.005"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="499" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="496" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3200.005" z="1889.005"></position>
+      </offset>
+    </entry>
+    <entry index="500" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap001">
+      <predecessor index="499" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-3200.005" y="600" z="2089.005"></position>
+        <rotation yaw="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="501" macro="10x_modules_prod_arg_foodrations" connection="connectionsnap002">
+      <predecessor index="500" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3200.005" y="600" z="1289.005"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="502" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="489" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400.014" y="-1200" z="289.01"></position>
+      </offset>
+    </entry>
+    <entry index="503" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="502" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="289.009"></position>
+      </offset>
+    </entry>
+    <entry index="504" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="502" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400.014" y="-1200" z="-110.99"></position>
+      </offset>
+    </entry>
+    <entry index="505" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="504" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="-110.991"></position>
+      </offset>
+    </entry>
+    <entry index="506" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="504" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400.014" y="-1200" z="-510.99"></position>
+      </offset>
+    </entry>
+    <entry index="507" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="506" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="-510.991"></position>
+      </offset>
+    </entry>
+    <entry index="508" macro="struct_tel_base_02_macro" connection="connectionsnap002">
+      <predecessor index="305" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4800.003" z="-1910.995"></position>
+      </offset>
+    </entry>
+    <entry index="509" macro="struct_tel_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="312" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-4800.003" y="400" z="-1310.995"></position>
+      </offset>
+    </entry>
+    <entry index="510" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="509" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-4400.003" y="400" z="-1310.995"></position>
+      </offset>
+    </entry>
+    <entry index="511" macro="10x_modules_prod_gen_spices" connection="connectionsnap001">
+      <predecessor index="510" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-4600.003" y="800" z="-1710.995"></position>
+        <quaternion qx="-0.707107" qw="0.707106"></quaternion>
+      </offset>
+    </entry>
+    <entry index="512" macro="10x_modules_prod_gen_spices" connection="connectionsnap001">
+      <predecessor index="509" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-4600.003" y="800" z="-910.995"></position>
+        <quaternion qy="0.707107" qz="0.707107" qw="2.34614e-07"></quaternion>
+      </offset>
+    </entry>
+    <entry index="513" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="510" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-4000.003" y="400" z="-1310.995"></position>
+      </offset>
+    </entry>
+    <entry index="514" macro="struct_tel_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="513" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-3600.003" y="400" z="-1310.995"></position>
+      </offset>
+    </entry>
+    <entry index="515" macro="10x_modules_prod_gen_spices" connection="connectionsnap001">
+      <predecessor index="514" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3800.003" y="800" z="-1710.995"></position>
+        <quaternion qx="-0.707107" qw="0.707106"></quaternion>
+      </offset>
+    </entry>
+    <entry index="516" macro="10x_modules_prod_gen_spices" connection="connectionsnap001">
+      <predecessor index="513" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-3800.003" y="800" z="-910.995"></position>
+        <quaternion qy="0.707107" qz="0.707107" qw="6.60264e-08"></quaternion>
+      </offset>
+    </entry>
+    <entry index="517" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="506" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400.014" y="-1200" z="-910.99"></position>
+      </offset>
+    </entry>
+    <entry index="518" macro="10x_modules_prod_gen_energycells" connection="connectionsnap001">
+      <predecessor index="517" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-3800.014" y="-1200" z="-910.991"></position>
+      </offset>
+    </entry>
+    <entry index="519" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="133" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="1800" y="-400" z="-6910.995"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="520" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="519" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2400" y="-800" z="-6910.995"></position>
+      </offset>
+    </entry>
+    <entry index="521" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="520" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2400" y="-2000" z="-6910.995"></position>
+      </offset>
+    </entry>
+    <entry index="522" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="520" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="3200" y="-800" z="-6910.993"></position>
+        <rotation yaw="-0.000124537"></rotation>
+      </offset>
+    </entry>
+    <entry index="523" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="522" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="3200" y="-2000" z="-6910.993"></position>
+        <rotation yaw="-0.000134896"></rotation>
+      </offset>
+    </entry>
+    <entry index="524" macro="struct_tel_base_01_macro" connection="connectionsnap001">
+      <predecessor index="135" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1800" y="-400" z="-6910.99"></position>
+        <rotation yaw="90.00018"></rotation>
+      </offset>
+    </entry>
+    <entry index="525" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="524" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400" y="-800" z="-6910.987"></position>
+        <rotation yaw="-179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="526" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="525" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2400" y="-2000" z="-6910.987"></position>
+        <rotation yaw="-179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="527" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="525" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-3200" y="-800" z="-6910.987"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="528" macro="10x_modules_storage_tel_l_container_01_macro" connection="connectionsnap004">
+      <predecessor index="527" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-3200" y="-2000" z="-6910.987"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="529" macro="struct_tel_base_03_macro" connection="connectionsnap001">
+      <predecessor index="250" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="999.997" y="-1600" z="-8510.994"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="530" macro="struct_tel_cross_01_macro" connection="connectionsnap001">
+      <predecessor index="529" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.998" y="-1600" z="-8510.994"></position>
+        <rotation yaw="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="531" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="530" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="1999.998" y="-2000" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="532" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="531" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1999.998" y="-2400" z="-8510.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="533" macro="buildmodule_bor_ships_l_macro" connection="con_snap_01">
+      <predecessor index="532" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="999.998" y="-2400" z="-8510.995"></position>
+      </offset>
+    </entry>
+    <entry index="534" macro="struct_tel_base_03_macro" connection="connectionsnap002">
+      <predecessor index="250" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1000.002" y="-1600" z="-8510.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="535" macro="struct_tel_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="534" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-2000.002" y="-1600" z="-8510.994"></position>
+        <rotation yaw="-90.00002"></rotation>
+      </offset>
+    </entry>
+    <entry index="536" macro="struct_tel_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="535" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-2000.002" y="-2000" z="-8510.994"></position>
+      </offset>
+    </entry>
+    <entry index="537" macro="struct_tel_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="536" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2000.002" y="-2400" z="-8510.994"></position>
+        <rotation yaw="-90.00005"></rotation>
+      </offset>
+    </entry>
+  </plan>
+</plans>

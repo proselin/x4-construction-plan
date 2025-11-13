@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1735548925" name="ARG - Graphproduction Facility III_clean" description="">
+    <entry index="1" macro="prod_gen_graphene_macro">
+      <offset>
+        <position x="-600.383" y="-178.579" z="-399.949" />
+        <quaternion qx="-0.707107" qw="0.707107" />
+      </offset>
+      </entry>
+    <entry index="2" macro="dockarea_arg_m_station_01_macro">
+      <offset>
+        <position x="599.661" y="-378.569" z="600.007" />
+        <rotation yaw="-89.99995" pitch="0.00126496" roll="-0.000939123" />
+      </offset>
+    </entry>
+    <entry index="3" macro="storage_arg_m_container_01_macro">
+      <offset>
+        <position x="599.617" y="-378.579" z="0.05035" />
+        <rotation pitch="0.000944132" />
+      </offset>
+      </entry>
+    <entry index="4" macro="storage_arg_m_liquid_01_macro">
+      <offset>
+        <position x="-0.3827" y="-378.579" z="600.051" />
+        <quaternion qx="0.5" qy="-0.5" qz="0.5" qw="0.5" />
+      </offset>
+      </entry>
+    <entry index="5" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="-0.3828" y="-378.579" z="200.051" />
+        <rotation yaw="-90.00002" />
+      </offset>
+    </entry>
+    <entry index="6" macro="hab_arg_m_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3828" y="221.421" z="0.05049" />
+        <rotation yaw="90.00001" />
+      </offset>
+    </entry>
+    <entry index="7" macro="struct_arg_cross_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.383" y="-378.579" z="0.05066" />
+        <rotation roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="8" macro="dockarea_arg_m_station_01_macro">
+      <offset>
+        <position x="599.573" y="-378.589" z="-599.994" />
+        <rotation yaw="-89.99994" pitch="0.00126496" roll="-0.00094914" />
+      </offset>
+    </entry>
+    <entry index="9" macro="pier_arg_harbor_02_macro" connection="connectionsnap006">
+      <predecessor index="5" connection="connectionsnap005" />
+      <offset>
+        <position x="-200.383" y="-778.579" z="0.05057" />
+        <rotation yaw="179.99989" />
+      </offset>
+    </entry>
+    <entry index="10" macro="prod_gen_graphene_macro" connection="connectionsnap002">
+      <predecessor index="7" connection="connectionsnap001" />
+      <offset>
+        <position x="-603.796" y="-182.052" z="400.051" />
+        <rotation yaw="90.00083" pitch="-89.01304" roll="-90.00083" />
+      </offset>
+      </entry>
+    <entry index="11" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="8" connection="connectionsnap004" />
+      <offset>
+        <position x="599.529" y="-378.596" z="-999.95" />
+        <rotation pitch="0.000954149" />
+      </offset>
+      </entry>
+    <entry index="12" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap003" />
+      <offset>
+        <position x="599.706" y="-378.563" z="1000.051" />
+        <rotation pitch="0.000934115" />
+      </offset>
+      </entry>
+    <entry index="13" macro="struct_arg_base_02_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap004" />
+      <offset>
+        <position x="-1000.383" y="-378.579" z="0.0506" />
+        <rotation yaw="89.99995" />
+      </offset>
+    </entry>
+    <entry index="14" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="13" connection="connectionsnap002" />
+      <offset>
+        <position x="-1600.383" y="-378.579" z="0.05051" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

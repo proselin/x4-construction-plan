@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736524578" name="ARG - Turret Component Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="-378.579" z="200.02" />
+        <rotation yaw="-89.01363" />
+      </offset>
+    </entry>
+    <entry index="2" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3828" y="221.421" z="0.04968" />
+      </offset>
+    </entry>
+    <entry index="3" macro="prod_gen_turretcomponents_macro">
+      <offset>
+        <position x="0.06426" y="721.008" z="-14.915" />
+      </offset>
+      </entry>
+    <entry index="4" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="399.513" y="-378.579" z="-6.879" />
+        <rotation yaw="0.986363" />
+      </offset>
+    </entry>
+    <entry index="5" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="9.946" y="-378.579" z="599.961" />
+        <quaternion qx="-0.504284" qy="-0.495679" qz="-0.495676" qw="0.504287" />
+      </offset>
+      </entry>
+    <entry index="6" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.367" y="-378.579" z="6.98" />
+        <rotation yaw="0.986378" />
+      </offset>
+    </entry>
+    <entry index="7" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap005" />
+      <offset>
+        <position x="-0.3828" y="-978.579" z="0.04968" />
+        <rotation yaw="-179.99989" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="8" macro="prod_gen_turretcomponents_macro">
+      <offset>
+        <position x="-0.7195" y="-1478.716" z="-0.01242" />
+        <rotation yaw="179.99989" roll="179.99989" />
+      </offset>
+      </entry>
+    <entry index="9" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap003" />
+      <offset>
+        <position x="799.497" y="-378.579" z="-13.81" />
+        <rotation yaw="-89.01363" />
+      </offset>
+      </entry>
+    <entry index="10" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="6" connection="connectionsnap004" />
+      <offset>
+        <position x="-800.263" y="-378.579" z="13.909" />
+        <rotation yaw="-89.01363" />
+      </offset>
+      </entry>
+    <entry index="11" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="10" connection="connectionsnap002" />
+      <offset>
+        <position x="-1200.203" y="-378.579" z="20.795" />
+        <rotation yaw="0.986356" />
+      </offset>
+      </entry>
+    <entry index="12" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="9" connection="connectionsnap001" />
+      <offset>
+        <position x="1199.438" y="-378.579" z="-20.695" />
+        <rotation yaw="0.986348" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

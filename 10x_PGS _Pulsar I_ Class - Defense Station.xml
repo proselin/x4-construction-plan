@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_313094852249" name="10X PGS &quot;Pulsar I&quot; Class - Defense Station" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="750" name="Cradle of Humanity"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="pier_ter_harbor_01_macro">
+      <offset>
+        <position x="-577.562" z="103.454"></position>
+      </offset>
+    </entry>
+    <entry index="2" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-577.562" y="0.517" z="103.454"></position>
+      </offset>
+    </entry>
+    <entry index="3" macro="defence_ter_claim_01_macro">
+      <offset>
+        <position x="-726.469" y="-800" z="103.454"></position>
+        <rotation yaw="-89.99999" roll="-179.99998"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-577.657" z="103.454"></position>
+        <rotation yaw="-180"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="struct_ter_base_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-577.657" z="503.454"></position>
+      </offset>
+    </entry>
+    <entry index="6" macro="struct_ter_base_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-977.657" y="-0.000151" z="103.454"></position>
+        <rotation yaw="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="struct_ter_base_01_macro" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-577.657" y="-0.0001256" z="-296.546"></position>
+      </offset>
+    </entry>
+    <entry index="8" macro="struct_ter_base_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-126.469" y="0.0001831" z="103.454"></position>
+        <rotation yaw="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="defence_ter_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-577.658" y="-0.000178" z="-896.546"></position>
+      </offset>
+    </entry>
+    <entry index="10" macro="defence_ter_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-577.562" y="0.5171" z="903.454"></position>
+      </offset>
+    </entry>
+    <entry index="11" macro="defence_ter_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1526.469" z="103.455"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="defence_ter_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="8" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="473.531" y="0.0002737" z="103.454"></position>
+        <rotation yaw="89.99999"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="struct_ter_vertical_01_macro">
+      <offset>
+        <position x="-577.562" y="-1580.497" z="103.455"></position>
+      </offset>
+    </entry>
+    <entry index="14" macro="radar_arg_dish_01_macro" connection="con_snap_02">
+      <predecessor index="13" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-577.562" y="-1980.498" z="103.455"></position>
+        <quaternion qx="-0.500001" qy="0.499999" qz="0.5" qw="0.5"></quaternion>
+      </offset>
+    </entry>
+    <entry index="15" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-577.562" y="-811.141" z="103.455"></position>
+      </offset>
+    </entry>
+    <entry index="16" macro="struct_gen_observationdeck_01_macro" connection="con_snap_01">
+      <predecessor index="15" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-577.562" y="-811.141" z="-296.545"></position>
+      </offset>
+    </entry>
+    <entry index="17" macro="struct_gen_observationdeck_01_macro" connection="con_snap_01">
+      <predecessor index="15" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-177.562" y="-811.141" z="103.455"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="18" macro="struct_gen_observationdeck_01_macro" connection="con_snap_01">
+      <predecessor index="15" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-577.562" y="-811.141" z="503.455"></position>
+        <rotation yaw="179.99997"></rotation>
+      </offset>
+    </entry>
+    <entry index="19" macro="struct_gen_observationdeck_01_macro" connection="con_snap_01">
+      <predecessor index="15" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-977.562" y="-811.141" z="103.455"></position>
+        <rotation yaw="90" roll="-179.99991"></rotation>
+      </offset>
+    </entry>
+  </plan>
+</plans>

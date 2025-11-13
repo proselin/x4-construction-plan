@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736520231" name="ARG - Scanning Array Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="-378.579" z="200.02" />
+        <rotation yaw="-89.01363" />
+      </offset>
+    </entry>
+    <entry index="2" macro="hab_arg_s_01_macro">
+      <offset>
+        <position x="-0.3833" y="-1778.579" z="0.04932" />
+        <rotation yaw="-179.99989" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="3" macro="storage_arg_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="16.832" y="-381.351" z="999.901" />
+        <rotation yaw="-179.01364" roll="-179.99989" />
+      </offset>
+      </entry>
+    <entry index="4" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.367" y="-378.579" z="6.98" />
+        <rotation yaw="0.986378" />
+      </offset>
+    </entry>
+    <entry index="5" macro="prod_gen_scanningarrays_macro">
+      <offset>
+        <position x="619.782" y="21.422" z="1189.549" />
+        <quaternion qx="-0.504286" qy="-0.495678" qz="-0.495677" qw="0.504285" />
+      </offset>
+      </entry>
+    <entry index="6" macro="prod_gen_scanningarrays_macro">
+      <offset>
+        <position x="613.3" y="-1129.947" z="789.604" />
+        <quaternion qx="-0.495677" qy="-0.504285" qz="0.504286" qw="-0.495678" />
+      </offset>
+      </entry>
+    <entry index="7" macro="hab_arg_m_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap005" />
+      <offset>
+        <position x="-0.3828" y="-978.579" z="0.04968" />
+        <rotation yaw="-89.02174" roll="-179.99989" />
+      </offset>
+    </entry>
+    <entry index="8" macro="prod_gen_scanningarrays_macro">
+      <offset>
+        <position x="628.166" y="-847.287" z="1653.096" />
+        <rotation yaw="0.986355" pitch="0.000148427" roll="89.99995" />
+      </offset>
+      </entry>
+    <entry index="9" macro="prod_gen_scanningarrays_macro">
+      <offset>
+        <position x="605.378" y="-277.959" z="329.487" />
+        <rotation yaw="-179.01364" pitch="-0.000141942" roll="-89.99995" />
+      </offset>
+      </entry>
+    <entry index="10" macro="hab_arg_m_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3828" y="221.421" z="0.04968" />
+        <rotation yaw="-89.02174" />
+      </offset>
+    </entry>
+    <entry index="11" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="10" connection="connectionsnap002" />
+      <offset>
+        <position x="-0.3829" y="1021.421" z="0.04968" />
+      </offset>
+    </entry>
+    <entry index="12" macro="pier_arg_harbor_04_macro" connection="con_snap_01">
+      <predecessor index="4" connection="connectionsnap004" />
+      <offset>
+        <position x="-600.292" y="-378.579" z="10.466" />
+        <rotation yaw="0.986365" />
+      </offset>
+    </entry>
+    <entry index="13" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap003" />
+      <offset>
+        <position x="-583.123" y="-378.579" z="1010.275" />
+        <rotation yaw="0.986392" />
+      </offset>
+    </entry>
+    <entry index="14" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap004" />
+      <offset>
+        <position x="34.046" y="-378.579" z="1999.753" />
+        <rotation yaw="90.98632" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

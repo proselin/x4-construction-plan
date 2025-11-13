@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_706317298029" name="10X xxx" description="">
+    <patches>
+      <patch extension="ws_3304360652" version="106" name="100x Production Modules Base"></patch>
+      <patch extension="zuniversalmodule" version="122" name="zuniversalmodule"></patch>
+      <patch extension="ego_dlc_terran" version="800" name="Cradle of Humanity"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="zuniversal_module_group_00_10x">
+      <offset>
+        <position x="-0.0009766" y="-2253.149" z="5302.646"></position>
+      </offset>
+    </entry>
+    <entry index="2" macro="zuniversal_module_group_00">
+      <offset>
+        <position x="0.0009766" y="122.35" z="-5191.024"></position>
+      </offset>
+    </entry>
+    <entry index="3" macro="zuniversal_module_group_00_100x">
+      <offset>
+        <position y="548.832" z="-652.006"></position>
+      </offset>
+    </entry>
+    <entry index="4" macro="zuniversal_module_group_swi0">
+      <offset>
+        <position x="-0.003906" y="2987.321" z="-5184.24"></position>
+      </offset>
+    </entry>
+    <entry index="5" macro="100x_modules_prod_gen_energycells">
+      <offset>
+        <position x="-0.004883" y="-1864.699" z="-4736.523"></position>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_prod_ter_energycells">
+      <offset>
+        <position y="-6537.586" z="639.744"></position>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_prod_gen_energycells" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="2399.995" y="-1864.699" z="-4736.524"></position>
+      </offset>
+    </entry>
+    <entry index="8" macro="zuniversal_module_group_00_10x" connection="connectionsnap004">
+      <predecessor index="6" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-200" y="-6737.586" z="-1060.256"></position>
+      </offset>
+    </entry>
+    <entry index="9" macro="100x_modules_prod_gen_graphene">
+      <offset>
+        <position x="0.001953" y="330.827" z="-3013.382"></position>
+      </offset>
+    </entry>
+    <entry index="10" macro="100x_modules_prod_gen_antimattercells" connection="connectionsnap002">
+      <predecessor index="6" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-200" y="-6737.586" z="1939.744"></position>
+      </offset>
+    </entry>
+    <entry index="11" macro="zuniversal_module_group_00_100x" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-200.001" y="-6737.586" z="3939.744"></position>
+      </offset>
+    </entry>
+    <entry index="12" macro="100x_modules_prod_gen_graphene">
+      <offset>
+        <position x="7174.869" y="-0.0009766" z="-382.713"></position>
+      </offset>
+    </entry>
+  </plan>
+</plans>

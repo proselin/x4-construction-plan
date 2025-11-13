@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_207558455935" name="10X ARG - Medical Supply Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021"></position>
+        <rotation yaw="-89.01369" roll="0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-400.367" y="21.421" z="6.981"></position>
+        <rotation yaw="0.986344"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="10x_modules_hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.3827" y="621.421" z="0.05261"></position>
+        <rotation pitch="-0.000185166"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="399.558" y="21.421" z="-6.835"></position>
+        <rotation yaw="-89.01363" roll="0.000580402"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="10x_modules_prod_arg_medicalsupplies">
+      <offset>
+        <position x="204.287" y="933.204" z="209.334"></position>
+        <rotation yaw="-89.01369"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04869"></position>
+        <rotation pitch="-0.000191996" roll="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="struct_arg_vertical_01_macro">
+      <offset>
+        <position x="405.256" y="579.824" z="768.008"></position>
+        <rotation yaw="89.99995" roll="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_prod_arg_medicalsupplies">
+      <offset>
+        <position x="191.792" y="658.869" z="1103.513"></position>
+        <rotation yaw="-119.01368"></rotation>
+      </offset>
+    </entry>
+    <entry index="9" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="9.946" y="21.419" z="599.962"></position>
+        <rotation yaw="90.98631" pitch="-0.000427114" roll="179.99976"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="799.499" y="21.421" z="-13.72"></position>
+        <rotation yaw="-89.01363"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="10" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1199.44" y="21.421" z="-20.606"></position>
+        <rotation yaw="0.986346"></rotation>
+      </offset>
+    </entry>
+    <patches>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+    </patches>
+  </plan>
+</plans>

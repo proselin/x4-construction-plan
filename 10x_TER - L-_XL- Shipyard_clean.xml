@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_505822173441" name="10X TER - L-/XL- Shipyard_clean" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="750" name="Wiege der Menschheit"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="142.484"></position>
+        <rotation yaw="90.98625" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="198.721" z="-0.0002323"></position>
+        <rotation yaw="-134.00696"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-104.127" z="-0.0002238"></position>
+        <rotation yaw="-44.00689" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_ter_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="2" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position y="-166.772" z="-0.0003732"></position>
+        <rotation yaw="0.993072" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="10x_modules_hab_ter_m_01_macro">
+      <offset>
+        <position x="-0.0001507" y="215.397" z="-0.0002441"></position>
+        <rotation yaw="-44.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_storage_ter_l_container_01_macro" connection="connectionsnap01">
+      <predecessor index="3" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position y="-1104.127" z="-0.0004066"></position>
+      </offset>
+    </entry>
+    <entry index="7" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-0.0001428" y="-2104.127" z="-0.000637"></position>
+        <rotation yaw="-44.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="struct_ter_base_02_macro">
+      <offset>
+        <position y="-704.127" z="-445.426"></position>
+      </offset>
+    </entry>
+    <entry index="9" macro="buildmodule_ter_ships_xl_macro" connection="connectionsnap001">
+      <predecessor index="8" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-0.0003963" y="-704.127" z="-2645.426"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="10x_modules_hab_ter_m_01_macro" connection="connectionsnap004">
+      <predecessor index="6" connection="connectionsnap06"></predecessor>
+      <offset>
+        <position x="-1000" y="-704.127" z="-0.0005497"></position>
+      </offset>
+    </entry>
+    <entry index="11" macro="dockarea_ter_m_station_01_hightech_macro" connection="connectionsnap003">
+      <predecessor index="4" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="999.85" y="-166.772" z="-17.332"></position>
+        <rotation yaw="0.993048"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="dockarea_ter_m_station_01_hightech_macro" connection="connectionsnap007">
+      <predecessor index="4" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-999.85" y="-166.772" z="17.331"></position>
+        <rotation yaw="0.993044"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_hab_ter_m_01_macro" connection="connectionsnap003">
+      <predecessor index="6" connection="connectionsnap05"></predecessor>
+      <offset>
+        <position x="1000" y="-704.127" z="-0.0005497"></position>
+        <rotation pitch="0.0012639"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="10x_modules_hab_ter_s_01_macro" connection="connectionsnap004">
+      <predecessor index="10" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-2000" y="-704.127" z="-0.0008834"></position>
+      </offset>
+    </entry>
+    <entry index="15" macro="10x_modules_hab_ter_s_01_macro" connection="connectionsnap003">
+      <predecessor index="13" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="2000" y="-704.127" z="-0.0008834"></position>
+      </offset>
+    </entry>
+    <entry index="16" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="575.366" y="-704.127" z="-0.0004484"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-574.746" y="-704.127" z="-0.0002038"></position>
+      </offset>
+    </entry>
+    <entry index="18" macro="struct_ter_base_01_macro" connection="connectionsnap002">
+      <predecessor index="6" connection="connectionsnap03"></predecessor>
+      <offset>
+        <position y="-704.127" z="600"></position>
+      </offset>
+    </entry>
+    <entry index="19" macro="buildmodule_ter_ships_l_macro" connection="connectionsnap001">
+      <predecessor index="18" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="0.000248" y="-704.127" z="1600"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="20" macro="10x_modules_hab_ter_m_01_macro">
+      <offset>
+        <position x="-0.4618" y="-350.04" z="-0.0007569"></position>
+      </offset>
+    </entry>
+  </plan>
+</plans>

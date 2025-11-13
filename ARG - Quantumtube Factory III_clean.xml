@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1735547481" name="ARG - Quantumtube Factory III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021" />
+        <rotation yaw="-89.01369" roll="0.000185193" />
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="1" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3826" y="421.421" z="0.05194" />
+        <rotation pitch="-0.000185166" />
+      </offset>
+    </entry>
+    <entry index="3" macro="prod_gen_quantumtubes_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3825" y="1221.421" z="0.05453" />
+        <rotation yaw="-179.99989" pitch="0.000191996" />
+      </offset>
+      </entry>
+    <entry index="4" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="599.528" y="21.421" z="-10.277" />
+        <quaternion qx="0.70708" qy="0.00608611" qz="-0.00608602" qw="0.707081" />
+      </offset>
+      </entry>
+    <entry index="5" macro="hab_arg_m_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap005" />
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04849" />
+        <rotation yaw="-179.99989" pitch="0.000215901" />
+      </offset>
+    </entry>
+    <entry index="6" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="6.546" y="21.419" z="399.947" />
+        <rotation yaw="-89.01369" roll="0.000190202" />
+      </offset>
+    </entry>
+    <entry index="7" macro="dockarea_arg_m_station_02_macro" connection="connectionsnap003">
+      <predecessor index="2" connection="connectionsnap003" />
+      <offset>
+        <position x="-400.383" y="421.421" z="0.05195" />
+        <rotation yaw="-89.99995" roll="0.000715422" />
+      </offset>
+    </entry>
+    <entry index="8" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap001" />
+      <offset>
+        <position x="-0.3827" y="-1378.579" z="0.04548" />
+        <rotation pitch="-0.000209071" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="9" macro="pier_arg_harbor_02_macro" connection="connectionsnap002">
+      <predecessor index="6" connection="connectionsnap003" />
+      <offset>
+        <position x="213.446" y="21.418" z="796.488" />
+        <rotation yaw="0.986267" pitch="-0.000195211" />
+      </offset>
+    </entry>
+    <entry index="10" macro="prod_gen_quantumtubes_macro" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap002" />
+      <offset>
+        <position x="599.528" y="1021.421" z="-10.278" />
+        <rotation yaw="89.99995" />
+      </offset>
+      </entry>
+    <entry index="11" macro="storage_arg_s_container_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap005" />
+      <offset>
+        <position x="13.476" y="-578.582" z="799.929" />
+        <quaternion qx="-0.504283" qy="-0.495678" qz="-0.49568" qw="0.504285" />
+      </offset>
+      </entry>
+    <entry index="12" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap004" />
+      <offset>
+        <position x="413.417" y="21.418" z="793.046" />
+        <rotation yaw="-89.01369" />
+      </offset>
+    </entry>
+    <entry index="13" macro="prod_gen_quantumtubes_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap006" />
+      <offset>
+        <position x="13.476" y="821.418" z="799.933" />
+        <rotation pitch="-0.000188298" />
+      </offset>
+      </entry>
+    <entry index="14" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="12" connection="connectionsnap002" />
+      <offset>
+        <position x="813.358" y="21.418" z="786.161" />
+        <rotation yaw="-179.01364" />
+      </offset>
+      </entry>
+    <entry index="15" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.323" y="21.421" z="6.936" />
+        <rotation yaw="-89.01369" />
+      </offset>
+    </entry>
+    <entry index="16" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="15" connection="connectionsnap001" />
+      <offset>
+        <position x="-800.264" y="21.421" z="13.821" />
+        <rotation yaw="0.986278" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

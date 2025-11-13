@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1735551546" name="ARG - Superfluid Coolant Facility III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021" />
+        <rotation yaw="-89.01369" roll="0.000185193" />
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="399.558" y="21.421" z="-6.835" />
+        <rotation yaw="0.986309" />
+      </offset>
+    </entry>
+    <entry index="3" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="9.945" y="21.419" z="599.962" />
+        <quaternion qx="0.504245" qy="-0.495719" qz="0.495637" qw="0.504325" />
+      </offset>
+      </entry>
+    <entry index="4" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001" />
+      <offset>
+        <position x="406.443" y="21.421" z="393.106" />
+        <rotation yaw="0.9863" />
+      </offset>
+    </entry>
+    <entry index="5" macro="storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="2" connection="connectionsnap004" />
+      <offset>
+        <position x="999.469" y="21.421" z="-17.163" />
+        <rotation yaw="0.986322" />
+      </offset>
+      </entry>
+    <entry index="6" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="4" connection="connectionsnap001" />
+      <offset>
+        <position x="413.372" y="21.421" z="793.002" />
+        <rotation yaw="-89.01369" pitch="0.010757" />
+      </offset>
+    </entry>
+    <entry index="7" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap005" />
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04875" />
+        <rotation yaw="-179.96637" pitch="0.000185167" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="8" macro="prod_gen_superfluidcoolant_macro" connection="connectionsnap01">
+      <predecessor index="2" connection="connectionsnap002" />
+      <offset>
+        <position x="585.758" y="221.421" z="-810.159" />
+        <quaternion qx="-0.707081" qy="0.00608623" qz="0.0060861" qw="0.70708" />
+      </offset>
+      </entry>
+    <entry index="9" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006" />
+      <offset>
+        <position x="-0.3826" y="621.421" z="0.05263" />
+        <rotation pitch="-0.000185166" />
+      </offset>
+    </entry>
+    <entry index="10" macro="struct_arg_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="-400.323" y="21.421" z="6.936" />
+        <rotation yaw="0.986286" />
+      </offset>
+    </entry>
+    <entry index="11" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap001" />
+      <offset>
+        <position x="-393.438" y="21.421" z="406.877" />
+        <rotation yaw="0.986278" />
+      </offset>
+    </entry>
+    <entry index="12" macro="storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="10" connection="connectionsnap003" />
+      <offset>
+        <position x="-1000.234" y="21.421" z="17.264" />
+        <rotation yaw="-179.01364" />
+      </offset>
+      </entry>
+    <entry index="13" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="11" connection="connectionsnap001" />
+      <offset>
+        <position x="-386.51" y="21.421" z="806.773" />
+        <rotation yaw="-89.01369" pitch="0.0107567" />
+      </offset>
+    </entry>
+    <entry index="14" macro="prod_gen_superfluidcoolant_macro" connection="connectionsnap01">
+      <predecessor index="10" connection="connectionsnap002" />
+      <offset>
+        <position x="-614.064" y="-178.579" z="-789.503" />
+        <quaternion qx="0.00608603" qy="-0.707081" qz="0.707081" qw="0.00608603" />
+      </offset>
+      </entry>
+    <entry index="15" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap002" />
+      <offset>
+        <position x="989.141" y="21.421" z="-617.074" />
+        <rotation yaw="0.986331" />
+      </offset>
+      </entry>
+    <entry index="16" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap001" />
+      <offset>
+        <position x="1009.797" y="21.421" z="582.748" />
+        <rotation yaw="0.986314" />
+      </offset>
+      </entry>
+    <entry index="17" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="12" connection="connectionsnap001" />
+      <offset>
+        <position x="-1010.562" y="21.421" z="-582.647" />
+        <rotation yaw="0.986286" />
+      </offset>
+      </entry>
+    <entry index="18" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="12" connection="connectionsnap002" />
+      <offset>
+        <position x="-989.906" y="21.421" z="617.175" />
+        <rotation yaw="0.986286" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

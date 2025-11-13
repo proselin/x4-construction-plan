@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="233F9003-81A5-4BE7-A383-ECAB247FFAA1_1715102145" name="Energie" description="">
+    <patches>
+      <patch extension="ego_dlc_pirate" version="620" name="Vagues d'Avarice"/>
+      <patch extension="ego_dlc_terran" version="620" name="Le berceau de l'humanité"/>
+      <patch extension="ego_dlc_boron" version="620" name="Kingdom End"/>
+    </patches>
+    <entry index="1" macro="dockarea_ter_m_station_01_hightech_macro">
+      <offset>
+        <position y="-27.204"/>
+        <rotation yaw="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap003"/>
+      <offset>
+        <position x="0.0002284" y="-27.204" z="800"/>
+        <rotation yaw="-89.99995"/>
+      </offset>
+    </entry>
+    <entry index="3" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001"/>
+      <offset>
+        <position x="-700" y="-27.204" z="800"/>
+        <rotation yaw="-89.99995"/>
+      </offset>
+    </entry>
+    <entry index="4" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap002"/>
+      <offset>
+        <position x="700" y="-27.204" z="799.999"/>
+        <rotation yaw="-89.99995"/>
+      </offset>
+    </entry>
+    <entry index="5" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="2" connection="connectionsnap004"/>
+      <offset>
+        <position x="0.000494" y="-27.204" z="1200"/>
+        <rotation yaw="-89.99995"/>
+      </offset>
+    </entry>
+    <entry index="6" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap001"/>
+      <offset>
+        <position x="-699.999" y="-27.204" z="1200"/>
+        <rotation yaw="-89.99995"/>
+      </offset>
+    </entry>
+    <entry index="7" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap002"/>
+      <offset>
+        <position x="700" y="-27.204" z="1199.999"/>
+        <rotation yaw="-89.99994"/>
+      </offset>
+    </entry>
+    <entry index="8" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="5" connection="connectionsnap004"/>
+      <offset>
+        <position x="0.0006986" y="-27.204" z="1600"/>
+        <rotation yaw="-89.99992"/>
+      </offset>
+    </entry>
+    <entry index="9" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="8" connection="connectionsnap001"/>
+      <offset>
+        <position x="-699.999" y="-27.204" z="1600"/>
+        <rotation yaw="-89.99994"/>
+      </offset>
+    </entry>
+    <entry index="10" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="8" connection="connectionsnap002"/>
+      <offset>
+        <position x="700.001" y="-27.204" z="1599.999"/>
+        <rotation yaw="-89.99992"/>
+      </offset>
+    </entry>
+    <entry index="11" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="8" connection="connectionsnap004"/>
+      <offset>
+        <position x="0.001101" y="-27.204" z="2000"/>
+        <rotation yaw="-89.99992"/>
+      </offset>
+    </entry>
+    <entry index="12" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="11" connection="connectionsnap001"/>
+      <offset>
+        <position x="-699.999" y="-27.204" z="2000"/>
+        <rotation yaw="-89.99992"/>
+      </offset>
+    </entry>
+    <entry index="13" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="11" connection="connectionsnap002"/>
+      <offset>
+        <position x="700.001" y="-27.204" z="1999.998"/>
+        <rotation yaw="-89.99989"/>
+      </offset>
+    </entry>
+    <entry index="14" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="11" connection="connectionsnap004"/>
+      <offset>
+        <position x="0.002145" y="-27.204" z="2399.999"/>
+        <rotation yaw="-89.99989"/>
+      </offset>
+    </entry>
+    <entry index="15" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="14" connection="connectionsnap001"/>
+      <offset>
+        <position x="-699.998" y="-27.204" z="2400"/>
+        <rotation yaw="-89.99989"/>
+      </offset>
+    </entry>
+    <entry index="16" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="14" connection="connectionsnap002"/>
+      <offset>
+        <position x="700.002" y="-27.204" z="2399.997"/>
+        <rotation yaw="-89.99989"/>
+      </offset>
+    </entry>
+    <entry index="17" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="14" connection="connectionsnap004"/>
+      <offset>
+        <position x="0.003006" y="-27.204" z="2799.999"/>
+        <rotation yaw="-89.99989"/>
+      </offset>
+    </entry>
+    <entry index="18" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="17" connection="connectionsnap001"/>
+      <offset>
+        <position x="-699.997" y="-27.205" z="2800"/>
+        <rotation yaw="-89.99989"/>
+      </offset>
+    </entry>
+    <entry index="19" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="17" connection="connectionsnap002"/>
+      <offset>
+        <position x="700.002" y="-27.204" z="2799.998"/>
+        <rotation yaw="-89.99988"/>
+      </offset>
+    </entry>
+    <entry index="20" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="2" connection="connectionsnap005"/>
+      <offset>
+        <position x="0.0003667" y="-627.204" z="800"/>
+        <rotation roll="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="21" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002"/>
+      <offset>
+        <position x="565.685" y="-27.204" z="565.685"/>
+        <rotation yaw="-44.99997"/>
+      </offset>
+    </entry>
+    <entry index="22" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="21" connection="connectionsnap001"/>
+      <offset>
+        <position x="70.711" y="-27.204" z="1060.66"/>
+        <rotation yaw="-44.99997"/>
+      </offset>
+    </entry>
+    <entry index="23" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="21" connection="connectionsnap002"/>
+      <offset>
+        <position x="1060.66" y="-27.204" z="70.71"/>
+        <rotation yaw="-44.99997"/>
+      </offset>
+    </entry>
+    <entry index="24" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="21" connection="connectionsnap004"/>
+      <offset>
+        <position x="848.528" y="-27.204" z="848.528"/>
+        <rotation yaw="-44.99997"/>
+      </offset>
+    </entry>
+    <entry index="25" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="24" connection="connectionsnap001"/>
+      <offset>
+        <position x="353.554" y="-27.204" z="1343.503"/>
+        <rotation yaw="-44.99997"/>
+      </offset>
+    </entry>
+    <entry index="26" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="24" connection="connectionsnap002"/>
+      <offset>
+        <position x="1343.503" y="-27.204" z="353.553"/>
+        <rotation yaw="-44.99995"/>
+      </offset>
+    </entry>
+    <entry index="27" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="24" connection="connectionsnap004"/>
+      <offset>
+        <position x="1131.371" y="-27.204" z="1131.371"/>
+        <rotation yaw="-44.99995"/>
+      </offset>
+    </entry>
+    <entry index="28" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="27" connection="connectionsnap001"/>
+      <offset>
+        <position x="636.397" y="-27.204" z="1626.346"/>
+        <rotation yaw="-44.99996"/>
+      </offset>
+    </entry>
+    <entry index="29" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="27" connection="connectionsnap002"/>
+      <offset>
+        <position x="1626.345" y="-27.204" z="636.395"/>
+        <rotation yaw="-44.99994"/>
+      </offset>
+    </entry>
+    <entry index="30" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="27" connection="connectionsnap004"/>
+      <offset>
+        <position x="1414.214" y="-27.204" z="1414.213"/>
+        <rotation yaw="-44.99994"/>
+      </offset>
+    </entry>
+    <entry index="31" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="30" connection="connectionsnap001"/>
+      <offset>
+        <position x="919.24" y="-27.204" z="1909.189"/>
+        <rotation yaw="-44.99994"/>
+      </offset>
+    </entry>
+    <entry index="32" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="30" connection="connectionsnap002"/>
+      <offset>
+        <position x="1909.188" y="-27.204" z="919.238"/>
+        <rotation yaw="-44.99992"/>
+      </offset>
+    </entry>
+    <entry index="33" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="30" connection="connectionsnap004"/>
+      <offset>
+        <position x="1697.057" y="-27.204" z="1697.055"/>
+        <rotation yaw="-44.99992"/>
+      </offset>
+    </entry>
+    <entry index="34" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="33" connection="connectionsnap001"/>
+      <offset>
+        <position x="1202.083" y="-27.204" z="2192.031"/>
+        <rotation yaw="-44.99992"/>
+      </offset>
+    </entry>
+    <entry index="35" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="33" connection="connectionsnap002"/>
+      <offset>
+        <position x="2192.031" y="-27.204" z="1202.08"/>
+        <rotation yaw="-44.99992"/>
+      </offset>
+    </entry>
+    <entry index="36" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="33" connection="connectionsnap004"/>
+      <offset>
+        <position x="1979.901" y="-27.204" z="1979.898"/>
+        <rotation yaw="-44.99991"/>
+      </offset>
+    </entry>
+    <entry index="37" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="36" connection="connectionsnap001"/>
+      <offset>
+        <position x="1484.926" y="-27.204" z="2474.873"/>
+        <rotation yaw="-44.99992"/>
+      </offset>
+    </entry>
+    <entry index="38" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="36" connection="connectionsnap002"/>
+      <offset>
+        <position x="2474.875" y="-27.204" z="1484.922"/>
+        <rotation yaw="-44.99987"/>
+      </offset>
+    </entry>
+    <entry index="39" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="21" connection="connectionsnap005"/>
+      <offset>
+        <position x="565.685" y="-627.204" z="565.685"/>
+        <rotation yaw="44.99994" roll="90"/>
+      </offset>
+    </entry>
+    <entry index="40" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001"/>
+      <offset>
+        <position x="800" y="-27.204"/>
+      </offset>
+    </entry>
+    <entry index="41" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="40" connection="connectionsnap001"/>
+      <offset>
+        <position x="800" y="-27.204" z="700"/>
+      </offset>
+    </entry>
+    <entry index="42" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="40" connection="connectionsnap002"/>
+      <offset>
+        <position x="800" y="-27.204" z="-700"/>
+      </offset>
+    </entry>
+    <entry index="43" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="40" connection="connectionsnap004"/>
+      <offset>
+        <position x="1200" y="-27.204"/>
+      </offset>
+    </entry>
+    <entry index="44" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="43" connection="connectionsnap001"/>
+      <offset>
+        <position x="1200" y="-27.204" z="700"/>
+      </offset>
+    </entry>
+    <entry index="45" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="43" connection="connectionsnap002"/>
+      <offset>
+        <position x="1200" y="-27.204" z="-700"/>
+      </offset>
+    </entry>
+    <entry index="46" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="43" connection="connectionsnap004"/>
+      <offset>
+        <position x="1600" y="-27.204"/>
+      </offset>
+    </entry>
+    <entry index="47" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="46" connection="connectionsnap001"/>
+      <offset>
+        <position x="1600" y="-27.204" z="700"/>
+      </offset>
+    </entry>
+    <entry index="48" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="46" connection="connectionsnap002"/>
+      <offset>
+        <position x="1600" y="-27.204" z="-700"/>
+      </offset>
+    </entry>
+    <entry index="49" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="46" connection="connectionsnap004"/>
+      <offset>
+        <position x="2000" y="-27.204" z="-0.0003514"/>
+      </offset>
+    </entry>
+    <entry index="50" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="49" connection="connectionsnap001"/>
+      <offset>
+        <position x="2000.001" y="-27.204" z="700"/>
+      </offset>
+    </entry>
+    <entry index="51" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="49" connection="connectionsnap002"/>
+      <offset>
+        <position x="1999.999" y="-27.204" z="-700"/>
+      </offset>
+    </entry>
+    <entry index="52" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="49" connection="connectionsnap004"/>
+      <offset>
+        <position x="2400" y="-27.204" z="-0.0009365"/>
+      </offset>
+    </entry>
+    <entry index="53" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="52" connection="connectionsnap001"/>
+      <offset>
+        <position x="2400.001" y="-27.204" z="699.999"/>
+      </offset>
+    </entry>
+    <entry index="54" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="52" connection="connectionsnap002"/>
+      <offset>
+        <position x="2399.999" y="-27.204" z="-700.001"/>
+      </offset>
+    </entry>
+    <entry index="55" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="52" connection="connectionsnap004"/>
+      <offset>
+        <position x="2800" y="-27.204" z="-0.0014"/>
+      </offset>
+    </entry>
+    <entry index="56" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="55" connection="connectionsnap001"/>
+      <offset>
+        <position x="2800.001" y="-27.204" z="699.999"/>
+      </offset>
+    </entry>
+    <entry index="57" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="55" connection="connectionsnap002"/>
+      <offset>
+        <position x="2799.999" y="-27.204" z="-700.001"/>
+      </offset>
+    </entry>
+    <entry index="58" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="40" connection="connectionsnap005"/>
+      <offset>
+        <position x="800" y="-627.204"/>
+        <rotation yaw="89.99995" roll="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="59" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap008"/>
+      <offset>
+        <position x="565.685" y="-27.204" z="-565.686"/>
+        <rotation yaw="45.00007"/>
+      </offset>
+    </entry>
+    <entry index="60" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="59" connection="connectionsnap001"/>
+      <offset>
+        <position x="1060.66" y="-27.204" z="-70.712"/>
+        <rotation yaw="45.00005"/>
+      </offset>
+    </entry>
+    <entry index="61" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="59" connection="connectionsnap002"/>
+      <offset>
+        <position x="70.71" y="-27.204" z="-1060.66"/>
+        <rotation yaw="45.00008"/>
+      </offset>
+    </entry>
+    <entry index="62" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="59" connection="connectionsnap004"/>
+      <offset>
+        <position x="848.527" y="-27.204" z="-848.529"/>
+        <rotation yaw="45.00009"/>
+      </offset>
+    </entry>
+    <entry index="63" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="62" connection="connectionsnap001"/>
+      <offset>
+        <position x="1343.503" y="-27.204" z="-353.555"/>
+        <rotation yaw="45.00008"/>
+      </offset>
+    </entry>
+    <entry index="64" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="62" connection="connectionsnap002"/>
+      <offset>
+        <position x="353.552" y="-27.204" z="-1343.503"/>
+        <rotation yaw="45.0001"/>
+      </offset>
+    </entry>
+    <entry index="65" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="62" connection="connectionsnap004"/>
+      <offset>
+        <position x="1131.37" y="-27.204" z="-1131.372"/>
+        <rotation yaw="45.0001"/>
+      </offset>
+    </entry>
+    <entry index="66" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="65" connection="connectionsnap001"/>
+      <offset>
+        <position x="1626.346" y="-27.204" z="-636.398"/>
+        <rotation yaw="45.00009"/>
+      </offset>
+    </entry>
+    <entry index="67" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="65" connection="connectionsnap002"/>
+      <offset>
+        <position x="636.394" y="-27.204" z="-1626.346"/>
+        <rotation yaw="45.0001"/>
+      </offset>
+    </entry>
+    <entry index="68" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="65" connection="connectionsnap004"/>
+      <offset>
+        <position x="1414.212" y="-27.204" z="-1414.215"/>
+        <rotation yaw="45.0001"/>
+      </offset>
+    </entry>
+    <entry index="69" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="68" connection="connectionsnap001"/>
+      <offset>
+        <position x="1909.188" y="-27.204" z="-919.241"/>
+        <rotation yaw="45.0001"/>
+      </offset>
+    </entry>
+    <entry index="70" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="68" connection="connectionsnap002"/>
+      <offset>
+        <position x="919.236" y="-27.204" z="-1909.189"/>
+        <rotation yaw="45.00012"/>
+      </offset>
+    </entry>
+    <entry index="71" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="68" connection="connectionsnap004"/>
+      <offset>
+        <position x="1697.054" y="-27.204" z="-1697.059"/>
+        <rotation yaw="45.00013"/>
+      </offset>
+    </entry>
+    <entry index="72" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="71" connection="connectionsnap001"/>
+      <offset>
+        <position x="2192.03" y="-27.204" z="-1202.085"/>
+        <rotation yaw="45.00012"/>
+      </offset>
+    </entry>
+    <entry index="73" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="71" connection="connectionsnap002"/>
+      <offset>
+        <position x="1202.078" y="-27.204" z="-2192.032"/>
+        <rotation yaw="45.00013"/>
+      </offset>
+    </entry>
+    <entry index="74" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="71" connection="connectionsnap004"/>
+      <offset>
+        <position x="1979.896" y="-27.204" z="-1979.903"/>
+        <rotation yaw="45.00013"/>
+      </offset>
+    </entry>
+    <entry index="75" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="74" connection="connectionsnap001"/>
+      <offset>
+        <position x="2474.873" y="-27.204" z="-1484.928"/>
+        <rotation yaw="45.00013"/>
+      </offset>
+    </entry>
+    <entry index="76" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="74" connection="connectionsnap002"/>
+      <offset>
+        <position x="1484.92" y="-27.204" z="-2474.876"/>
+        <rotation yaw="45.00013"/>
+      </offset>
+    </entry>
+    <entry index="77" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="59" connection="connectionsnap005"/>
+      <offset>
+        <position x="565.685" y="-627.204" z="-565.686"/>
+        <rotation yaw="134.99997" roll="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="78" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap007"/>
+      <offset>
+        <position x="-0.0003166" y="-27.204" z="-800"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="79" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="78" connection="connectionsnap001"/>
+      <offset>
+        <position x="700" y="-27.204" z="-800"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="80" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="78" connection="connectionsnap002"/>
+      <offset>
+        <position x="-700" y="-27.204" z="-800"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="81" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="78" connection="connectionsnap004"/>
+      <offset>
+        <position x="-0.0004954" y="-27.204" z="-1200"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="82" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="81" connection="connectionsnap001"/>
+      <offset>
+        <position x="700" y="-27.204" z="-1200"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="83" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="81" connection="connectionsnap002"/>
+      <offset>
+        <position x="-700" y="-27.204" z="-1200"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="84" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="81" connection="connectionsnap004"/>
+      <offset>
+        <position x="-0.0006437" y="-27.204" z="-1600"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="85" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="84" connection="connectionsnap001"/>
+      <offset>
+        <position x="699.999" y="-27.204" z="-1600"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="86" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="84" connection="connectionsnap002"/>
+      <offset>
+        <position x="-700.001" y="-27.204" z="-1599.999"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="87" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="84" connection="connectionsnap004"/>
+      <offset>
+        <position x="-0.001036" y="-27.204" z="-2000"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="88" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="87" connection="connectionsnap001"/>
+      <offset>
+        <position x="699.999" y="-27.204" z="-2000.001"/>
+        <rotation yaw="90.00004"/>
+      </offset>
+    </entry>
+    <entry index="89" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="87" connection="connectionsnap002"/>
+      <offset>
+        <position x="-700.001" y="-27.204" z="-1999.999"/>
+        <rotation yaw="90.00007"/>
+      </offset>
+    </entry>
+    <entry index="90" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="87" connection="connectionsnap004"/>
+      <offset>
+        <position x="-0.001947" y="-27.204" z="-2400"/>
+        <rotation yaw="90.00007"/>
+      </offset>
+    </entry>
+    <entry index="91" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="90" connection="connectionsnap001"/>
+      <offset>
+        <position x="699.998" y="-27.204" z="-2400.001"/>
+        <rotation yaw="90.00007"/>
+      </offset>
+    </entry>
+    <entry index="92" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="90" connection="connectionsnap002"/>
+      <offset>
+        <position x="-700.002" y="-27.204" z="-2399.998"/>
+        <rotation yaw="90.00007"/>
+      </offset>
+    </entry>
+    <entry index="93" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="90" connection="connectionsnap004"/>
+      <offset>
+        <position x="-0.002553" y="-27.204" z="-2800"/>
+        <rotation yaw="90.00007"/>
+      </offset>
+    </entry>
+    <entry index="94" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="93" connection="connectionsnap001"/>
+      <offset>
+        <position x="699.998" y="-27.204" z="-2800.001"/>
+        <rotation yaw="90.00007"/>
+      </offset>
+    </entry>
+    <entry index="95" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="93" connection="connectionsnap002"/>
+      <offset>
+        <position x="-700.002" y="-27.204" z="-2799.999"/>
+        <rotation yaw="90.00009"/>
+      </offset>
+    </entry>
+    <entry index="96" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap006"/>
+      <offset>
+        <position x="-565.686" y="-27.204" z="-565.685"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="97" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="96" connection="connectionsnap001"/>
+      <offset>
+        <position x="-70.711" y="-27.204" z="-1060.66"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="98" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="96" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1060.66" y="-27.204" z="-70.71"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="99" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="96" connection="connectionsnap004"/>
+      <offset>
+        <position x="-848.529" y="-27.204" z="-848.527"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="100" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="99" connection="connectionsnap001"/>
+      <offset>
+        <position x="-353.554" y="-27.204" z="-1343.503"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="101" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="99" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1343.503" y="-27.204" z="-353.552"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="102" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="99" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1131.371" y="-27.204" z="-1131.37"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="103" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="102" connection="connectionsnap001"/>
+      <offset>
+        <position x="-636.397" y="-27.204" z="-1626.345"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="104" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="102" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1626.345" y="-27.204" z="-636.394"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="105" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="102" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1414.215" y="-27.204" z="-1414.212"/>
+        <rotation yaw="135.00009"/>
+      </offset>
+    </entry>
+    <entry index="106" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="105" connection="connectionsnap001"/>
+      <offset>
+        <position x="-919.241" y="-27.204" z="-1909.188"/>
+        <rotation yaw="135"/>
+      </offset>
+    </entry>
+    <entry index="107" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="105" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1909.188" y="-27.204" z="-919.237"/>
+        <rotation yaw="135.00009"/>
+      </offset>
+    </entry>
+    <entry index="108" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="105" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1697.058" y="-27.204" z="-1697.054"/>
+        <rotation yaw="135.00011"/>
+      </offset>
+    </entry>
+    <entry index="109" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="108" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1202.084" y="-27.204" z="-2192.03"/>
+        <rotation yaw="135.00009"/>
+      </offset>
+    </entry>
+    <entry index="110" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="108" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2192.031" y="-27.204" z="-1202.078"/>
+        <rotation yaw="135.00011"/>
+      </offset>
+    </entry>
+    <entry index="111" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="108" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1979.901" y="-27.204" z="-1979.896"/>
+        <rotation yaw="135.00012"/>
+      </offset>
+    </entry>
+    <entry index="112" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="111" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1484.927" y="-27.204" z="-2474.872"/>
+        <rotation yaw="135.00011"/>
+      </offset>
+    </entry>
+    <entry index="113" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="111" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2474.875" y="-27.204" z="-1484.921"/>
+        <rotation yaw="135.00012"/>
+      </offset>
+    </entry>
+    <entry index="114" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="96" connection="connectionsnap005"/>
+      <offset>
+        <position x="-565.686" y="-627.204" z="-565.685"/>
+        <rotation yaw="-135" roll="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="115" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap005"/>
+      <offset>
+        <position x="-800" y="-27.204" z="0.0003389"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="116" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="115" connection="connectionsnap001"/>
+      <offset>
+        <position x="-800" y="-27.204" z="-700"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="117" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="115" connection="connectionsnap002"/>
+      <offset>
+        <position x="-799.999" y="-27.204" z="700"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="118" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="115" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1200" y="-27.204" z="0.0007014"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="119" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="118" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1200.001" y="-27.204" z="-699.999"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="120" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="118" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1199.999" y="-27.204" z="700.001"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="121" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="118" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1600" y="-27.204" z="0.001064"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="122" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="121" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1600.001" y="-27.204" z="-699.999"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="123" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="121" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1599.999" y="-27.204" z="700.001"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="124" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="121" connection="connectionsnap004"/>
+      <offset>
+        <position x="-2000" y="-27.204" z="0.001564"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="125" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="124" connection="connectionsnap001"/>
+      <offset>
+        <position x="-2000.001" y="-27.204" z="-699.999"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="126" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="124" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1999.999" y="-27.204" z="700.001"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="127" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="124" connection="connectionsnap004"/>
+      <offset>
+        <position x="-2400" y="-27.204" z="0.002522"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="128" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="127" connection="connectionsnap001"/>
+      <offset>
+        <position x="-2400.001" y="-27.204" z="-699.998"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="129" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="127" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2399.998" y="-27.205" z="700.002"/>
+        <rotation yaw="-179.99988"/>
+      </offset>
+    </entry>
+    <entry index="130" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="127" connection="connectionsnap004"/>
+      <offset>
+        <position x="-2800" y="-27.205" z="0.00354"/>
+        <rotation yaw="-179.99988"/>
+      </offset>
+    </entry>
+    <entry index="131" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="130" connection="connectionsnap001"/>
+      <offset>
+        <position x="-2800.001" y="-27.204" z="-699.997"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="132" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="130" connection="connectionsnap002"/>
+      <offset>
+        <position x="-2799.999" y="-27.205" z="700.003"/>
+        <rotation yaw="-179.99976"/>
+      </offset>
+    </entry>
+    <entry index="133" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="115" connection="connectionsnap005"/>
+      <offset>
+        <position x="-800" y="-627.204" z="0.0002816"/>
+        <rotation yaw="-90" roll="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="134" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap004"/>
+      <offset>
+        <position x="-565.685" y="-27.204" z="565.686"/>
+        <rotation yaw="-134.99995"/>
+      </offset>
+    </entry>
+    <entry index="135" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="134" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1060.66" y="-27.204" z="70.711"/>
+        <rotation yaw="-134.99997"/>
+      </offset>
+    </entry>
+    <entry index="136" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="134" connection="connectionsnap002"/>
+      <offset>
+        <position x="-70.71" y="-27.204" z="1060.66"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="137" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="134" connection="connectionsnap004"/>
+      <offset>
+        <position x="-848.528" y="-27.204" z="848.529"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="138" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="137" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1343.503" y="-27.204" z="353.554"/>
+        <rotation yaw="-134.99995"/>
+      </offset>
+    </entry>
+    <entry index="139" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="137" connection="connectionsnap002"/>
+      <offset>
+        <position x="-353.553" y="-27.204" z="1343.502"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="140" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="137" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1131.37" y="-27.204" z="1131.371"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="141" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="140" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1626.345" y="-27.204" z="636.397"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="142" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="140" connection="connectionsnap002"/>
+      <offset>
+        <position x="-636.395" y="-27.204" z="1626.345"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="143" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="140" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1414.212" y="-27.204" z="1414.214"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="144" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="143" connection="connectionsnap001"/>
+      <offset>
+        <position x="-1909.188" y="-27.204" z="919.24"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="145" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="143" connection="connectionsnap002"/>
+      <offset>
+        <position x="-919.237" y="-27.204" z="1909.188"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="146" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="143" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1697.054" y="-27.205" z="1697.057"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="147" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="146" connection="connectionsnap001"/>
+      <offset>
+        <position x="-2192.03" y="-27.204" z="1202.083"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="148" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="146" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1202.078" y="-27.205" z="2192.031"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="149" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="146" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1979.896" y="-27.205" z="1979.901"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="150" macro="prod_ter_energycells_macro" connection="connectionsnap002">
+      <predecessor index="149" connection="connectionsnap001"/>
+      <offset>
+        <position x="-2474.872" y="-27.205" z="1484.927"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="151" macro="prod_ter_energycells_macro" connection="connectionsnap001">
+      <predecessor index="149" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1484.921" y="-27.205" z="2474.874"/>
+        <rotation yaw="-134.99986"/>
+      </offset>
+    </entry>
+    <entry index="152" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="134" connection="connectionsnap005"/>
+      <offset>
+        <position x="-565.685" y="-627.204" z="565.686"/>
+        <rotation yaw="-44.99996" roll="90"/>
+      </offset>
+    </entry>
+    <entry index="153" macro="struct_ter_cross_01_macro" connection="connectionsnap006">
+      <predecessor index="1" connection="connectionsnap010"/>
+      <offset>
+        <position y="-427.204"/>
+      </offset>
+    </entry>
+    <entry index="154" macro="pier_ter_harbor_02_macro" connection="connectionsnap004">
+      <predecessor index="153" connection="connectionsnap005"/>
+      <offset>
+        <position y="-827.204"/>
+        <rotation yaw="89.99963" roll="-90"/>
+      </offset>
+    </entry>
+    <entry index="155" macro="struct_arg_vertical_01_macro" connection="connectionsnap001">
+      <predecessor index="81" connection="connectionsnap005"/>
+      <offset>
+        <position x="-0.0004128" y="-427.204" z="-1200"/>
+      </offset>
+    </entry>
+    <entry index="156" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="155" connection="connectionsnap002"/>
+      <offset>
+        <position x="0.0001642" y="-827.204" z="-1200"/>
+      </offset>
+    </entry>
+    <entry index="157" macro="storage_pir_l_condensate_01_macro" connection="connectionsnap_01">
+      <predecessor index="156" connection="con_snap_01"/>
+      <offset>
+        <position y="-827.204"/>
+        <rotation roll="179.99989"/>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="column_02_l"/>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="column_02_r"/>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="column_03_r"/>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="column_03_l"/>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="column_01_l"/>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="column_01_r"/>
+          <turrets macro="turret_ter_m_beam_02_mk1_macro" group="column_02_l" exact="2"/>
+          <turrets macro="turret_ter_m_beam_02_mk1_macro" group="column_02_r" exact="2"/>
+          <turrets macro="turret_ter_m_beam_02_mk1_macro" group="column_03_r" exact="2"/>
+          <turrets macro="turret_ter_m_beam_02_mk1_macro" group="column_03_l" exact="2"/>
+          <turrets macro="turret_ter_m_beam_02_mk1_macro" group="column_01_l" exact="2"/>
+          <turrets macro="turret_ter_m_beam_02_mk1_macro" group="column_01_r" exact="2"/>
+        </groups>
+      </upgrades>
+    </entry>
+  </plan>
+</plans>

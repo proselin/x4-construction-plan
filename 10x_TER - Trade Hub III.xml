@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="player_614404644488" name="10X TER - Trade Hub III" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="750" name="Wiege der Menschheit"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="pier_ter_tradestation_01_macro">
+      <offset>
+        <position y="-400" z="-0.0002616"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-694.628" z="-0.0002873"></position>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-748.575" z="-0.0002921"></position>
+        <rotation yaw="-44.99997" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="10x_modules_storage_ter_l_container_01_macro" connection="connectionsnap01">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position y="-1381.766" z="-0.0003101"></position>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="front_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="back_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="front_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="back_02"></shields>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="front_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="back_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="front_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="back_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="5" macro="defence_ter_disc_01_macro" connection="connectionsnap006">
+      <predecessor index="4" connection="connectionsnap02"></predecessor>
+      <offset>
+        <position y="-2381.766" z="-0.0005406"></position>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group03"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group09"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group04"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group05"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group06"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group07"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group08"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group10"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group11"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group12"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group09" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group05" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group06" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group07" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group08" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group10" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group11" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group12" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="6" macro="dockarea_ter_m_station_01_hightech_macro" connection="connectionsnap010">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position y="-136.394" z="-0.0002518"></position>
+        <rotation yaw="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_hab_ter_s_01_macro">
+      <offset>
+        <position x="-0.0003299" y="-2382.036" z="-0.0005679"></position>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_storage_ter_m_container_01_macro" connection="connectionsnap04">
+      <predecessor index="4" connection="connectionsnap05"></predecessor>
+      <offset>
+        <position x="800" y="-1181.766" z="-0.0003038"></position>
+        <rotation yaw="90"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="right_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="9" macro="10x_modules_storage_ter_m_container_01_macro" connection="connectionsnap03">
+      <predecessor index="4" connection="connectionsnap06"></predecessor>
+      <offset>
+        <position x="-800" y="-1181.766" z="-0.0002688"></position>
+        <rotation yaw="89.99995"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="right_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="10" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-2400" y="-981.766" z="-0.0001289"></position>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group03"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group09"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group04"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group05"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group06"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group07"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group08"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group10"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group11"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group12"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group09" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group05" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group06" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group07" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group08" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group10" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group11" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group12" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="11" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="2400" y="-981.766" z="-0.0001734"></position>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group03"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group09"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group04"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group05"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group06"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group07"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group08"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group10"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group11"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group12"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group09" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group05" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group06" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group07" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group08" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group10" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group11" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group12" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="12" macro="defence_ter_claim_01_macro" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap03"></predecessor>
+      <offset>
+        <position x="-0.0001821" y="-181.766" z="800"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_storage_ter_m_container_01_macro" connection="connectionsnap03">
+      <predecessor index="3" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="565.686" y="-948.575" z="-565.686"></position>
+        <rotation yaw="-45"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="right_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="14" macro="10x_modules_storage_ter_m_container_01_macro" connection="connectionsnap04">
+      <predecessor index="3" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="565.686" y="-948.575" z="565.685"></position>
+        <rotation yaw="45"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="right_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="15" macro="10x_modules_storage_ter_m_container_01_macro" connection="connectionsnap04">
+      <predecessor index="3" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-565.686" y="-948.575" z="-565.686"></position>
+        <rotation yaw="-135"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="right_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="16" macro="10x_modules_storage_ter_m_container_01_macro" connection="connectionsnap03">
+      <predecessor index="3" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-565.685" y="-948.575" z="565.685"></position>
+        <rotation yaw="135"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="left_02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="right_02"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="right_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="left_01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="left_02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_laser_02_mk1_macro" group="right_02" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="17" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position x="-0.0009488" y="-694.628" z="-2000"></position>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group03"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group09"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group04"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group05"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group06"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group07"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group08"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group10"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group11"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group12"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group09" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group05" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group06" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group07" exact="2"></turrets>
+          <turrets macro="turret_ter_l_guided_01_mk1_macro" group="group08" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group10" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group11" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group12" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="18" macro="defence_ter_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="17" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-800.001" y="-694.628" z="-2000"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group03"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group09"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group04"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group05"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group06"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group07"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group08"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group10"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group11"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group12"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group09" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group05" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group06" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group07" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group08" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group10" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group11" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group12" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+    <entry index="19" macro="defence_ter_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="17" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="799.999" y="-694.628" z="-2000.001"></position>
+        <rotation yaw="90.00001"></rotation>
+      </offset>
+      <upgrades>
+        <groups>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group02"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group03"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group01"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group09"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group04"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group05"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group06"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group07"></shields>
+          <shields macro="shield_ter_l_standard_01_mk3_macro" group="group08"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group10"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group11"></shields>
+          <shields macro="shield_ter_m_standard_02_mk3_macro" group="group12"></shields>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group02" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group03" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group01" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group09" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group04" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group05" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group06" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group07" exact="2"></turrets>
+          <turrets macro="turret_ter_l_laser_01_mk1_macro" group="group08" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group10" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group11" exact="2"></turrets>
+          <turrets macro="turret_ter_m_gatling_02_mk1_macro" group="group12" exact="2"></turrets>
+        </groups>
+      </upgrades>
+    </entry>
+  </plan>
+</plans>

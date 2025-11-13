@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_137673301158" name="10X ARG - Superfluid Coolant Facility III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021"></position>
+        <rotation yaw="-89.01369" roll="0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_cross_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="399.558" y="21.421" z="-6.835"></position>
+        <rotation yaw="0.986309"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="9.945" y="21.419" z="599.962"></position>
+        <quaternion qx="0.504245" qy="-0.495719" qz="0.495637" qw="0.504325"></quaternion>
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="406.443" y="21.421" z="393.106"></position>
+        <rotation yaw="0.9863"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="2" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="999.469" y="21.421" z="-17.163"></position>
+        <rotation yaw="0.986322"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="4" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="413.372" y="21.421" z="793.002"></position>
+        <rotation yaw="-89.01369" pitch="0.010757"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.3827" y="-578.579" z="0.04875"></position>
+        <rotation yaw="-179.96637" pitch="0.000185167" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_prod_gen_superfluidcoolant" connection="connectionsnap01">
+      <predecessor index="2" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="585.758" y="221.421" z="-810.159"></position>
+        <quaternion qx="-0.707081" qy="0.00608623" qz="0.0060861" qw="0.70708"></quaternion>
+      </offset>
+    </entry>
+    <entry index="9" macro="10x_modules_hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.3826" y="621.421" z="0.05263"></position>
+        <rotation pitch="-0.000185166"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="struct_arg_cross_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-400.323" y="21.421" z="6.936"></position>
+        <rotation yaw="0.986286"></rotation>
+      </offset>
+    </entry>
+    <entry index="11" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-393.438" y="21.421" z="406.877"></position>
+        <rotation yaw="0.986278"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="10x_modules_storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+      <predecessor index="10" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="-1000.234" y="21.421" z="17.264"></position>
+        <rotation yaw="-179.01364"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="11" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-386.51" y="21.421" z="806.773"></position>
+        <rotation yaw="-89.01369" pitch="0.0107567"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="10x_modules_prod_gen_superfluidcoolant" connection="connectionsnap01">
+      <predecessor index="10" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-614.064" y="-178.579" z="-789.503"></position>
+        <quaternion qx="0.00608603" qy="-0.707081" qz="0.707081" qw="0.00608603"></quaternion>
+      </offset>
+    </entry>
+    <entry index="15" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="989.141" y="21.421" z="-617.074"></position>
+        <rotation yaw="0.986331"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1009.797" y="21.421" z="582.748"></position>
+        <rotation yaw="0.986314"></rotation>
+      </offset>
+    </entry>
+    <entry index="17" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="12" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1010.562" y="21.421" z="-582.647"></position>
+        <rotation yaw="0.986286"></rotation>
+      </offset>
+    </entry>
+    <entry index="18" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="12" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-989.906" y="21.421" z="617.175"></position>
+        <rotation yaw="0.986286"></rotation>
+      </offset>
+    </entry>
+    <patches>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+    </patches>
+  </plan>
+</plans>

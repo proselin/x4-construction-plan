@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+  <plan id="78E296D9-CAB9-4DE8-8D66-D8EF33C4A4A5_1725202845" name="BOR - Engines - 7.6.8" description="">
+    <patches>
+      <patch extension="ego_dlc_boron" version="710" name="Kingdom End"/>
+    </patches>
+    <entry index="1" macro="pier_bor_tradestation_01_macro">
+      <offset>
+        <position x="-5.921" y="1854.187" z="128.571"/>
+      </offset>
+    </entry>
+    <entry index="2" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="1" connection="con_snap_01"/>
+      <offset>
+        <position x="-5.919" y="854.187" z="128.571"/>
+        <rotation roll="-0.000236629"/>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="2" connection="con_snap_04"/>
+      <offset>
+        <position x="-5.913" y="-545.813" z="128.572"/>
+        <rotation roll="-0.000272606"/>
+      </offset>
+    </entry>
+    <entry index="4" macro="storage_bor_l_container_01_macro" connection="con_snap_03">
+      <predecessor index="3" connection="con_snap_05"/>
+      <offset>
+        <position x="-5.909" y="-1145.813" z="128.572"/>
+        <rotation roll="-0.000266155"/>
+      </offset>
+    </entry>
+    <entry index="5" macro="prod_gen_siliconwafers_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="con_snap_02"/>
+      <offset>
+        <position x="-5.919" y="854.187" z="728.571"/>
+        <rotation yaw="-89.99995" roll="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="6" macro="dockarea_bor_m_station_01_standard_macro" connection="con_snap_07">
+      <predecessor index="3" connection="con_snap_01"/>
+      <offset>
+        <position x="-5.912" y="-545.813" z="1528.572"/>
+      </offset>
+    </entry>
+    <entry index="7" macro="storage_bor_m_liquid_01_macro" connection="con_snap_04">
+      <predecessor index="6" connection="con_snap_05"/>
+      <offset>
+        <position x="-5.912" y="454.187" z="1528.571"/>
+      </offset>
+    </entry>
+    <entry index="8" macro="dockarea_bor_m_station_01_standard_macro" connection="con_snap_07">
+      <predecessor index="3" connection="con_snap_02"/>
+      <offset>
+        <position x="1206.522" y="-545.808" z="-571.429"/>
+        <rotation yaw="120" pitch="0.000168845" roll="0.000339339"/>
+      </offset>
+    </entry>
+    <entry index="9" macro="storage_bor_m_liquid_01_macro" connection="con_snap_04">
+      <predecessor index="8" connection="con_snap_05"/>
+      <offset>
+        <position x="1206.517" y="454.192" z="-571.432"/>
+        <rotation yaw="120" pitch="0.000182506" roll="0.000370308"/>
+      </offset>
+    </entry>
+    <entry index="10" macro="dockarea_bor_m_station_01_standard_macro" connection="con_snap_07">
+      <predecessor index="3" connection="con_snap_03"/>
+      <offset>
+        <position x="-1218.348" y="-545.819" z="-571.428"/>
+        <rotation yaw="-119.99993" pitch="-0.00031699" roll="-0.000141403"/>
+      </offset>
+    </entry>
+    <entry index="11" macro="storage_bor_m_liquid_01_macro" connection="con_snap_04">
+      <predecessor index="10" connection="con_snap_05"/>
+      <offset>
+        <position x="-1218.352" y="454.181" z="-571.432"/>
+        <rotation yaw="-120" pitch="-0.000303329"/>
+      </offset>
+    </entry>
+    <entry index="12" macro="prod_gen_advancedcomposites_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="con_snap_01"/>
+      <offset>
+        <position x="-5.921" y="254.187" z="-671.429"/>
+        <rotation yaw="89.99995" pitch="-0.000207333"/>
+      </offset>
+    </entry>
+    <entry index="13" macro="prod_gen_microchips_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="con_snap_03"/>
+      <offset>
+        <position x="1079.719" y="854.188" z="-1191.05"/>
+        <rotation yaw="30.00001" pitch="0.0003908" roll="-0.000189336"/>
+      </offset>
+    </entry>
+    <entry index="14" macro="prod_gen_microchips_macro" connection="connectionsnap001">
+      <predecessor index="11" connection="con_snap_03"/>
+      <offset>
+        <position x="-1691.557" y="854.181" z="-151.819"/>
+        <rotation yaw="149.99995" roll="0.000296499"/>
+      </offset>
+    </entry>
+    <entry index="15" macro="prod_gen_graphene_macro" connection="connectionsnap002">
+      <predecessor index="7" connection="con_snap_03"/>
+      <offset>
+        <position x="194.088" y="1054.187" z="1328.571"/>
+        <rotation yaw="-89.99992"/>
+      </offset>
+    </entry>
+    <entry index="16" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="7" connection="con_snap_01"/>
+      <offset>
+        <position x="-205.911" y="654.188" z="728.571"/>
+        <rotation yaw="90.00004" pitch="-0.000215384" roll="90.00001"/>
+      </offset>
+    </entry>
+    <entry index="17" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="11" connection="con_snap_01"/>
+      <offset>
+        <position x="-425.533" y="654.185" z="-344.638"/>
+        <rotation yaw="-29.99995" roll="89.99968"/>
+      </offset>
+    </entry>
+    <entry index="18" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="9" connection="con_snap_01"/>
+      <offset>
+        <position x="613.695" y="654.19" z="1.772"/>
+        <rotation yaw="-149.99994" pitch="-0.000288345" roll="90.00014"/>
+      </offset>
+    </entry>
+    <entry index="19" macro="struct_bor_cross_01_macro" connection="con_snap_04">
+      <predecessor index="4" connection="con_snap_04"/>
+      <offset>
+        <position x="-5.904" y="-2545.813" z="128.572"/>
+        <rotation yaw="179.99989" roll="0.000257502"/>
+      </offset>
+    </entry>
+    <entry index="20" macro="hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="19" connection="con_snap_03"/>
+      <offset>
+        <position x="1033.326" y="-2545.809" z="728.572"/>
+        <rotation yaw="59.99994" pitch="0.000147403"/>
+      </offset>
+    </entry>
+    <entry index="21" macro="hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="20" connection="con_snap_03"/>
+      <offset>
+        <position x="1015.331" y="-2545.808" z="1566.558"/>
+        <rotation yaw="-59.99981" roll="-0.000209184"/>
+      </offset>
+    </entry>
+    <entry index="22" macro="hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="20" connection="con_snap_01"/>
+      <offset>
+        <position x="1750.045" y="-2545.81" z="293.995"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="23" macro="hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="22" connection="con_snap_03"/>
+      <offset>
+        <position x="2442.866" y="-2545.81" z="693.994"/>
+        <rotation yaw="120.00012"/>
+      </offset>
+    </entry>
+    <entry index="24" macro="hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="21" connection="con_snap_01"/>
+      <offset>
+        <position x="1708.153" y="-2545.805" z="1966.556"/>
+        <rotation yaw="0.000151972" pitch="0.000114879" roll="-0.000173993"/>
+      </offset>
+    </entry>
+    <entry index="25" macro="hab_bor_l_01_macro" connection="con_snap_01">
+      <predecessor index="24" connection="con_snap_01"/>
+      <offset>
+        <position x="2424.872" y="-2545.803" z="1531.978"/>
+        <rotation yaw="-119.99993" pitch="0.000407051" roll="0.000342677"/>
+      </offset>
+    </entry>
+    <entry index="26" macro="hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="19" connection="con_snap_02"/>
+      <offset>
+        <position x="-1045.135" y="-2545.818" z="728.571"/>
+        <rotation yaw="-60" pitch="-0.000284938" roll="-0.000679418"/>
+      </offset>
+    </entry>
+    <entry index="27" macro="hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="26" connection="con_snap_03"/>
+      <offset>
+        <position x="-1761.854" y="-2545.83" z="293.995"/>
+        <rotation yaw="-179.99976" pitch="-0.000506646" roll="0.000551413"/>
+      </offset>
+    </entry>
+    <entry index="28" macro="hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="26" connection="con_snap_01"/>
+      <offset>
+        <position x="-1027.139" y="-2545.812" z="1566.557"/>
+        <rotation yaw="60.00007" pitch="0.000872824"/>
+      </offset>
+    </entry>
+    <entry index="29" macro="hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="28" connection="con_snap_03"/>
+      <offset>
+        <position x="-1719.959" y="-2545.817" z="1966.558"/>
+        <rotation yaw="0.000121236" pitch="0.000445925" roll="-0.000750396"/>
+      </offset>
+    </entry>
+    <entry index="30" macro="hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="27" connection="con_snap_01"/>
+      <offset>
+        <position x="-2454.673" y="-2545.833" z="693.996"/>
+        <rotation yaw="-119.99985" pitch="-0.000770177" roll="-0.000185759"/>
+      </offset>
+    </entry>
+    <entry index="31" macro="hab_bor_l_01_macro" connection="con_snap_01">
+      <predecessor index="30" connection="con_snap_01"/>
+      <offset>
+        <position x="-2436.677" y="-2545.823" z="1531.982"/>
+        <rotation yaw="120.00001" pitch="0.000839391" roll="0.00111504"/>
+      </offset>
+    </entry>
+    <entry index="32" macro="hab_bor_l_01_macro" connection="con_snap_04">
+      <predecessor index="19" connection="con_snap_01"/>
+      <offset>
+        <position x="-5.904" y="-2545.812" z="-1071.428"/>
+        <rotation yaw="179.99989" roll="0.00045876"/>
+      </offset>
+    </entry>
+    <entry index="33" macro="hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="32" connection="con_snap_03"/>
+      <offset>
+        <position x="728.81" y="-2545.808" z="-1474.839"/>
+        <rotation yaw="60.00018" pitch="0.000330875" roll="-0.000274316"/>
+      </offset>
+    </entry>
+    <entry index="34" macro="hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="32" connection="con_snap_01"/>
+      <offset>
+        <position x="-740.618" y="-2545.818" z="-1474.836"/>
+        <rotation yaw="-59.99986" pitch="-0.00026104" roll="-0.000301463"/>
+      </offset>
+    </entry>
+    <entry index="35" macro="hab_bor_m_01_macro" connection="con_snap_01">
+      <predecessor index="34" connection="con_snap_03"/>
+      <offset>
+        <position x="-740.62" y="-2545.82" z="-2274.836"/>
+        <rotation yaw="-119.99986" pitch="-0.000391594"/>
+      </offset>
+    </entry>
+    <entry index="36" macro="hab_bor_m_01_macro" connection="con_snap_03">
+      <predecessor index="33" connection="con_snap_01"/>
+      <offset>
+        <position x="728.808" y="-2545.806" z="-2274.838"/>
+        <rotation yaw="120.00014" pitch="0.000363687" roll="0.00012669"/>
+      </offset>
+    </entry>
+    <entry index="37" macro="hab_bor_l_01_macro" connection="con_snap_01">
+      <predecessor index="36" connection="con_snap_01"/>
+      <offset>
+        <position x="-5.907" y="-2545.81" z="-2678.246"/>
+        <rotation pitch="0.000543045"/>
+      </offset>
+    </entry>
+    <entry index="38" macro="storage_bor_m_solid_01_macro" connection="con_snap_03">
+      <predecessor index="10" connection="con_snap_08"/>
+      <offset>
+        <position x="-1218.346" y="-1145.819" z="-571.425"/>
+        <rotation yaw="60.00002" pitch="0.00033065" roll="0.00014505"/>
+      </offset>
+    </entry>
+    <entry index="39" macro="storage_bor_m_solid_01_macro" connection="con_snap_03">
+      <predecessor index="8" connection="con_snap_08"/>
+      <offset>
+        <position x="1206.525" y="-1145.808" z="-571.426"/>
+        <rotation yaw="-59.99987" pitch="-0.000155185" roll="-0.000335693"/>
+      </offset>
+    </entry>
+    <entry index="40" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="39" connection="con_snap_02"/>
+      <offset>
+        <position x="413.705" y="-945.812" z="-344.631"/>
+        <rotation yaw="-149.99983" pitch="-0.000287881" roll="90.00014"/>
+      </offset>
+    </entry>
+    <entry index="41" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="40" connection="connectionsnap01"/>
+      <offset>
+        <position x="908.024" y="-1348.765" z="-1088.444"/>
+        <rotation yaw="-149.99057" pitch="89.14729" roll="-89.99072"/>
+      </offset>
+    </entry>
+    <entry index="42" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="41" connection="connectionsnap002"/>
+      <offset>
+        <position x="416.683" y="-1745.767" z="-339.475"/>
+        <rotation yaw="30.00009" pitch="0.000279831" roll="-90.00014"/>
+      </offset>
+    </entry>
+    <entry index="43" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="39" connection="con_snap_01"/>
+      <offset>
+        <position x="1999.344" y="-945.805" z="-798.223"/>
+        <rotation yaw="30.00011" pitch="0.00029642" roll="89.99982"/>
+      </offset>
+    </entry>
+    <entry index="44" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="43" connection="connectionsnap01"/>
+      <offset>
+        <position x="1505.028" y="-1348.759" z="-54.407"/>
+        <rotation yaw="29.98986" pitch="89.14796" roll="-90.01023"/>
+      </offset>
+    </entry>
+    <entry index="45" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="44" connection="connectionsnap002"/>
+      <offset>
+        <position x="1996.373" y="-1745.761" z="-803.375"/>
+        <rotation yaw="-149.99983" pitch="-0.00030447" roll="-89.99982"/>
+      </offset>
+    </entry>
+    <entry index="46" macro="storage_bor_m_solid_01_macro" connection="con_snap_03">
+      <predecessor index="6" connection="con_snap_08"/>
+      <offset>
+        <position x="-5.912" y="-1145.813" z="1528.571"/>
+        <rotation yaw="0.000148557"/>
+      </offset>
+    </entry>
+    <entry index="47" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="46" connection="con_snap_02"/>
+      <offset>
+        <position x="-205.91" y="-945.812" z="2328.572"/>
+        <rotation yaw="-89.99982" roll="90"/>
+      </offset>
+    </entry>
+    <entry index="48" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="47" connection="connectionsnap01"/>
+      <offset>
+        <position x="-602.914" y="-1348.766" z="1528.573"/>
+        <rotation yaw="-89.99988" pitch="89.14729" roll="-90.00001"/>
+      </offset>
+    </entry>
+    <entry index="49" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="48" connection="connectionsnap002"/>
+      <offset>
+        <position x="-199.959" y="-1745.769" z="2328.573"/>
+        <rotation yaw="90.00014" roll="-90"/>
+      </offset>
+    </entry>
+    <entry index="50" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="46" connection="con_snap_01"/>
+      <offset>
+        <position x="194.086" y="-945.812" z="728.571"/>
+        <rotation yaw="90.00014" roll="89.99995"/>
+      </offset>
+    </entry>
+    <entry index="51" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="50" connection="connectionsnap01"/>
+      <offset>
+        <position x="591.09" y="-1348.766" z="1528.57"/>
+        <rotation yaw="89.99919" pitch="89.14729" roll="-90.00092"/>
+      </offset>
+    </entry>
+    <entry index="52" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="51" connection="connectionsnap002"/>
+      <offset>
+        <position x="188.135" y="-1745.768" z="728.57"/>
+        <rotation yaw="-89.99982" roll="-89.99995"/>
+      </offset>
+    </entry>
+    <entry index="53" macro="prod_gen_antimattercells_macro" connection="connectionsnap001">
+      <predecessor index="39" connection="con_snap_04"/>
+      <offset>
+        <position x="1826.144" y="-1945.805" z="-698.22"/>
+        <rotation yaw="-59.99987" pitch="-0.000168845" roll="179.99963"/>
+      </offset>
+    </entry>
+    <entry index="54" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="38" connection="con_snap_02"/>
+      <offset>
+        <position x="-625.526" y="-945.814" z="1.778"/>
+        <rotation yaw="-29.99991" pitch="0.000192862" roll="89.99966"/>
+      </offset>
+    </entry>
+    <entry index="55" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="54" connection="connectionsnap01"/>
+      <offset>
+        <position x="-1516.846" y="-1348.771" z="-54.404"/>
+        <rotation yaw="-30.02188" pitch="89.14796" roll="-90.02198"/>
+      </offset>
+    </entry>
+    <entry index="56" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="55" connection="connectionsnap002"/>
+      <offset>
+        <position x="-622.548" y="-1745.77" z="-3.372"/>
+        <rotation yaw="149.99995" pitch="-0.000200912" roll="-89.99966"/>
+      </offset>
+    </entry>
+    <entry index="57" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="38" connection="con_snap_01"/>
+      <offset>
+        <position x="-1811.168" y="-945.824" z="-1144.631"/>
+        <rotation yaw="150.00009" pitch="-0.000184323" roll="90.00031"/>
+      </offset>
+    </entry>
+    <entry index="58" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="57" connection="connectionsnap01"/>
+      <offset>
+        <position x="-919.845" y="-1348.774" z="-1088.444"/>
+        <rotation yaw="150.02106" pitch="89.14729" roll="-89.97897"/>
+      </offset>
+    </entry>
+    <entry index="59" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="58" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1814.141" y="-1745.78" z="-1139.472"/>
+        <rotation yaw="-29.99991" pitch="0.000176273" roll="-90.00031"/>
+      </offset>
+    </entry>
+    <entry index="60" macro="prod_gen_antimattercells_macro" connection="connectionsnap001">
+      <predecessor index="38" connection="con_snap_04"/>
+      <offset>
+        <position x="-1637.959" y="-1945.823" z="-1044.625"/>
+        <rotation yaw="60.00007" pitch="0.000316989" roll="-179.99976"/>
+      </offset>
+    </entry>
+    <entry index="61" macro="prod_gen_refinedmetals_macro" connection="connectionsnap001">
+      <predecessor index="46" connection="con_snap_04"/>
+      <offset>
+        <position x="194.089" y="-2345.812" z="2128.572"/>
+        <rotation roll="179.99989"/>
+      </offset>
+    </entry>
+    <entry index="62" macro="prod_gen_engineparts_macro" connection="connectionsnap002">
+      <predecessor index="61" connection="connectionsnap002"/>
+      <offset>
+        <position x="594.088" y="-1545.812" z="2128.571"/>
+        <rotation yaw="-179.99989"/>
+      </offset>
+    </entry>
+    <entry index="63" macro="prod_gen_antimatterconverters_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="con_snap_02"/>
+      <offset>
+        <position x="-205.912" y="654.188" z="2729.212"/>
+        <quaternion qx="0.707107" qw="0.707107"/>
+      </offset>
+    </entry>
+    <entry index="64" macro="prod_gen_refinedmetals_macro" connection="connectionsnap001">
+      <predecessor index="63" connection="connectionsnap002"/>
+      <offset>
+        <position x="-605.918" y="1054.186" z="1528.571"/>
+        <quaternion qx="-0.707107" qw="0.707107"/>
+      </offset>
+    </entry>
+    <entry index="65" macro="prod_gen_antimatterconverters_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="con_snap_02"/>
+      <offset>
+        <position x="2346.3" y="654.197" z="-998.548"/>
+        <quaternion qx="-0.353551" qy="-0.612372" qz="0.612373" qw="-0.353556"/>
+      </offset>
+    </entry>
+    <entry index="66" macro="prod_gen_refinedmetals_macro" connection="connectionsnap001">
+      <predecessor index="65" connection="connectionsnap002"/>
+      <offset>
+        <position x="1506.516" y="1054.193" z="-51.814"/>
+        <quaternion qx="-0.353553" qy="0.612371" qz="0.612374" qw="0.353554"/>
+      </offset>
+    </entry>
+    <entry index="67" macro="prod_gen_antimatterconverters_macro" connection="connectionsnap001">
+      <predecessor index="11" connection="con_snap_02"/>
+      <offset>
+        <position x="-2158.138" y="654.174" z="-1344.958"/>
+        <quaternion qx="0.353554" qy="-0.612371" qz="0.612374" qw="0.353553"/>
+      </offset>
+    </entry>
+    <entry index="68" macro="prod_gen_refinedmetals_macro" connection="connectionsnap001">
+      <predecessor index="67" connection="connectionsnap002"/>
+      <offset>
+        <position x="-918.352" y="1054.177" z="-1091.055"/>
+        <quaternion qx="0.353556" qy="0.612376" qz="0.612369" qw="-0.353551"/>
+      </offset>
+    </entry>
+    <entry index="69" macro="prod_gen_energycells_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="con_snap_01"/>
+      <offset>
+        <position x="-5.91" y="-1145.814" z="-1471.428"/>
+        <rotation yaw="90.00004" pitch="45.83578"/>
+      </offset>
+    </entry>
+    <entry index="70" macro="prod_gen_scanningarrays_macro" connection="connectionsnap001">
+      <predecessor index="6" connection="con_snap_02"/>
+      <offset>
+        <position x="194.088" y="-945.813" z="2728.572"/>
+        <quaternion qx="0.707107" qw="0.707107"/>
+      </offset>
+    </entry>
+    <entry index="71" macro="hab_bor_s_01_macro" connection="con_snap_02">
+      <predecessor index="69" connection="connectionsnap001"/>
+      <offset>
+        <position x="-5.911" y="-1145.814" z="-3071.428"/>
+      </offset>
+    </entry>
+    <entry index="72" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="66" connection="connectionsnap002"/>
+      <offset>
+        <position x="2199.335" y="1454.193" z="-451.815"/>
+        <rotation yaw="29.99996" pitch="0.000554019" roll="89.99982"/>
+      </offset>
+    </entry>
+    <entry index="73" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="68" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1611.173" y="1454.171" z="-1491.058"/>
+        <rotation yaw="149.99995" roll="90.00026"/>
+      </offset>
+    </entry>
+    <entry index="74" macro="prod_gen_engineparts_macro" connection="connectionsnap01">
+      <predecessor index="64" connection="connectionsnap002"/>
+      <offset>
+        <position x="-605.917" y="1454.186" z="2328.571"/>
+        <rotation yaw="-89.99995" pitch="0.000218566" roll="89.99995"/>
+      </offset>
+    </entry>
+  </plan>
+</plans>

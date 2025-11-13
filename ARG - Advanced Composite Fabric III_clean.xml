@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736520793" name="ARG - Advanced Composite Fabric III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="-465.071" y="-11.377" z="247.298" />
+        <rotation yaw="-90" />
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_vertical_02_macro">
+      <offset>
+        <position x="-788.271" y="-0.03703" z="370.5" />
+        <rotation yaw="45.00005" roll="-89.99999" />
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_arg_vertical_02_macro">
+      <offset>
+        <position x="-137.107" y="-3.363" z="375.261" />
+        <rotation yaw="135.00002" roll="-90" />
+      </offset>
+    </entry>
+    <entry index="4" macro="prod_gen_advancedcomposites_macro">
+      <offset>
+        <position x="99.758" y="693.968" z="612.127" />
+        <rotation yaw="134.99997" />
+      </offset>
+      </entry>
+    <entry index="5" macro="prod_gen_advancedcomposites_macro">
+      <offset>
+        <position x="-1030.953" y="693.968" z="613.181" />
+        <rotation yaw="44.99997" />
+      </offset>
+      </entry>
+    <entry index="6" macro="hab_arg_m_01_macro">
+      <offset>
+        <position x="-465.071" y="-409.784" z="47.298" />
+        <rotation yaw="179.99998" />
+      </offset>
+    </entry>
+    <entry index="7" macro="hab_arg_s_01_macro" connection="connectionsnap002">
+      <predecessor index="6" connection="connectionsnap001" />
+      <offset>
+        <position x="-465.071" y="-1209.784" z="47.298" />
+      </offset>
+    </entry>
+    <entry index="8" macro="dockarea_arg_m_station_01_macro">
+      <offset>
+        <position x="-1665.115" y="-11.377" z="47.342" />
+      </offset>
+    </entry>
+    <entry index="9" macro="dockarea_arg_m_station_01_macro">
+      <offset>
+        <position x="734.885" y="-11.377" z="47.254" />
+      </offset>
+    </entry>
+    <entry index="10" macro="storage_arg_m_container_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="134.929" y="-11.377" z="47.298" />
+        <rotation yaw="-89.99998" roll="-89.99999" />
+      </offset>
+      </entry>
+    <entry index="11" macro="storage_arg_m_container_01_macro">
+      <offset>
+        <position x="-1065.071" y="-11.377" z="49.084" />
+        <rotation yaw="-89.99998" roll="-89.99998" />
+      </offset>
+      </entry>
+    <entry index="12" macro="hab_arg_m_01_macro">
+      <offset>
+        <position x="-465.071" y="443.607" z="47.298" />
+      </offset>
+    </entry>
+    <entry index="13" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+      <predecessor index="12" connection="connectionsnap002" />
+      <offset>
+        <position x="-465.071" y="1243.607" z="47.298" />
+        <rotation yaw="-179.99998" />
+      </offset>
+    </entry>
+    <entry index="14" macro="struct_arg_vertical_02_macro">
+      <offset>
+        <position x="-128.362" y="-0.1059" z="-289.41" />
+        <rotation yaw="45.00004" roll="-89.99999" />
+      </offset>
+    </entry>
+    <entry index="15" macro="struct_arg_vertical_02_macro">
+      <offset>
+        <position x="-808.646" y="-3.363" z="-296.277" />
+        <rotation yaw="135" roll="-90" />
+      </offset>
+    </entry>
+    <entry index="16" macro="prod_gen_advancedcomposites_macro">
+      <offset>
+        <position x="-1030.103" y="693.968" z="-517.735" />
+        <rotation yaw="-45.00001" />
+      </offset>
+      </entry>
+    <entry index="17" macro="prod_gen_advancedcomposites_macro">
+      <offset>
+        <position x="99.801" y="693.968" z="-517.574" />
+        <rotation yaw="-135" />
+      </offset>
+      </entry>
+    <entry index="18" macro="pier_arg_harbor_02_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="-465.071" y="-11.377" z="-150.916" />
+        <rotation yaw="90" />
+      </offset>
+    </entry>
+    <entry index="19" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="9" connection="connectionsnap002" />
+      <offset>
+        <position x="734.885" y="-11.377" z="-352.746" />
+      </offset>
+      </entry>
+    <entry index="20" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap001" />
+      <offset>
+        <position x="734.885" y="-11.377" z="447.254" />
+      </offset>
+      </entry>
+    <entry index="21" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="8" connection="connectionsnap002" />
+      <offset>
+        <position x="-1665.115" y="-11.377" z="-352.658" />
+      </offset>
+      </entry>
+    <entry index="22" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="8" connection="connectionsnap001" />
+      <offset>
+        <position x="-1665.114" y="-11.377" z="447.342" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

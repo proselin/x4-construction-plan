@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1735197300" name="TER - Proteinpaste Facility III_clean" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="750" name="Wiege der Menschheit" />
+    </patches>
+    <entry index="1" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-60.025" />
+        <rotation yaw="90.98625" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="2" macro="storage_ter_l_container_01_macro">
+      <offset>
+        <position y="-992.107" z="-0.0008899" />
+      </offset>
+      </entry>
+    <entry index="3" macro="struct_ter_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="2" connection="connectionsnap01" />
+      <offset>
+        <position y="7.893" />
+        <rotation yaw="45.99305" />
+      </offset>
+    </entry>
+    <entry index="4" macro="dockarea_ter_m_station_01_hightech_macro" connection="connectionsnap010">
+      <predecessor index="3" connection="connectionsnap006" />
+      <offset>
+        <position y="346.348" z="0.0003489" />
+        <rotation yaw="-90" />
+      </offset>
+    </entry>
+    <entry index="5" macro="hab_ter_l_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap003" />
+      <offset>
+        <position x="-20.655" y="-60.024" z="-1199.822" />
+        <rotation yaw="0.986264" />
+      </offset>
+    </entry>
+    <entry index="6" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-522.366" z="-0.0003642" />
+        <rotation yaw="135.98625" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="7" macro="storage_ter_s_liquid_01_macro" connection="connectionsnap01">
+      <predecessor index="6" connection="connectionsnap002" />
+      <offset>
+        <position x="-555.865" y="-522.367" z="575.338" />
+        <quaternion qx="-0.655596" qy="-0.26499" qz="-0.264942" qw="0.655575" />
+      </offset>
+      </entry>
+    <entry index="8" macro="storage_ter_s_liquid_01_macro" connection="connectionsnap01">
+      <predecessor index="6" connection="connectionsnap003" />
+      <offset>
+        <position x="-575.339" y="-522.366" z="-555.865" />
+        <quaternion qx="0.27621" qy="0.650928" qz="0.650929" qw="-0.276211" />
+      </offset>
+      </entry>
+    <entry index="9" macro="prod_ter_proteinpaste_macro">
+      <offset>
+        <position x="-20.654" y="65.06" z="-1199.769" />
+        <rotation yaw="-179.01364" />
+      </offset>
+      </entry>
+    <entry index="10" macro="storage_ter_s_solid_01_macro" connection="connectionsnap01">
+      <predecessor index="2" connection="connectionsnap06" />
+      <offset>
+        <position x="-800" y="-592.107" z="-0.0004719" />
+        <quaternion qx="0.5" qy="0.5" qz="0.5" qw="-0.5" />
+      </offset>
+      </entry>
+    <entry index="11" macro="hab_ter_l_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="20.655" y="-60.026" z="1199.822" />
+        <rotation yaw="0.986242" />
+      </offset>
+    </entry>
+    <entry index="12" macro="storage_ter_s_liquid_01_macro" connection="connectionsnap01">
+      <predecessor index="6" connection="connectionsnap004" />
+      <offset>
+        <position x="575.339" y="-522.367" z="555.864" />
+        <quaternion qx="-0.650928" qy="0.27621" qz="0.276211" qw="0.650929" />
+      </offset>
+      </entry>
+    <entry index="13" macro="storage_ter_s_liquid_01_macro" connection="connectionsnap01">
+      <predecessor index="6" connection="connectionsnap001" />
+      <offset>
+        <position x="555.865" y="-522.366" z="-575.339" />
+        <rotation yaw="45.98469" pitch="89.00691" roll="-90.00153" />
+      </offset>
+      </entry>
+    <entry index="14" macro="prod_ter_proteinpaste_macro">
+      <offset>
+        <position x="20.646" y="65.253" z="1199.329" />
+        <rotation yaw="-179.01375" />
+      </offset>
+      </entry>
+    <entry index="15" macro="storage_ter_s_solid_01_macro" connection="connectionsnap01">
+      <predecessor index="2" connection="connectionsnap05" />
+      <offset>
+        <position x="800" y="-592.108" z="-0.0006149" />
+        <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5" />
+      </offset>
+      </entry>
+    <entry index="16" macro="defence_ter_disc_01_macro">
+      <offset>
+        <position y="-1693.191" z="-0.001498" />
+      </offset>
+      </entry>
+    <entry index="17" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="69.355" y="-522.366" z="-71.785" />
+        <rotation yaw="-134.01375" pitch="0.282439" />
+      </offset>
+    </entry>
+    <entry index="18" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-68.724" y="-522.366" z="71.131" />
+        <rotation yaw="45.98624" pitch="-0.282232" />
+      </offset>
+    </entry>
+    <entry index="19" macro="storage_ter_s_liquid_01_macro" connection="connectionsnap01">
+      <predecessor index="2" connection="connectionsnap04" />
+      <offset>
+        <position y="-592.107" z="-800.001" />
+        <quaternion qy="0.707107" qz="0.707107" qw="-4.355e-08" />
+      </offset>
+      </entry>
+    <entry index="20" macro="prod_ter_proteinpaste_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="999.852" y="-60.025" z="-17.212" />
+        <rotation yaw="-179.01375" />
+      </offset>
+      </entry>
+    <entry index="21" macro="prod_ter_proteinpaste_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="-999.852" y="-60.025" z="17.212" />
+        <rotation yaw="-179.01376" />
+      </offset>
+      </entry>
+    <entry index="22" macro="storage_ter_s_liquid_01_macro">
+      <offset>
+        <position x="-0.000133" y="-2092.542" z="-0.00201" />
+      </offset>
+      </entry>
+    <entry index="23" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="71.877" y="-522.366" z="69.444" />
+        <rotation yaw="135.98624" pitch="-0.27284" />
+      </offset>
+    </entry>
+    <entry index="24" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-71.355" y="-522.366" z="-68.94" />
+        <rotation yaw="-44.01373" />
+      </offset>
+    </entry>
+    <entry index="25" macro="storage_ter_s_liquid_01_macro" connection="connectionsnap01">
+      <predecessor index="2" connection="connectionsnap03" />
+      <offset>
+        <position x="0.0001074" y="-592.108" z="799.999" />
+        <quaternion qx="-0.707106" qw="0.707108" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

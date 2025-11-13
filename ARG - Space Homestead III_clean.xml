@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736528410" name="ARG - Space Homestead III_clean" description="">
+    <entry index="1" macro="hab_arg_s_01_macro">
+      <offset>
+        <position x="-0.3828" y="221.421" z="0.04968" />
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_arg_m_station_01_macro">
+      <offset>
+        <position x="399.513" y="-378.579" z="-6.879" />
+        <rotation yaw="0.986363" />
+      </offset>
+    </entry>
+    <entry index="3" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="-378.579" z="200.02" />
+        <rotation yaw="-89.01363" />
+      </offset>
+    </entry>
+    <entry index="4" macro="storage_arg_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap001" />
+      <offset>
+        <position x="-1000.234" y="-375.807" z="17.264" />
+        <rotation yaw="90.98634" />
+      </offset>
+      </entry>
+    <entry index="5" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap004" />
+      <offset>
+        <position x="9.946" y="-378.579" z="599.961" />
+        <quaternion qx="0.504296" qy="-0.495667" qz="0.495688" qw="0.504275" />
+      </offset>
+      </entry>
+    <entry index="6" macro="prod_arg_meat_macro" connection="connectionsnap002">
+      <predecessor index="5" connection="connectionsnap002" />
+      <offset>
+        <position x="-513.893" y="221.399" z="245.533" />
+        <rotation yaw="-52.51844" pitch="-0.00191825" roll="-0.00145206" />
+      </offset>
+      </entry>
+    <entry index="7" macro="prod_gen_spices_macro" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap003" />
+      <offset>
+        <position x="-1189.876" y="-778.579" z="620.618" />
+        <quaternion qx="0.707081" qy="0.00608647" qz="-0.0060863" qw="0.70708" />
+      </offset>
+      </entry>
+    <entry index="8" macro="struct_arg_vertical_02_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap001" />
+      <offset>
+        <position x="409.842" y="-378.579" z="593.032" />
+        <rotation yaw="-89.01363" pitch="0.000160965" roll="90" />
+      </offset>
+    </entry>
+    <entry index="9" macro="prod_arg_wheat_macro" connection="connectionsnap002">
+      <predecessor index="8" connection="connectionsnap001" />
+      <offset>
+        <position x="433.942" y="-378.579" z="1992.824" />
+        <rotation yaw="-179.01364" />
+      </offset>
+      </entry>
+    <entry index="10" macro="hab_arg_s_01_macro">
+      <offset>
+        <position x="-0.3828" y="-978.579" z="0.04968" />
+        <rotation yaw="-179.99989" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="11" macro="prod_arg_wheat_macro" connection="connectionsnap002">
+      <predecessor index="2" connection="connectionsnap003" />
+      <offset>
+        <position x="1599.378" y="-378.579" z="-27.581" />
+        <rotation yaw="-89.01363" roll="0.000581876" />
+      </offset>
+      </entry>
+    <entry index="12" macro="prod_gen_spices_macro">
+      <offset>
+        <position x="-1219.922" y="83.721" z="621.135" />
+        <quaternion qx="0.00608624" qy="0.707081" qz="0.707081" qw="-0.00608654" />
+      </offset>
+      </entry>
+    <entry index="13" macro="prod_arg_meat_macro">
+      <offset>
+        <position x="-1984.433" y="-282.576" z="-195.288" />
+        <rotation yaw="-89.57248" pitch="-0.000354462" />
+      </offset>
+      </entry>
+    <entry index="14" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="4" connection="connectionsnap002" />
+      <offset>
+        <position x="-1010.608" y="-378.579" z="-582.69" />
+        <rotation yaw="-89.0136" pitch="0.000290909" />
+      </offset>
+    </entry>
+    <entry index="15" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="14" connection="connectionsnap002" />
+      <offset>
+        <position x="-610.667" y="-378.581" z="-589.576" />
+        <rotation yaw="-89.01357" pitch="0.000295918" />
+      </offset>
+      </entry>
+  </plan>
+</plans>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_630404552020" name="10X TER - Sensor Array III_clean" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="750" name="Wiege der Menschheit"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="10x_modules_storage_ter_m_container_01_macro">
+      <offset>
+        <position y="-271.646" z="-0.0001779"></position>
+        <rotation yaw="-89.01373"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_ter_m_station_01_hightech_macro">
+      <offset>
+        <position y="621.325" z="-0.0002137"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="394.59" z="-0.0001899"></position>
+        <rotation yaw="1.33999" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="struct_ter_base_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="-599.836" y="394.59" z="14.031"></position>
+        <rotation yaw="91.33996"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="struct_ter_base_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap003"></predecessor>
+      <offset>
+        <position x="599.836" y="394.59" z="-14.031"></position>
+        <rotation yaw="-88.65997"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_prod_ter_energycells" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1299.644" y="394.59" z="30.4"></position>
+        <rotation yaw="91.33996"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_prod_ter_energycells" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1299.644" y="394.59" z="-30.401"></position>
+        <rotation yaw="-88.65997"></rotation>
+      </offset>
+    </entry>
+    <entry index="8" macro="defence_ter_disc_01_macro" connection="connectionsnap006">
+      <predecessor index="1" connection="connectionsnap02"></predecessor>
+      <offset>
+        <position y="-1071.646" z="-0.0001608"></position>
+      </offset>
+    </entry>
+    <entry index="9" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-0.0001294" y="203.668"></position>
+        <rotation roll="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="10x_modules_hab_ter_s_01_macro">
+      <offset>
+        <position x="0.0001654" y="-1071.91" z="-0.0004469"></position>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_prod_ter_energycells" connection="connectionsnap001">
+      <predecessor index="6" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-2299.37" y="394.59" z="53.785"></position>
+        <rotation yaw="91.33999"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="10x_modules_prod_ter_energycells" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="2299.37" y="394.59" z="-53.787"></position>
+        <rotation yaw="-88.65997"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="radar_arg_dish_01_macro" connection="con_snap_02">
+      <predecessor index="2" connection="connectionsnap009"></predecessor>
+      <offset>
+        <position x="-0.0001521" y="1021.325" z="-0.0001962"></position>
+        <quaternion qy="-0.707107" qz="0.707107" qw="2.85199e-07"></quaternion>
+      </offset>
+    </entry>
+    <entry index="14" macro="defence_ter_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap03"></predecessor>
+      <offset>
+        <position x="-799.881" y="-71.646" z="13.77"></position>
+        <rotation yaw="90.98626"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="defence_ter_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap04"></predecessor>
+      <offset>
+        <position x="799.881" y="-71.646" z="-13.77"></position>
+        <rotation yaw="90.98626"></rotation>
+      </offset>
+    </entry>
+  </plan>
+</plans>

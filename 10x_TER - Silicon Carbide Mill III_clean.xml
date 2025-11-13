@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_192894441159" name="10X TER - Silicon Carbide Mill III_clean" description="">
+    <patches>
+      <patch extension="ego_dlc_terran" version="750" name="Wiege der Menschheit"></patch>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+      <patch extension="z10x_modules_terran" version="106" name="z10x_modules_terran"></patch>
+    </patches>
+    <entry index="1" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="142.484"></position>
+        <rotation yaw="90.98625" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="198.721" z="-0.0002323"></position>
+        <rotation yaw="-134.00696"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-104.127" z="-0.0002238"></position>
+        <rotation yaw="-44.00689" roll="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="10x_modules_hab_ter_m_01_macro">
+      <offset>
+        <position x="-0.0001507" y="215.397" z="-0.0002441"></position>
+        <rotation yaw="-44.99992"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="10x_modules_storage_ter_l_container_01_macro" connection="connectionsnap01">
+      <predecessor index="3" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position y="-1104.127" z="-0.0004066"></position>
+      </offset>
+    </entry>
+    <entry index="6" macro="dockarea_ter_m_station_01_hightech_macro" connection="connectionsnap010">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position y="542.484" z="0.000376"></position>
+        <rotation yaw="-179.00685"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_hab_ter_m_01_macro" connection="connectionsnap004">
+      <predecessor index="5" connection="connectionsnap06"></predecessor>
+      <offset>
+        <position x="-1000" y="-704.127" z="-0.0005497"></position>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_hab_ter_m_01_macro" connection="connectionsnap003">
+      <predecessor index="5" connection="connectionsnap05"></predecessor>
+      <offset>
+        <position x="1000" y="-704.127" z="-0.0005497"></position>
+      </offset>
+    </entry>
+    <entry index="9" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position x="999.73" y="-704.127" z="-0.000478"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position x="-1001.112" y="-704.127" z="-0.0004071"></position>
+      </offset>
+    </entry>
+    <entry index="11" macro="10x_modules_prod_ter_siliconcarbide">
+      <offset>
+        <position x="-1001.207" y="71.722" z="-0.0004092"></position>
+        <rotation yaw="-90.00001"></rotation>
+      </offset>
+    </entry>
+    <entry index="12" macro="struct_ter_cross_01_macro">
+      <offset>
+        <position y="-291.761" z="-0.0003739"></position>
+        <rotation yaw="0.993072"></rotation>
+      </offset>
+    </entry>
+    <entry index="13" macro="10x_modules_storage_ter_m_solid_01_macro">
+      <offset>
+        <position x="-999.771" y="-1288.67" z="-0.0003808"></position>
+        <rotation yaw="-89.99995"></rotation>
+      </offset>
+    </entry>
+    <entry index="14" macro="10x_modules_storage_ter_m_liquid_01_macro">
+      <offset>
+        <position x="999.76" y="-1290.478" z="-0.0005957"></position>
+        <rotation yaw="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="15" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="999.76" y="-704.127" z="-0.0005496"></position>
+        <rotation yaw="-179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="16" macro="pier_ter_harbor_02_macro">
+      <offset>
+        <position x="-999.771" y="-704.127" z="-0.0004065"></position>
+      </offset>
+    </entry>
+    <entry index="17" macro="defence_ter_disc_01_macro" connection="connectionsnap006">
+      <predecessor index="5" connection="connectionsnap02"></predecessor>
+      <offset>
+        <position y="-2104.127" z="-0.0004304"></position>
+      </offset>
+    </entry>
+    <entry index="18" macro="10x_modules_hab_ter_m_01_macro">
+      <offset>
+        <position x="-0.0002157" y="-36.373" z="0.000247"></position>
+      </offset>
+    </entry>
+    <entry index="19" macro="10x_modules_hab_ter_l_01_macro">
+      <offset>
+        <position x="-0.0002094" y="-109.222" z="-0.0004611"></position>
+      </offset>
+    </entry>
+    <entry index="20" macro="10x_modules_prod_ter_siliconcarbide">
+      <offset>
+        <position x="1000.894" y="72.171" z="-0.0008022"></position>
+        <rotation yaw="-90"></rotation>
+      </offset>
+    </entry>
+    <entry index="21" macro="10x_modules_storage_ter_s_liquid_01_macro">
+      <offset>
+        <position y="-2405.483" z="-0.0005026"></position>
+      </offset>
+    </entry>
+    <entry index="22" macro="struct_ter_base_01_macro" connection="connectionsnap002">
+      <predecessor index="20" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1000.893" y="-527.828" z="599.999"></position>
+      </offset>
+    </entry>
+    <entry index="23" macro="struct_ter_base_01_macro" connection="connectionsnap001">
+      <predecessor index="20" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1000.893" y="-527.829" z="-600.001"></position>
+      </offset>
+    </entry>
+    <entry index="24" macro="defence_ter_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="23" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="1000.893" y="-527.829" z="-1200.001"></position>
+      </offset>
+    </entry>
+    <entry index="25" macro="defence_ter_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="22" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="1000.893" y="-527.828" z="1199.999"></position>
+      </offset>
+    </entry>
+    <entry index="26" macro="struct_ter_base_01_macro" connection="connectionsnap002">
+      <predecessor index="11" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1001.207" y="-528.278" z="600"></position>
+      </offset>
+    </entry>
+    <entry index="27" macro="struct_ter_base_01_macro" connection="connectionsnap001">
+      <predecessor index="11" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1001.207" y="-528.278" z="-600"></position>
+      </offset>
+    </entry>
+    <entry index="28" macro="defence_ter_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="26" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-1001.208" y="-528.278" z="1200"></position>
+      </offset>
+    </entry>
+    <entry index="29" macro="defence_ter_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="27" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="-1001.207" y="-528.278" z="-1200"></position>
+      </offset>
+    </entry>
+  </plan>
+</plans>

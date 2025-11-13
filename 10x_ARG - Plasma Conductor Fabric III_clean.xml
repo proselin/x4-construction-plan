@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plans>
+  <plan id="player_662956150582" name="10X ARG - Plasma Conductor Fabric III_clean" description="">
+    <entry index="1" macro="pier_arg_harbor_02_macro">
+      <offset>
+        <position x="3.06" y="21.42" z="200.021"></position>
+        <rotation yaw="-89.01369" roll="0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="2" macro="struct_arg_base_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap004"></predecessor>
+      <offset>
+        <position x="6.503" y="21.419" z="399.991"></position>
+        <rotation yaw="0.986291" pitch="-0.000185193"></rotation>
+      </offset>
+    </entry>
+    <entry index="3" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="2" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="13.431" y="21.418" z="799.887"></position>
+        <rotation yaw="-89.01369" roll="0.000190202"></rotation>
+      </offset>
+    </entry>
+    <entry index="4" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-610.622" y="-178.478" z="-589.566"></position>
+        <rotation yaw="-179.01364" pitch="0.0096683" roll="90"></rotation>
+      </offset>
+    </entry>
+    <entry index="5" macro="10x_modules_hab_arg_m_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap005"></predecessor>
+      <offset>
+        <position x="-0.3825" y="-578.579" z="0.04871"></position>
+        <rotation yaw="90.00001" roll="-0.000185166"></rotation>
+      </offset>
+    </entry>
+    <entry index="6" macro="10x_modules_storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="599.528" y="21.421" z="-10.277"></position>
+        <rotation yaw="-179.01364" roll="179.99989"></rotation>
+      </offset>
+    </entry>
+    <entry index="7" macro="10x_modules_prod_gen_plasmaconductors" connection="connectionsnap001">
+      <predecessor index="6" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="385.788" y="-578.579" z="-806.716"></position>
+        <quaternion qx="0.00608609" qy="-0.707081" qz="0.707081" qw="0.00608596"></quaternion>
+      </offset>
+    </entry>
+    <entry index="8" macro="10x_modules_storage_arg_s_container_01_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap006"></predecessor>
+      <offset>
+        <position x="-0.3825" y="621.421" z="0.05258"></position>
+        <quaternion qx="-0.499999" qy="0.499999" qz="0.500001" qw="0.500001"></quaternion>
+      </offset>
+    </entry>
+    <entry index="9" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="3" connection="connectionsnap002"></predecessor>
+      <offset>
+        <position x="413.372" y="21.418" z="793.002"></position>
+        <rotation yaw="-89.01368"></rotation>
+      </offset>
+    </entry>
+    <entry index="10" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap001"></predecessor>
+      <offset>
+        <position x="-386.51" y="21.418" z="806.773"></position>
+        <rotation yaw="-89.01369" roll="-0.000297286"></rotation>
+      </offset>
+    </entry>
+    <patches>
+      <patch extension="10x_modules" version="112" name="10x_modules"></patch>
+    </patches>
+  </plan>
+</plans>

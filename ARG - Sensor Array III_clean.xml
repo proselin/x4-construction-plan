@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plans>
+  <plan id="player_1736532393" name="ARG - Sensor Array III_clean" description="">
+    <entry index="1" macro="struct_arg_cross_01_macro">
+      <offset>
+        <position x="-0.383" y="21.422" z="0.04987" />
+        <rotation yaw="0.986299" pitch="-0.00025784" />
+      </offset>
+    </entry>
+    <entry index="2" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap003" />
+      <offset>
+        <position x="-400.367" y="21.422" z="6.98" />
+        <rotation yaw="0.986323" />
+      </offset>
+    </entry>
+    <entry index="3" macro="prod_gen_energycells_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap004" />
+      <offset>
+        <position x="-1800.114" y="21.422" z="31.122" />
+        <rotation yaw="0.986309" />
+      </offset>
+      </entry>
+    <entry index="4" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap004">
+      <predecessor index="1" connection="connectionsnap004" />
+      <offset>
+        <position x="399.513" y="21.422" z="-6.879" />
+        <rotation yaw="0.986313" />
+      </offset>
+    </entry>
+    <entry index="5" macro="prod_gen_energycells_macro" connection="connectionsnap002">
+      <predecessor index="4" connection="connectionsnap003" />
+      <offset>
+        <position x="1799.349" y="21.422" z="-31.022" />
+        <rotation yaw="0.986289" />
+      </offset>
+      </entry>
+    <entry index="6" macro="struct_arg_vertical_02_macro">
+      <offset>
+        <position x="-0.383" y="351.663" z="0.05132" />
+        <rotation yaw="179.99844" pitch="0.000264632" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="7" macro="struct_arg_vertical_02_macro">
+      <offset>
+        <position x="-0.383" y="351.151" z="0.05135" />
+        <rotation yaw="-89.99995" roll="0.000257802" />
+      </offset>
+    </entry>
+    <entry index="8" macro="radar_arg_dish_01_macro" connection="con_snap_02">
+      <predecessor index="7" connection="connectionsnap001" />
+      <offset>
+        <position x="-0.383" y="951.152" z="0.05417" />
+        <quaternion qx="0.500002" qy="-0.5" qz="0.499998" qw="0.5" />
+      </offset>
+    </entry>
+    <entry index="9" macro="hab_arg_s_01_macro">
+      <offset>
+        <position x="-0.383" y="-435.468" z="0.04781" />
+        <rotation yaw="179.96519" pitch="0.000257799" roll="179.99989" />
+      </offset>
+    </entry>
+    <entry index="10" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap002" />
+      <offset>
+        <position x="-10.711" y="21.425" z="-599.861" />
+        <quaternion qx="0.495676" qy="0.504289" qz="-0.504281" qw="0.49568" />
+      </offset>
+      </entry>
+    <entry index="11" macro="storage_arg_m_container_01_macro" connection="connectionsnap003">
+      <predecessor index="1" connection="connectionsnap001" />
+      <offset>
+        <position x="9.945" y="21.419" z="599.961" />
+        <quaternion qx="0.504284" qy="-0.495681" qz="0.495675" qw="0.504286" />
+      </offset>
+      </entry>
+    <entry index="12" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap002" />
+      <offset>
+        <position x="-3199.907" y="21.421" z="55.221" />
+        <rotation yaw="0.986295" />
+      </offset>
+      </entry>
+    <entry index="13" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="5" connection="connectionsnap001" />
+      <offset>
+        <position x="3199.141" y="21.421" z="-55.12" />
+        <rotation yaw="0.986302" />
+      </offset>
+      </entry>
+    <entry index="14" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap001" />
+      <offset>
+        <position x="-10.703" y="-578.575" z="-599.864" />
+        <quaternion qx="-0.50447" qy="-0.495487" qz="-0.495483" qw="0.504479" />
+      </offset>
+      </entry>
+    <entry index="15" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="11" connection="connectionsnap001" />
+      <offset>
+        <position x="9.941" y="-578.581" z="599.958" />
+        <quaternion qx="-0.504184" qy="-0.495778" qz="-0.495784" qw="0.504184" />
+      </offset>
+      </entry>
+  </plan>
+</plans>
