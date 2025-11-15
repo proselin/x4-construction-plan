@@ -1,1 +1,5 @@
-./node_modules
+input
+input/*
+output
+output/*
+node_modules
